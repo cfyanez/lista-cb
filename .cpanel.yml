@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/laprovic/public_html/
-    - /bin/rsync -r --delete . $DEPLOYPATH
+    - /bin/cp -a ./. $DEPLOYPATH
+    - /bin/find $DEPLOYPATH -type d -exec chmod 755 {} \;
+    - /bin/find $DEPLOYPATH -type f -exec chmod 644 {} \;
