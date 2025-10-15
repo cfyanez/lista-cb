@@ -1,0 +1,185 @@
+﻿id;name;price;brand;actives;form;strength;pack_size;pack_unit;aliases;stock;lab
+828950;Alergiol Forte 0,2% x 5 ml. solución oftálmica;14360;Alergiol Forte 0,2%;Olopatadina;solución oftálmica;0,2% ;5;ml.;;0;Smb Farma
+828955;Arcoxia 60 mg x 14 comprimidos recubiertos;7070;Arcoxia 60;Etoricoxib;comprimidos recubiertos;60 mg;14;ud.;;0;Organon
+828956;Artrotin 20 mg x 30 comprimidos recubiertos;22230;Artrotin 20;Leflunomida;comprimidos recubiertos;20 mg;30;ud.;;0;Abbott
+828968;Ciblex 30 mg x 30 comprimidos recubiertos;14250;Ciblex 30;Mirtazapina;comprimidos recubiertos;30 mg;30;ud.;;0;Abbott
+828976;Depo-Medrol 40 mg/ml x 1 ud. suspensión inyectable;24710;Depo-Medrol 40;Metilprednisolona;suspensión inyectable;40 mg/ml;1;ud.;;1;Pfizer
+828982;Dostinex 0,5 mg x 2 comprimidos;14140;Dostinex 0,5;Cabergolina;comprimidos;0,5 mg;2;ud.;;0;Pfizer
+828995;Flixonase 50 mcg x 120 dss. suspensión para nebulización nasal;8420;Flixonase 50;Fluticasona;suspensión para nebulización nasal;50 mcg;120;dss.;;1;Gsk
+829003;Galvus 50 mg x 56 comprimidos;9930;Galvus 50;Vildagliptina;comprimidos;50 mg;56;ud.;"galvus;galvusmet;galvus met";0;Novartis
+829006;Galvus Met 50/850 mg x 56 comprimidos recubiertos;39360;Galvus Met 50/850;"Vildagliptina;Metformina";comprimidos recubiertos;50/850 mg;56;ud.;"galvus;galvusmet;galvus met";0;Novartis
+1089767;Gestel 200 mg x 30 ud. cápsula blanda;13860;Gestel 200;Progesterona;cápsula blanda;200 mg;30;ud.;;0;Exeltis
+829009;Idena 150 mg x 1 comprimido recubierto;11200;Idena 150;Acido Ibandronico;comprimido recubierto;150 mg;1;ud.;;0;Tecnofarma
+829010;Implanon 68 mg x 1 ud. implante;69670;Implanon 68;Etonogestrel;implante;68 mg;1;ud.;;1;Msd
+829011;Insulatard Penfill 100 UI/ml x 5 ud. suspensión inyectable;25260;Insulatard Penfill 100;Insulina Humana Isofana;suspensión inyectable;100 UI/ml;5;ud.;;0;Novo Nordisk
+829025;Medrol 4 mg x 20 comprimidos;20510;Medrol 4;Metilprednisolona;comprimidos;4 mg;20;ud.;;1;Pfizer
+829048;Prayanol 100 mg x 30 cápsulas;10210;Prayanol 100;Amantadina;cápsulas;100 mg;30;ud.;;0;Sanitas
+829050;Prolopa 200/50 mg x 30 comprimidos;13140;Prolopa 200/50;"Levodopa;Benserazida";comprimidos;200/50 mg;30;ud.;;1;Roche
+829051;Promyrtil 30 mg x 30 comprimidos recubiertos;7780;Promyrtil 30;Mirtazapina;comprimidos recubiertos;30 mg;30;ud.;;0;Organon
+829091;Victoza 6 mg/ml x 1 ud. solución inyectable;75600;Victoza 6;Liraglutida;solución inyectable;6 mg/ml;1;ud.;;1;Novo Nordisk
+829047;Pradaxa 150 mg x 60 cápsulas;65490;Pradaxa 150;Dabigatran Etexilato;cápsulas;150 mg;60;ud.;;0;Boehringer Ingelheim
+829015;Jolian 3,0/0,02 mg x 28 comprimidos recubiertos;8180;Jolian 3,0/0,02;"Drospirenona;Etinilistradiol";comprimidos recubiertos;3,0/0,02 mg;28;ud.;;0;Gedeon Richter
+828959;Azitrom Forte 400 mg/5ml x 30 ml. polvo para suspensión oral;11210;Azitrom Forte 400;Azitromicina;polvo para suspensión oral;400 mg/5ml;30;ml.;;0;Lab Chile
+828972;Claritromicina 250 mg/5ml x 60 ml. polvo para suspensión oral;7620;Claritromicina 250;Claritromicina;polvo para suspensión oral;250 mg/5ml;60;ml.;;1;Neoethicals
+829017;Kaph 0,5% x 10 ml. solución oftálmica;1590;Kaph 0,5%;Cloranfenicol;solución oftálmica;0,5% ;10;ml.;;0;Ethon
+828958;Azatioprina 50 mg x 100 comprimidos;21500;Azatioprina 50;Azatioprina;comprimidos;50 mg;100;ud.;;1;Ascend
+829071;Terbinafina 250 mg x 28 comprimidos;7990;Terbinafina 250;Terbinafina;comprimidos;250 mg;28;ud.;;0;Lab Chile
+829068;Tellmi-D 80/12,5 mg x 30 comprimidos;14990;Tellmi-D 80/12,5;"Telmisartan;Hidroclorotiazida";comprimidos;80/12,5 mg;30;ud.;;1;Saval
+829081;Trayenta 5 mg x 30 comprimidos recubiertos;35550;Trayenta 5;Linagliptina;comprimidos recubiertos;5 mg;30;ud.;;1;Boehringer Ingelheim
+829075;Thyrozol 10 mg x 50 comprimidos recubiertos;28990;Thyrozol 10;Tiamazol;comprimidos recubiertos;10 mg;50;ud.;;1;Merck
+828963;Blox-D 16/12,5 mg x 30 comprimidos;20580;Blox-D 16/12,5;"Candesartan;Hidroclorotiazida";comprimidos;16/12,5 mg;30;ud.;;0;Saval
+829065;Tamdex 0,5/0,4 mg x 30 cápsulas de liberación prolongada;8140;Tamdex 0,5/0,4;"Dutasteride;Tamsulosina";cápsulas de liberación prolongada;0,5/0,4 mg;30;ud.;;0;Exeltis
+829031;Montelukast 10 mg x 30 comprimidos recubiertos;4740;Montelukast 10;Montelukast;comprimidos recubiertos;10 mg;30;ud.;;0;Seven Pharma
+829043;Otoc 4 mg x 8 comprimidos bucodispersables;7070;Otoc 4;Ondansetron;comprimidos bucodispersables;4 mg;8;ud.;;0;Seven Pharma
+828981;Doloverina 200 mg x 20 comprimidos de liberación prolongada;16350;Doloverina 200;Mebeverina;comprimidos de liberación prolongada;200 mg;20;ud.;;0;Saval
+829038;Ondansetron 8 mg x 10 comprimidos bucodispersables;7310;Ondansetron 8;Ondansetron;comprimidos bucodispersables;8 mg;10;ud.;;0;Reutter
+829004;Galvus Met 50/1000 mg x 56 comprimidos recubiertos;38100;Galvus Met 50/1000;"Vildagliptina;Metformina";comprimidos recubiertos;50/1000 mg;56;ud.;"galvus;galvusmet;galvus met";0;Novartis
+829063;Sulfasalazina 500 mg x 100 comprimidos recubiertos;12730;Sulfasalazina 500;Sulfasalazina;comprimidos recubiertos;500 mg;100;ud.;;0;Pharmamerica
+829054;Reduclim 2,5 mg x 35 comprimidos;11250;Reduclim 2,5;Tibolona;comprimidos;2,5 mg;35;ud.;;0;Deutsche Pharma
+829023;Macrosan 100 mg x 50 cápsulas;8920;Macrosan 100;Nitrofurantoina;cápsulas;100 mg;50;ud.;;0;Sanitas
+829024;Macrosan 50 mg x 30 cápsulas;5470;Macrosan 50;Nitrofurantoina;cápsulas;50 mg;30;ud.;;0;Sanitas
+829032;Nebido 1000 mg/4ml x 1 ud. solución inyectable;101900;Nebido 1000;Undecanoato De Testosterona;solución inyectable;1000 mg/4ml;1;ud.;;1;Bayer
+829094;Vonille Cd 0,15/0,03 mg x 28 comprimidos recubiertos;1670;Vonille Cd 0,15/0,03;"Levonorgestrel;Etinilistradiol";comprimidos recubiertos;0,15/0,03 mg;28;ud.;;0;Exeltis
+828990;Eutirox 50 mcg x 100 comprimidos;7140;Eutirox 50;Levotiroxina Sodica;comprimidos;50 mcg;100;ud.;;1;Merck
+829058;Sayana Press 104 mg x 0,65 ml. suspensión inyectable;16240;Sayana Press 104;Medroxiprogesterona;suspensión inyectable;104 mg;0,65;ml.;;1;Pfizer
+829013;Jardiance 10 mg x 30 comprimidos recubiertos;33990;Jardiance 10;Empagliflozina;comprimidos recubiertos;10 mg;30;ud.;;1;Boehringer Ingelheim
+829098;Zincovit 5 mg x 30 ml. solución oral para gotas;9390;Zincovit 5;Zinc;solución oral para gotas;5 mg;30;ml.;;1;Itf Labomed
+829069;Tenoprox 0,004% x 2,5 ml. solución oftálmica;5910;Tenoprox 0,004%;Travoprost;solución oftálmica;0,004% ;2,5;ml.;;0;Opko
+829019;Lamotrigina 100 mg x 60 comprimidos;6480;Lamotrigina 100;Lamotrigina;comprimidos;100 mg;60;ud.;;0;Interpharma
+828957;Asertia 20 mcg/24h x 1 ud. sistema intrauterino;88220;Asertia 20;Levonorgestrel;sistema intrauterino;20 mcg/24h;1;ud.;;1;Abbott
+829042;Oseltamivir 75 mg x 10 cápsulas;11890;Oseltamivir 75;Oseltamivir;cápsulas;75 mg;10;ud.;;0;Indopharma
+828987;Espercil 500 mg x 20 comprimidos recubiertos;37270;Espercil 500;Acido Tranexamico;comprimidos recubiertos;500 mg;20;ud.;;1;Grunenthal
+828991;Eutirox 88 mcg x 50 comprimidos;8460;Eutirox 88;Levotiroxina Sodica;comprimidos;88 mcg;50;ud.;;0;Merck
+828978;Diphereline 11,25 mg x 1 ud. liofilizado para suspensión inyectable;106910;Diphereline 11,25;Triptorelina;liofilizado para suspensión inyectable;11,25 mg;1;ud.;;1;Abbott
+829001;Forxiga 10 mg x 28 comprimidos recubiertos;27850;Forxiga 10;Dapagliflozina;comprimidos recubiertos;10 mg;28;ud.;;1;Astrazeneca
+829014;Jardiance 25 mg x 30 comprimidos recubiertos;39990;Jardiance 25;Empagliflozina;comprimidos recubiertos;25 mg;30;ud.;;0;Boehringer Ingelheim
+829062;Spiron 1 mg/ml x 30 ml. solución oral para gotas;8920;Spiron 1;Risperidona;solución oral para gotas;1 mg/ml;30;ml.;;0;Grunenthal
+829076;Tildiem 60 mg x 60 comprimidos;14660;Tildiem 60;Diltiazem;comprimidos;60 mg;60;ud.;;0;Chemopharma
+828953;Amoxicilina 500 mg/5ml x 60 ml. polvo para suspensión oral;1970;Amoxicilina 500;Amoxicilina Trihidrato;polvo para suspensión oral;500 mg/5ml;60;ml.;;1;Opko
+829086;Trigilab 200 mg x 30 comprimidos;11680;Trigilab 200;Lamotrigina;comprimidos;200 mg;30;ud.;;0;Interpharma
+828984;Eliquis 5 mg x 60 comprimidos recubiertos;65150;Eliquis 5;Apixaban;comprimidos recubiertos;5 mg;60;ud.;;1;Pfizer
+828947;Adapaleno 0,1% x 30 g. gel tópico;7410;Adapaleno 0,1%;Adapaleno;gel tópico;0,1% ;30;g.;;0;Global Pharma
+829088;Vannair 80/4,5 mcg x 120 dss. suspensión para inhalación oral;30810;Vannair 80/4,5;"Budesonida;Formoterol";suspensión para inhalación oral;80/4,5 mcg;120;dss.;;1;Astrazeneca
+828965;Brexovent Lf 125 mcg x 120 dss. aerosol para inhalación;6650;Brexovent Lf 125;Fluticasona;aerosol para inhalación;125 mcg;120;dss.;;0;Etex
+828983;Dutasvitae 0,5 mg x 30 ud. cápsula blanda;13890;Dutasvitae 0,5;Dutasteride;cápsula blanda;0,5 mg;30;ud.;;0;Galenicum
+829036;Omnitrope 10 mg/1,5ml x 1 ud. solución inyectable;65000;Omnitrope 10;Somatropina;solución inyectable;10 mg/1,5ml;1;ud.;;1;Novartis
+829041;Oralne 20 mg x 30 ud. cápsula blanda;30060;Oralne 20;Isotretinoina;cápsula blanda;20 mg;30;ud.;;0;Deutsche Pharma
+828994;Finasterida 5 mg x 30 comprimidos recubiertos;7410;Finasterida 5;Finasterida;comprimidos recubiertos;5 mg;30;ud.;;0;Seven Pharma
+829049;Prednisona 20 mg x 20 comprimidos recubiertos;1900;Prednisona 20;Prednisona;comprimidos recubiertos;20 mg;20;ud.;;0;Lab Chile
+829087;Vannair 160/4,5 mcg x 120 dss. suspensión para inhalación oral;29950;Vannair 160/4,5;"Budesonida;Formoterol";suspensión para inhalación oral;160/4,5 mcg;120;dss.;;1;Astrazeneca
+829020;Lamucon 500 mg x 50 comprimidos recubiertos;15690;Lamucon 500;Micofenolato Mofetilo;comprimidos recubiertos;500 mg;50;ud.;;0;Sandoz
+828945;Acido Ursodeoxicolico 250 mg x 60 cápsulas;26720;Acido Ursodeoxicolico 250;Acido Ursodeoxicolico;cápsulas;250 mg;60;ud.;;1;Difem
+829022;Macrosan 100 mg x 30 cápsulas;6080;Macrosan 100;Nitrofurantoina;cápsulas;100 mg;30;ud.;;0;Sanitas
+829073;Thyrofix 25 mcg x 50 comprimidos;3450;Thyrofix 25;Levotiroxina Sodica;comprimidos;25 mcg;50;ud.;;0;Ethon
+828970;Cidoten Rapi-Lento 3/3 mg x 1 ud. suspensión inyectable;13460;Cidoten Rapi-Lento 3/3;"Betametasona Acetato;Betametasona Fosfato Sodico";suspensión inyectable;3/3 mg;1;ud.;;0;Organon
+829027;Metronidazol 500 mg x 20 comprimidos recubiertos;4590;Metronidazol 500;Metronidazol;comprimidos recubiertos;500 mg;20;ud.;;1;Pinnacle
+828962;Biopsol 1 mg x 30 comprimidos;8510;Biopsol 1;Pramipexol;comprimidos;1 mg;30;ud.;;0;Abbott
+829029;Modavitae 200 mg x 30 comprimidos;18890;Modavitae 200;Modafinilo;comprimidos;200 mg;30;ud.;;0;Galenicum
+828975;Dacam Rapi-Lento 3,0/3,0 mg/ml x 3 ml. suspensión inyectable;14300;Dacam Rapi-Lento 3,0/3,0;Betametasona;suspensión inyectable;3,0/3,0 mg/ml;3;ml.;;0;Lab Chile
+829066;Telgard 40 mg x 30 comprimidos;10740;Telgard 40;Telmisartan;comprimidos;40 mg;30;ud.;;1;Seven Pharma
+829067;Telgard 80 mg x 30 comprimidos;6290;Telgard 80;Telmisartan;comprimidos;80 mg;30;ud.;;0;Seven Pharma
+828961;Biopsol 0,25 mg x 30 comprimidos;5090;Biopsol 0,25;Pramipexol;comprimidos;0,25 mg;30;ud.;;1;Abbott
+828967;Cefuroxima 500 mg x 14 comprimidos recubiertos;32210;Cefuroxima 500;Cefuroxima;comprimidos recubiertos;500 mg;14;ud.;;0;Ascend
+828997;Flusacort 25/125 mcg x 120 dss. aerosol para inhalación;6560;Flusacort 25/125;"Salmeterol;Fluticasona";aerosol para inhalación;25/125 mcg;120;dss.;;1;Seven Pharma
+829012;Insulatard 100 UI x 1 ud. suspensión inyectable;10120;Insulatard 100;Insulina Humana;suspensión inyectable;100 UI;1;ud.;;1;Novo Nordisk
+829060;Spiriva Respimat 2,5 mcg x 30 ud. solución para inhalación;49490;Spiriva Respimat 2,5;Tiotropio;solución para inhalación;2,5 mcg;30;ud.;;0;Boehringer Ingelheim
+828989;Eutirox 100 mcg x 100 comprimidos;4780;Eutirox 100;Levotiroxina Sodica;comprimidos;100 mcg;100;ud.;;0;Merck
+829090;Vertium 25 mg x 40 comprimidos;11890;Vertium 25;Difenidol;comprimidos;25 mg;40;ud.;;1;Saval
+828999;Flutamida 250 mg x 30 comprimidos;12550;Flutamida 250;Flutamida;comprimidos;250 mg;30;ud.;;1;Blau
+828969;Cidimus 1 mg x 100 cápsulas;59700;Cidimus 1;Tacrolimus;cápsulas;1 mg;100;ud.;;0;Sandoz
+829095;Xigduo 10/1000 mg x 28 comprimidos de liberación prolongada;37620;Xigduo 10/1000;"Dapagliflozina;Metformina";comprimidos de liberación prolongada;10/1000 mg;28;ud.;;1;Astrazeneca
+829061;Spiron 3 mg x 30 comprimidos recubiertos;4580;Spiron 3;Risperidona;comprimidos recubiertos;3 mg;30;ud.;;0;Andromaco
+828992;Ezetimiba/Simvastatina 10/20 mg x 28 comprimidos;26780;Ezetimiba/Simvastatina 10/20;"Ezetimiba;Simvastatina";comprimidos;10/20 mg;28;ud.;;1;Ascend
+829089;Venartel 450/50 mg x 60 comprimidos recubiertos;19330;Venartel 450/50;"Diosmina;Hesperidina";comprimidos recubiertos;450/50 mg;60;ud.;;0;Andromaco
+828966;Calcitriol 0,5 mcg x 30 ud. cápsula blanda;13570;Calcitriol 0,5;Calcitriol;cápsula blanda;0,5 mcg;30;ud.;;0;Reutter
+829074;Thyrofix 75 mcg x 50 comprimidos;4230;Thyrofix 75;Levotiroxina Sodica;comprimidos;75 mcg;50;ud.;;0;Ethon
+829000;Fluticort 125 mcg x 120 dss. aerosol para inhalación;15060;Fluticort 125;Fluticasona;aerosol para inhalación;125 mcg;120;dss.;;0;D&M Pharma
+828964;Bratesse 800 mg x 180 comprimidos recubiertos;72410;Bratesse 800;Sevelamer;comprimidos recubiertos;800 mg;180;ud.;;0;Synthon
+829083;Trazodona 100 mg x 28 cápsulas;10810;Trazodona 100;Trazodona;cápsulas;100 mg;28;ud.;;0;Pinnacle
+828974;Crolim 0,5 mg x 50 cápsulas;18820;Crolim 0,5;Tacrolimus;cápsulas;0,5 mg;50;ud.;;0;Ascend
+828985;Escitalopram 10 mg x 30 comprimidos recubiertos;2540;Escitalopram 10;Escitalopram;comprimidos recubiertos;10 mg;30;ud.;;0;Opko
+829046;Pradaxa 110 mg x 60 cápsulas;68240;Pradaxa 110;Dabigatran Etexilato;cápsulas;110 mg;60;ud.;;1;Boehringer Ingelheim
+828993;Fenoterol/Ipratropio 50/20 mcg x 200 dss. aerosol para inhalación;15860;Fenoterol/Ipratropio 50/20;"Fenoterol;Ipratropio";aerosol para inhalación;50/20 mcg;200;dss.;;1;Inpac Pharma
+828944;Abecidin 2500/400/75 UI/mg x 30 ml. solución oral para gotas;3710;Abecidin 2500/400/75;"Vitamina A;Vitamina D3;Vitamina C";solución oral para gotas;2500/400/75 UI/mg;30;ml.;;1;Pasteur
+829055;Rivaxored 20 mg x 28 comprimidos recubiertos;6600;Rivaxored 20;Rivaroxaban;comprimidos recubiertos;20 mg;28;ud.;;0;Dr. Reddys
+828998;Flusacort 25/250 mcg x 120 dss. aerosol para inhalación;7910;Flusacort 25/250;"Salmeterol;Fluticasona";aerosol para inhalación;25/250 mcg;120;dss.;;0;Seven Pharma
+828977;Diclofenaco 50 mg x 10 comprimidos recubiertos;500;Diclofenaco 50;Diclofenaco Sodico;comprimidos recubiertos;50 mg;10;ud.;;0;Baden
+829028;Mirtavitae 15 mg x 30 comprimidos recubiertos;21550;Mirtavitae 15;Mirtazapina;comprimidos recubiertos;15 mg;30;ud.;;1;Galenicum
+829035;Nortium Xr 200 mg x 30 comprimidos de liberación prolongada;17720;Nortium Xr 200;Quetiapina;comprimidos de liberación prolongada;200 mg;30;ud.;;0;Ascend
+829082;Trazidex 0,3% x 3,5 g. ingüento oftálmico;12460;Trazidex 0,3%;"Tobramicina;Dexametasona";ingüento oftálmico;0,3% ;3,5;g.;;0;Sophia
+828980;Dislep 25 mg x 20 comprimidos;15800;Dislep 25;Levosulpirida;comprimidos;25 mg;20;ud.;;1;Ferrer
+829007;Glausolets Plus 20/5 mg/ml x 5 ml. solución oftálmica;6080;Glausolets Plus 20/5;"Dorzolamida;Timolol";solución oftálmica;20/5 mg/ml;5;ml.;;0;Smb Farma
+829059;Solivo 20 mg x 60 comprimidos;12960;Solivo 20;Leflunomida;comprimidos;20 mg;60;ud.;;1;Emcure
+829053;Radigen 1 mg/ml x 30 ml. solución oral para gotas;7990;Radigen 1;Risperidona;solución oral para gotas;1 mg/ml;30;ml.;;1;Eurofarma
+829092;Vildagliptina 50 mg x 30 comprimidos;7980;Vildagliptina 50;Vildagliptina;comprimidos;50 mg;30;ud.;"galvus;galvusmet;galvus met";0;Emcure
+828973;Colekal 50000 UI x 2 ud. polvo para solución oral;6920;Colekal 50000;Vitamina D3;polvo para solución oral;50000 UI;2;ud.;;0;Tervis Pharma
+829096;Xigduo 5/1000 mg x 56 comprimidos de liberación prolongada;41480;Xigduo 5/1000;"Dapagliflozina;Metformina";comprimidos de liberación prolongada;5/1000 mg;56;ud.;;1;Astrazeneca
+829030;Montelukast 4 mg x 30 ud. comprimido masticable;7710;Montelukast 4;Montelukast;comprimido masticable;4 mg;30;ud.;;1;Seven Pharma
+829033;Nefex Duo 0,5/0,4 mg x 30 cápsulas de liberación prolongada;7610;Nefex Duo 0,5/0,4;"Dutasteride;Metformina";cápsulas de liberación prolongada;0,5/0,4 mg;30;ud.;;0;Opko
+829056;Rosuvastatina 20 mg x 30 comprimidos recubiertos;4870;Rosuvastatina 20;Rosuvastatina;comprimidos recubiertos;20 mg;30;ud.;;0;Seven Pharma
+829057;Saxenda 6 mg/ml x 3 ud. solución inyectable;205940;Saxenda 6;Liraglutida;solución inyectable;6 mg/ml;3;ud.;;0;Novo Nordisk
+829084;Trelegy Ellipta 92/55/22 mcg x 30 dss. polvo para inhalación oral;81250;Trelegy Ellipta 92/55/22;"Fluticasona;Umeclidinio;Vilanterol";polvo para inhalación oral;92/55/22 mcg;30;dss.;;0;Gsk
+829026;Memanvitae 20 mg x 56 comprimidos recubiertos;14270;Memanvitae 20;Memantina;comprimidos recubiertos;20 mg;56;ud.;;1;Galenicum
+829097;Zepiken 0,2% x 5 ml. solución oftálmica;15800;Zepiken 0,2%;Olopatadina;solución oftálmica;0,2% ;5;ml.;;0;D&M Pharma
+829093;Vilzermet 50/500 mg x 60 comprimidos recubiertos;30240;Vilzermet 50/500;"Vildagliptina;Metformina";comprimidos recubiertos;50/500 mg;60;ud.;"galvus;galvusmet;galvus met";0;Tecnofarma
+829044;Otoc 8 mg x 10 comprimidos bucodispersables;5930;Otoc 8;Ondansetron;comprimidos bucodispersables;8 mg;10;ud.;;1;Seven Pharma
+829002;Gabapentina 300 mg x 30 cápsulas;3730;Gabapentina 300;Gabapentina;cápsulas;300 mg;30;ud.;;0;Ascend
+829034;Normix 200 mg x 24 comprimidos recubiertos;26140;Normix 200;Rifaximina;comprimidos recubiertos;200 mg;24;ud.;;1;Andromaco
+828946;Acuode 50000 UI x 2 ud. polvo para solución oral;6980;Acuode 50000;Vitamina D3;polvo para solución oral;50000 UI;2;ud.;;0;Abbott
+828951;Alertex 200 mg x 30 comprimidos;18890;Alertex 200;Modafinilo;comprimidos;200 mg;30;ud.;;0;Saval
+828986;Escitalopram 10 mg x 30 comprimidos recubiertos;2170;Escitalopram 10;Escitalopram;comprimidos recubiertos;10 mg;30;ud.;;1;Seven Pharma
+828948;Aldrox 70 mg x 10 comprimidos recubiertos;10570;Aldrox 70;Acido Alendronico;comprimidos recubiertos;70 mg;10;ud.;;1;Pasteur
+829080;Tratoben 2,5 mg x 50 comprimidos;9140;Tratoben 2,5;Metotrexato;comprimidos;2,5 mg;50;ud.;;1;Pisa
+829079;Transcept 500 mg x 50 comprimidos recubiertos;11210;Transcept 500;Micofenolato Mofetilo;comprimidos recubiertos;500 mg;50;ud.;;1;Emcure
+829052;Qurax Xr 150 mg x 30 comprimidos de liberación prolongada;20320;Qurax Xr 150;Quetiapina;comprimidos de liberación prolongada;150 mg;30;ud.;;0;Megalabs
+828979;Disflax 30 mg x 10 comprimidos;16780;Disflax 30;Deflazacort;comprimidos;30 mg;10;ud.;;0;Faes Farma
+829078;Tinox 2,5 mg x 30 comprimidos;9500;Tinox 2,5;Tibolona;comprimidos;2,5 mg;30;ud.;;0;Abbott
+829008;Gluamet 50/850 mg x 60 comprimidos recubiertos;30570;Gluamet 50/850;"Vildagliptina;Metformina";comprimidos recubiertos;50/850 mg;60;ud.;"galvus;galvusmet;galvus met";0;Merck
+829037;Ondansetron 4 mg x 8 comprimidos bucodispersables;6730;Ondansetron 4;Ondansetron;comprimidos bucodispersables;4 mg;8;ud.;;0;Vitafarma
+829040;Oralne 10 mg x 30 cápsulas;18880;Oralne 10;Isotretinoina;cápsulas;10 mg;30;ud.;;0;Deutsche Pharma
+828971;Ciprofibrato 100 mg x 30 cápsulas;9330;Ciprofibrato 100;Ciprofibrato;cápsulas;100 mg;30;ud.;;0;Alpes Chemie
+829045;Paracetamol 500 mg x 16 comprimidos;500;Paracetamol 500;Paracetamol;comprimidos;500 mg;16;ud.;;0;Opko
+828954;Anoro Ellipta 55/22 mcg x 30 ud. polvo para inhalación oral;39810;Anoro Ellipta 55/22;"Umeclidinio;Vilanterol";polvo para inhalación oral;55/22 mcg;30;ud.;;1;Gsk
+829018;Lamotrigina 100 mg x 60 comprimidos;7880;Lamotrigina 100;Lamotrigina;comprimidos;100 mg;60;ud.;;0;Emcure
+829016;Kalitium 450 mg x 30 comprimidos de liberación prolongada;11790;Kalitium 450;Carbonato De Litio;comprimidos de liberación prolongada;450 mg;30;ud.;;1;Eurofarma
+828949;Alenys 27,5 mcg x 120 dss. suspensión nasal;11040;Alenys 27,5;Fluticasona Furoato;suspensión nasal;27,5 mcg;120;dss.;;1;Etex
+828988;Euroderm 0,1% x 15 g. crema tópica;3650;Euroderm 0,1%;Mometasona;crema tópica;0,1% ;15;g.;;1;Eurofarma
+829070;Tensuren Am 80/5 mg x 30 comprimidos;29100;Tensuren Am 80/5;"Telmisartan;Amlodipino";comprimidos;80/5 mg;30;ud.;;0;Lab Chile
+829064;Sulix 0,4 mg x 60 cápsulas de liberación prolongada;6990;Sulix 0,4;Tamsulosina;cápsulas de liberación prolongada;0,4 mg;60;ud.;;1;Synthon
+829077;Timolol 0,5% x 10 ml. solución oftálmica;1570;Timolol 0,5%;Timolol;solución oftálmica;0,5% ;10;ml.;;0;Ascend
+828952;Amlodipino 5 mg x 30 comprimidos;1300;Amlodipino 5;Amlodipino;comprimidos;5 mg;30;ud.;;0;Opko
+829039;Ondanvitae 8 mg x 10 comprimidos recubiertos;6540;Ondanvitae 8;Ondansetron;comprimidos recubiertos;8 mg;10;ud.;;0;Galenicum
+828996;Flixotide Lf 250 mcg x 120 dss. aerosol para inhalación;33490;Flixotide Lf 250;Fluticasona;aerosol para inhalación;250 mcg;120;dss.;;1;Gsk
+828960;Betahistina 16 mg x 28 comprimidos;9250;Betahistina 16;Betahistina;comprimidos;16 mg;28;ud.;;1;Pinnacle
+829085;Trex Forte 400 mg/5ml x 30 ml. polvo para suspensión oral;11800;Trex Forte 400;Azitromicina;polvo para suspensión oral;400 mg/5ml;30;ml.;;1;Saval
+855813;Grifodilzem 60 mg x 60 comprimidos;12490;Grifodilzem 60;Diltiazem;comprimidos;60 mg;60;ud.;;0;Lab Chile
+858466;Dienogest/Etinilestradiol 2/0,03 mg x 28 comprimidos recubiertos;7190;Dienogest/Etinilestradiol 2/0,03;"Dienogest;Etinilistradiol";comprimidos recubiertos;2/0,03 mg;28;ud.;;0;Exeltis
+858596;Dorzolamida/Timolol 2% x 5 ml. solución oftálmica;4900;Dorzolamida/Timolol 2%;"Dorzolamida;Timolol";solución oftálmica;2% ;5;ml.;;1;Seven Pharma
+858629;Levotiroxina 88 mcg x 50 comprimidos;7000;Levotiroxina 88;Levotiroxina;comprimidos;88 mcg;50;ud.;;1;Alembic
+858648;Duotrav 0,004% x 2,5 ml. solución oftálmica;15410;Duotrav 0,004%;"Travoprost;Timolol";solución oftálmica;0,004% ;2,5;ml.;;0;Novartis
+858719;Medrol 16 mg x 14 comprimidos;41950;Medrol 16;Metilprednisolona;comprimidos;16 mg;14;ud.;;1;Pfizer
+860242;Telmisartan 80 mg x 30 comprimidos;4370;Telmisartan 80;Telmisartan;comprimidos;80 mg;30;ud.;;0;Alembic
+947633;Levotiroxina 100 mcg x 100 comprimidos;3130;Levotiroxina 100;Levotiroxina;comprimidos;100 mcg;100;ud.;;1;Alembic
+953119;Rosuvastatina 10 mg x 60 comprimidos recubiertos;7140;Rosuvastatina 10;Rosuvastatina;comprimidos recubiertos;10 mg;60;ud.;;0;Pinnacle
+968607;Telmisartan 40 mg x 30 comprimidos;5610;Telmisartan 40;Telmisartan;comprimidos;40 mg;30;ud.;;0;Alembic
+972974;Mirtavitae 30 mg x 30 comprimidos recubiertos;11020;Mirtavitae 30;Mirtazapina;comprimidos recubiertos;30 mg;30;ud.;;0;Galenicum
+996965;Pirfenidona 267 mg x 100 cápsulas;65830;Pirfenidona 267;Pirfenidona;cápsulas;267 mg;100;ud.;;1;Siron Pharma
+996972;Eztim 10 mg x 28 comprimidos;10880;Eztim 10;Ezetimiba;comprimidos;10 mg;28;ud.;;0;Seven Pharma
+1002709;Acido Valproico 200 mg x 30 comprimidos recubiertos;3940;Acido Valproico 200;Acido Valproico;comprimidos recubiertos;200 mg;30;ud.;;0;Andromaco
+1002769;Rivaroxaban 20 mg x 56 comprimidos recubiertos;6750;Rivaroxaban 20;Rivaroxaban;comprimidos recubiertos;20 mg;56;ud.;;1;Pinnacle
+1027536;Alfexa 180 mg x 30 comprimidos recubiertos;10820;Alfexa 180;Fexofenadina;comprimidos recubiertos;180 mg;30;ud.;;1;Ascend
+1090005;Vildavitae Plus 50/1000 mg x 60 comprimidos recubiertos;21630;Vildavitae Plus 50/1000;"Vildagliptina;Metformina";comprimidos recubiertos;50/1000 mg;60;ud.;"galvus;galvusmet;galvus met";0;Galenicum
+1090009;Clotrimazol 500 mg x 1 óvulo;1270;Clotrimazol 500;Clotrimazol;óvulo;500 mg;1;ud.;;1;Pasteur
+1121860;Nortium Xr 150 mg x 30 comprimidos de liberación prolongada;24330;Nortium Xr 150;Quetiapina;comprimidos de liberación prolongada;150 mg;30;ud.;;0;Ascend
+1363515;Cabertrix 0,5 mg x 4 comprimidos;16340;Cabertrix 0,5;Cabergolina;comprimidos;0,5 mg;4;ud.;;1;Tecnofarma
+1382305;Flusona 125 mcg x 120 dss. aerosol para inhalación;10760;Flusona 125;Fluticasona;aerosol para inhalación;125 mcg;120;dss.;;1;Abbott
+1382307;Spiolto Respimat 2,5/2,5 mcg x 30 dss. solución para inhalación;49490;Spiolto Respimat 2,5/2,5;"Tiotropio;Olodaterol";solución para inhalación;2,5/2,5 mcg;30;dss.;;0;Boehringer Ingelheim
+1382308;Dabifib 150 mg x 60 cápsulas;41390;Dabifib 150;Dabigatran;cápsulas;150 mg;60;ud.;Pradaxa 150;1;Msn
+1382309;Fibrolow Lidose 200 mg x 30 cápsulas;15750;Fibrolow Lidose 200;Fenofibrato;cápsulas;200 mg;30;ud.;;0;Saval
+1382356;Actrapid 100 UI x 1 ud. solución inyectable;12160;Actrapid 100;Insulina Cristalina;solución inyectable;100 UI;1;ud.;;1;Novo Nordisk
+1552690;Duloxetina 60 mg x 30 cápsulas;4890;Duloxetina 60;Duloxetina;cápsulas;60 mg;30;ud.;;1;Alembic
+1553344;Aurituss 25/250 mcg x 120 dss. aerosol para inhalación;6800;Aurituss 25/250;"Salmeterol;Fluticasona";aerosol para inhalación;25/250 mcg;120;dss.;;1;Abbott
+1553788;Hemoval 100 mg x 40 ud. comprimido masticable;10240;Hemoval 100;Complejo De Hierro Iii;comprimido masticable;100 mg;40;ud.;;1;Saval
+1621570;Vildagliptina/Metformina 50/850 mg x 60 comprimidos recubiertos;19030;Vildagliptina/Metformina 50/850;"Vildagliptina;Metformina";comprimidos recubiertos;50/850 mg;60;ud.;"galvus;galvusmet;galvus met";1;Seven Pharma
+829005;Galvus Met 50/500 mg x 56 comprimidos recubiertos;38550;Galvus Met 50/500;"Vildagliptina;Metformina";comprimidos recubiertos;50/500 mg;56;ud.;"galvus;galvusmet;galvus met";0;Novartis
+829021;Levetiracetam 1000 mg x 30 comprimidos recubiertos;6000;Levetiracetam 1000;Levetiracetam;comprimidos recubiertos;1000 mg;30;ud.;;1;Seven Pharma

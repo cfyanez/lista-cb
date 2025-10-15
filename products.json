@@ -1,0 +1,3021 @@
+[
+  {
+    "id": "828950",
+    "name": "Alergiol Forte 0,2% x 5 ml. solución oftálmica",
+    "price": 14360,
+    "brand": "Alergiol Forte 0,2%",
+    "actives": [
+      "Olopatadina"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,2%",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "Smb Farma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828955",
+    "name": "Arcoxia 60 mg x 14 comprimidos recubiertos",
+    "price": 7070,
+    "brand": "Arcoxia 60",
+    "actives": [
+      "Etoricoxib"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "60 mg",
+    "pack_size": 14,
+    "aliases": [],
+    "lab": "Organon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828956",
+    "name": "Artrotin 20 mg x 30 comprimidos recubiertos",
+    "price": 22230,
+    "brand": "Artrotin 20",
+    "actives": [
+      "Leflunomida"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828968",
+    "name": "Ciblex 30 mg x 30 comprimidos recubiertos",
+    "price": 14250,
+    "brand": "Ciblex 30",
+    "actives": [
+      "Mirtazapina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "30 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828976",
+    "name": "Depo-Medrol 40 mg/ml x 1 ud. suspensión inyectable",
+    "price": 24710,
+    "brand": "Depo-Medrol 40",
+    "actives": [
+      "Metilprednisolona"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "40 mg/ml",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828982",
+    "name": "Dostinex 0,5 mg x 2 comprimidos",
+    "price": 14140,
+    "brand": "Dostinex 0,5",
+    "actives": [
+      "Cabergolina"
+    ],
+    "form": "comprimidos",
+    "strength": "0,5 mg",
+    "pack_size": 2,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828995",
+    "name": "Flixonase 50 mcg x 120 dss. suspensión para nebulización nasal",
+    "price": 8420,
+    "brand": "Flixonase 50",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "suspensión para nebulización nasal",
+    "strength": "50 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Gsk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829003",
+    "name": "Galvus 50 mg x 56 comprimidos",
+    "price": 9930,
+    "brand": "Galvus 50",
+    "actives": [
+      "Vildagliptina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 56,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Novartis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829006",
+    "name": "Galvus Met 50/850 mg x 56 comprimidos recubiertos",
+    "price": 39360,
+    "brand": "Galvus Met 50/850",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/850 mg",
+    "pack_size": 56,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Novartis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1089767",
+    "name": "Gestel 200 mg x 30 ud. cápsula blanda",
+    "price": 13860,
+    "brand": "Gestel 200",
+    "actives": [
+      "Progesterona"
+    ],
+    "form": "cápsula blanda",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829009",
+    "name": "Idena 150 mg x 1 comprimido recubierto",
+    "price": 11200,
+    "brand": "Idena 150",
+    "actives": [
+      "Acido Ibandronico"
+    ],
+    "form": "comprimido recubierto",
+    "strength": "150 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Tecnofarma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829010",
+    "name": "Implanon 68 mg x 1 ud. implante",
+    "price": 69670,
+    "brand": "Implanon 68",
+    "actives": [
+      "Etonogestrel"
+    ],
+    "form": "implante",
+    "strength": "68 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Msd",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829011",
+    "name": "Insulatard Penfill 100 UI/ml x 5 ud. suspensión inyectable",
+    "price": 25260,
+    "brand": "Insulatard Penfill 100",
+    "actives": [
+      "Insulina Humana Isofana"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "100 UI/ml",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "Novo Nordisk",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829025",
+    "name": "Medrol 4 mg x 20 comprimidos",
+    "price": 20510,
+    "brand": "Medrol 4",
+    "actives": [
+      "Metilprednisolona"
+    ],
+    "form": "comprimidos",
+    "strength": "4 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829048",
+    "name": "Prayanol 100 mg x 30 cápsulas",
+    "price": 10210,
+    "brand": "Prayanol 100",
+    "actives": [
+      "Amantadina"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829050",
+    "name": "Prolopa 200/50 mg x 30 comprimidos",
+    "price": 13140,
+    "brand": "Prolopa 200/50",
+    "actives": [
+      "Levodopa",
+      "Benserazida"
+    ],
+    "form": "comprimidos",
+    "strength": "200/50 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Roche",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829051",
+    "name": "Promyrtil 30 mg x 30 comprimidos recubiertos",
+    "price": 7780,
+    "brand": "Promyrtil 30",
+    "actives": [
+      "Mirtazapina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "30 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Organon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829091",
+    "name": "Victoza 6 mg/ml x 1 ud. solución inyectable",
+    "price": 75600,
+    "brand": "Victoza 6",
+    "actives": [
+      "Liraglutida"
+    ],
+    "form": "solución inyectable",
+    "strength": "6 mg/ml",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Novo Nordisk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829047",
+    "name": "Pradaxa 150 mg x 60 cápsulas",
+    "price": 65490,
+    "brand": "Pradaxa 150",
+    "actives": [
+      "Dabigatran Etexilato"
+    ],
+    "form": "cápsulas",
+    "strength": "150 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829015",
+    "name": "Jolian 3,0/0,02 mg x 28 comprimidos recubiertos",
+    "price": 8180,
+    "brand": "Jolian 3,0/0,02",
+    "actives": [
+      "Drospirenona",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "3,0/0,02 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Gedeon Richter",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828959",
+    "name": "Azitrom Forte 400 mg/5ml x 30 ml. polvo para suspensión oral",
+    "price": 11210,
+    "brand": "Azitrom Forte 400",
+    "actives": [
+      "Azitromicina"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "400 mg/5ml",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828972",
+    "name": "Claritromicina 250 mg/5ml x 60 ml. polvo para suspensión oral",
+    "price": 7620,
+    "brand": "Claritromicina 250",
+    "actives": [
+      "Claritromicina"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "250 mg/5ml",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Neoethicals",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829017",
+    "name": "Kaph 0,5% x 10 ml. solución oftálmica",
+    "price": 1590,
+    "brand": "Kaph 0,5%",
+    "actives": [
+      "Cloranfenicol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,5%",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Ethon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828958",
+    "name": "Azatioprina 50 mg x 100 comprimidos",
+    "price": 21500,
+    "brand": "Azatioprina 50",
+    "actives": [
+      "Azatioprina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829071",
+    "name": "Terbinafina 250 mg x 28 comprimidos",
+    "price": 7990,
+    "brand": "Terbinafina 250",
+    "actives": [
+      "Terbinafina"
+    ],
+    "form": "comprimidos",
+    "strength": "250 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829068",
+    "name": "Tellmi-D 80/12,5 mg x 30 comprimidos",
+    "price": 14990,
+    "brand": "Tellmi-D 80/12,5",
+    "actives": [
+      "Telmisartan",
+      "Hidroclorotiazida"
+    ],
+    "form": "comprimidos",
+    "strength": "80/12,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829081",
+    "name": "Trayenta 5 mg x 30 comprimidos recubiertos",
+    "price": 35550,
+    "brand": "Trayenta 5",
+    "actives": [
+      "Linagliptina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829075",
+    "name": "Thyrozol 10 mg x 50 comprimidos recubiertos",
+    "price": 28990,
+    "brand": "Thyrozol 10",
+    "actives": [
+      "Tiamazol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828963",
+    "name": "Blox-D 16/12,5 mg x 30 comprimidos",
+    "price": 20580,
+    "brand": "Blox-D 16/12,5",
+    "actives": [
+      "Candesartan",
+      "Hidroclorotiazida"
+    ],
+    "form": "comprimidos",
+    "strength": "16/12,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829065",
+    "name": "Tamdex 0,5/0,4 mg x 30 cápsulas de liberación prolongada",
+    "price": 8140,
+    "brand": "Tamdex 0,5/0,4",
+    "actives": [
+      "Dutasteride",
+      "Tamsulosina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "0,5/0,4 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829031",
+    "name": "Montelukast 10 mg x 30 comprimidos recubiertos",
+    "price": 4740,
+    "brand": "Montelukast 10",
+    "actives": [
+      "Montelukast"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829043",
+    "name": "Otoc 4 mg x 8 comprimidos bucodispersables",
+    "price": 7070,
+    "brand": "Otoc 4",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos bucodispersables",
+    "strength": "4 mg",
+    "pack_size": 8,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828981",
+    "name": "Doloverina 200 mg x 20 comprimidos de liberación prolongada",
+    "price": 16350,
+    "brand": "Doloverina 200",
+    "actives": [
+      "Mebeverina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "200 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829038",
+    "name": "Ondansetron 8 mg x 10 comprimidos bucodispersables",
+    "price": 7310,
+    "brand": "Ondansetron 8",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos bucodispersables",
+    "strength": "8 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Reutter",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829004",
+    "name": "Galvus Met 50/1000 mg x 56 comprimidos recubiertos",
+    "price": 38100,
+    "brand": "Galvus Met 50/1000",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/1000 mg",
+    "pack_size": 56,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Novartis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829063",
+    "name": "Sulfasalazina 500 mg x 100 comprimidos recubiertos",
+    "price": 12730,
+    "brand": "Sulfasalazina 500",
+    "actives": [
+      "Sulfasalazina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Pharmamerica",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829054",
+    "name": "Reduclim 2,5 mg x 35 comprimidos",
+    "price": 11250,
+    "brand": "Reduclim 2,5",
+    "actives": [
+      "Tibolona"
+    ],
+    "form": "comprimidos",
+    "strength": "2,5 mg",
+    "pack_size": 35,
+    "aliases": [],
+    "lab": "Deutsche Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829023",
+    "name": "Macrosan 100 mg x 50 cápsulas",
+    "price": 8920,
+    "brand": "Macrosan 100",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829024",
+    "name": "Macrosan 50 mg x 30 cápsulas",
+    "price": 5470,
+    "brand": "Macrosan 50",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "50 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829032",
+    "name": "Nebido 1000 mg/4ml x 1 ud. solución inyectable",
+    "price": 101900,
+    "brand": "Nebido 1000",
+    "actives": [
+      "Undecanoato De Testosterona"
+    ],
+    "form": "solución inyectable",
+    "strength": "1000 mg/4ml",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Bayer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829094",
+    "name": "Vonille Cd 0,15/0,03 mg x 28 comprimidos recubiertos",
+    "price": 1670,
+    "brand": "Vonille Cd 0,15/0,03",
+    "actives": [
+      "Levonorgestrel",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "0,15/0,03 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828990",
+    "name": "Eutirox 50 mcg x 100 comprimidos",
+    "price": 7140,
+    "brand": "Eutirox 50",
+    "actives": [
+      "Levotiroxina Sodica"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mcg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829058",
+    "name": "Sayana Press 104 mg x 0,65 ml. suspensión inyectable",
+    "price": 16240,
+    "brand": "Sayana Press 104",
+    "actives": [
+      "Medroxiprogesterona"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "104 mg",
+    "pack_size": 65,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829013",
+    "name": "Jardiance 10 mg x 30 comprimidos recubiertos",
+    "price": 33990,
+    "brand": "Jardiance 10",
+    "actives": [
+      "Empagliflozina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829098",
+    "name": "Zincovit 5 mg x 30 ml. solución oral para gotas",
+    "price": 9390,
+    "brand": "Zincovit 5",
+    "actives": [
+      "Zinc"
+    ],
+    "form": "solución oral para gotas",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Itf Labomed",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829069",
+    "name": "Tenoprox 0,004% x 2,5 ml. solución oftálmica",
+    "price": 5910,
+    "brand": "Tenoprox 0,004%",
+    "actives": [
+      "Travoprost"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,004%",
+    "pack_size": 25,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829019",
+    "name": "Lamotrigina 100 mg x 60 comprimidos",
+    "price": 6480,
+    "brand": "Lamotrigina 100",
+    "actives": [
+      "Lamotrigina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Interpharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828957",
+    "name": "Asertia 20 mcg/24h x 1 ud. sistema intrauterino",
+    "price": 88220,
+    "brand": "Asertia 20",
+    "actives": [
+      "Levonorgestrel"
+    ],
+    "form": "sistema intrauterino",
+    "strength": "20 mcg/24h",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829042",
+    "name": "Oseltamivir 75 mg x 10 cápsulas",
+    "price": 11890,
+    "brand": "Oseltamivir 75",
+    "actives": [
+      "Oseltamivir"
+    ],
+    "form": "cápsulas",
+    "strength": "75 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Indopharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828987",
+    "name": "Espercil 500 mg x 20 comprimidos recubiertos",
+    "price": 37270,
+    "brand": "Espercil 500",
+    "actives": [
+      "Acido Tranexamico"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Grunenthal",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828991",
+    "name": "Eutirox 88 mcg x 50 comprimidos",
+    "price": 8460,
+    "brand": "Eutirox 88",
+    "actives": [
+      "Levotiroxina Sodica"
+    ],
+    "form": "comprimidos",
+    "strength": "88 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828978",
+    "name": "Diphereline 11,25 mg x 1 ud. liofilizado para suspensión inyectable",
+    "price": 106910,
+    "brand": "Diphereline 11,25",
+    "actives": [
+      "Triptorelina"
+    ],
+    "form": "liofilizado para suspensión inyectable",
+    "strength": "11,25 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829001",
+    "name": "Forxiga 10 mg x 28 comprimidos recubiertos",
+    "price": 27850,
+    "brand": "Forxiga 10",
+    "actives": [
+      "Dapagliflozina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Astrazeneca",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829014",
+    "name": "Jardiance 25 mg x 30 comprimidos recubiertos",
+    "price": 39990,
+    "brand": "Jardiance 25",
+    "actives": [
+      "Empagliflozina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "25 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829062",
+    "name": "Spiron 1 mg/ml x 30 ml. solución oral para gotas",
+    "price": 8920,
+    "brand": "Spiron 1",
+    "actives": [
+      "Risperidona"
+    ],
+    "form": "solución oral para gotas",
+    "strength": "1 mg/ml",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Grunenthal",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829076",
+    "name": "Tildiem 60 mg x 60 comprimidos",
+    "price": 14660,
+    "brand": "Tildiem 60",
+    "actives": [
+      "Diltiazem"
+    ],
+    "form": "comprimidos",
+    "strength": "60 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Chemopharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828953",
+    "name": "Amoxicilina 500 mg/5ml x 60 ml. polvo para suspensión oral",
+    "price": 1970,
+    "brand": "Amoxicilina 500",
+    "actives": [
+      "Amoxicilina Trihidrato"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "500 mg/5ml",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829086",
+    "name": "Trigilab 200 mg x 30 comprimidos",
+    "price": 11680,
+    "brand": "Trigilab 200",
+    "actives": [
+      "Lamotrigina"
+    ],
+    "form": "comprimidos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Interpharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828984",
+    "name": "Eliquis 5 mg x 60 comprimidos recubiertos",
+    "price": 65150,
+    "brand": "Eliquis 5",
+    "actives": [
+      "Apixaban"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "5 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828947",
+    "name": "Adapaleno 0,1% x 30 g. gel tópico",
+    "price": 7410,
+    "brand": "Adapaleno 0,1%",
+    "actives": [
+      "Adapaleno"
+    ],
+    "form": "gel tópico",
+    "strength": "0,1%",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Global Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829088",
+    "name": "Vannair 80/4,5 mcg x 120 dss. suspensión para inhalación oral",
+    "price": 30810,
+    "brand": "Vannair 80/4,5",
+    "actives": [
+      "Budesonida",
+      "Formoterol"
+    ],
+    "form": "suspensión para inhalación oral",
+    "strength": "80/4,5 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Astrazeneca",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828965",
+    "name": "Brexovent Lf 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 6650,
+    "brand": "Brexovent Lf 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Etex",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828983",
+    "name": "Dutasvitae 0,5 mg x 30 ud. cápsula blanda",
+    "price": 13890,
+    "brand": "Dutasvitae 0,5",
+    "actives": [
+      "Dutasteride"
+    ],
+    "form": "cápsula blanda",
+    "strength": "0,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829036",
+    "name": "Omnitrope 10 mg/1,5ml x 1 ud. solución inyectable",
+    "price": 65000,
+    "brand": "Omnitrope 10",
+    "actives": [
+      "Somatropina"
+    ],
+    "form": "solución inyectable",
+    "strength": "10 mg/1,5ml",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Novartis",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829041",
+    "name": "Oralne 20 mg x 30 ud. cápsula blanda",
+    "price": 30060,
+    "brand": "Oralne 20",
+    "actives": [
+      "Isotretinoina"
+    ],
+    "form": "cápsula blanda",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Deutsche Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828994",
+    "name": "Finasterida 5 mg x 30 comprimidos recubiertos",
+    "price": 7410,
+    "brand": "Finasterida 5",
+    "actives": [
+      "Finasterida"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829049",
+    "name": "Prednisona 20 mg x 20 comprimidos recubiertos",
+    "price": 1900,
+    "brand": "Prednisona 20",
+    "actives": [
+      "Prednisona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829087",
+    "name": "Vannair 160/4,5 mcg x 120 dss. suspensión para inhalación oral",
+    "price": 29950,
+    "brand": "Vannair 160/4,5",
+    "actives": [
+      "Budesonida",
+      "Formoterol"
+    ],
+    "form": "suspensión para inhalación oral",
+    "strength": "160/4,5 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Astrazeneca",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829020",
+    "name": "Lamucon 500 mg x 50 comprimidos recubiertos",
+    "price": 15690,
+    "brand": "Lamucon 500",
+    "actives": [
+      "Micofenolato Mofetilo"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Sandoz",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828945",
+    "name": "Acido Ursodeoxicolico 250 mg x 60 cápsulas",
+    "price": 26720,
+    "brand": "Acido Ursodeoxicolico 250",
+    "actives": [
+      "Acido Ursodeoxicolico"
+    ],
+    "form": "cápsulas",
+    "strength": "250 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Difem",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829022",
+    "name": "Macrosan 100 mg x 30 cápsulas",
+    "price": 6080,
+    "brand": "Macrosan 100",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829073",
+    "name": "Thyrofix 25 mcg x 50 comprimidos",
+    "price": 3450,
+    "brand": "Thyrofix 25",
+    "actives": [
+      "Levotiroxina Sodica"
+    ],
+    "form": "comprimidos",
+    "strength": "25 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Ethon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828970",
+    "name": "Cidoten Rapi-Lento 3/3 mg x 1 ud. suspensión inyectable",
+    "price": 13460,
+    "brand": "Cidoten Rapi-Lento 3/3",
+    "actives": [
+      "Betametasona Acetato",
+      "Betametasona Fosfato Sodico"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "3/3 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Organon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829027",
+    "name": "Metronidazol 500 mg x 20 comprimidos recubiertos",
+    "price": 4590,
+    "brand": "Metronidazol 500",
+    "actives": [
+      "Metronidazol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Pinnacle",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828962",
+    "name": "Biopsol 1 mg x 30 comprimidos",
+    "price": 8510,
+    "brand": "Biopsol 1",
+    "actives": [
+      "Pramipexol"
+    ],
+    "form": "comprimidos",
+    "strength": "1 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829029",
+    "name": "Modavitae 200 mg x 30 comprimidos",
+    "price": 18890,
+    "brand": "Modavitae 200",
+    "actives": [
+      "Modafinilo"
+    ],
+    "form": "comprimidos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828975",
+    "name": "Dacam Rapi-Lento 3,0/3,0 mg/ml x 3 ml. suspensión inyectable",
+    "price": 14300,
+    "brand": "Dacam Rapi-Lento 3,0/3,0",
+    "actives": [
+      "Betametasona"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "3,0/3,0 mg/ml",
+    "pack_size": 3,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829066",
+    "name": "Telgard 40 mg x 30 comprimidos",
+    "price": 10740,
+    "brand": "Telgard 40",
+    "actives": [
+      "Telmisartan"
+    ],
+    "form": "comprimidos",
+    "strength": "40 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829067",
+    "name": "Telgard 80 mg x 30 comprimidos",
+    "price": 6290,
+    "brand": "Telgard 80",
+    "actives": [
+      "Telmisartan"
+    ],
+    "form": "comprimidos",
+    "strength": "80 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828961",
+    "name": "Biopsol 0,25 mg x 30 comprimidos",
+    "price": 5090,
+    "brand": "Biopsol 0,25",
+    "actives": [
+      "Pramipexol"
+    ],
+    "form": "comprimidos",
+    "strength": "0,25 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828967",
+    "name": "Cefuroxima 500 mg x 14 comprimidos recubiertos",
+    "price": 32210,
+    "brand": "Cefuroxima 500",
+    "actives": [
+      "Cefuroxima"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 14,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828997",
+    "name": "Flusacort 25/125 mcg x 120 dss. aerosol para inhalación",
+    "price": 6560,
+    "brand": "Flusacort 25/125",
+    "actives": [
+      "Salmeterol",
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "25/125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829012",
+    "name": "Insulatard 100 UI x 1 ud. suspensión inyectable",
+    "price": 10120,
+    "brand": "Insulatard 100",
+    "actives": [
+      "Insulina Humana"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "100 UI",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Novo Nordisk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829060",
+    "name": "Spiriva Respimat 2,5 mcg x 30 ud. solución para inhalación",
+    "price": 49490,
+    "brand": "Spiriva Respimat 2,5",
+    "actives": [
+      "Tiotropio"
+    ],
+    "form": "solución para inhalación",
+    "strength": "2,5 mcg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828989",
+    "name": "Eutirox 100 mcg x 100 comprimidos",
+    "price": 4780,
+    "brand": "Eutirox 100",
+    "actives": [
+      "Levotiroxina Sodica"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mcg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829090",
+    "name": "Vertium 25 mg x 40 comprimidos",
+    "price": 11890,
+    "brand": "Vertium 25",
+    "actives": [
+      "Difenidol"
+    ],
+    "form": "comprimidos",
+    "strength": "25 mg",
+    "pack_size": 40,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828999",
+    "name": "Flutamida 250 mg x 30 comprimidos",
+    "price": 12550,
+    "brand": "Flutamida 250",
+    "actives": [
+      "Flutamida"
+    ],
+    "form": "comprimidos",
+    "strength": "250 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Blau",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828969",
+    "name": "Cidimus 1 mg x 100 cápsulas",
+    "price": 59700,
+    "brand": "Cidimus 1",
+    "actives": [
+      "Tacrolimus"
+    ],
+    "form": "cápsulas",
+    "strength": "1 mg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Sandoz",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829095",
+    "name": "Xigduo 10/1000 mg x 28 comprimidos de liberación prolongada",
+    "price": 37620,
+    "brand": "Xigduo 10/1000",
+    "actives": [
+      "Dapagliflozina",
+      "Metformina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "10/1000 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Astrazeneca",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829061",
+    "name": "Spiron 3 mg x 30 comprimidos recubiertos",
+    "price": 4580,
+    "brand": "Spiron 3",
+    "actives": [
+      "Risperidona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "3 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828992",
+    "name": "Ezetimiba/Simvastatina 10/20 mg x 28 comprimidos",
+    "price": 26780,
+    "brand": "Ezetimiba/Simvastatina 10/20",
+    "actives": [
+      "Ezetimiba",
+      "Simvastatina"
+    ],
+    "form": "comprimidos",
+    "strength": "10/20 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829089",
+    "name": "Venartel 450/50 mg x 60 comprimidos recubiertos",
+    "price": 19330,
+    "brand": "Venartel 450/50",
+    "actives": [
+      "Diosmina",
+      "Hesperidina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "450/50 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828966",
+    "name": "Calcitriol 0,5 mcg x 30 ud. cápsula blanda",
+    "price": 13570,
+    "brand": "Calcitriol 0,5",
+    "actives": [
+      "Calcitriol"
+    ],
+    "form": "cápsula blanda",
+    "strength": "0,5 mcg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Reutter",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829074",
+    "name": "Thyrofix 75 mcg x 50 comprimidos",
+    "price": 4230,
+    "brand": "Thyrofix 75",
+    "actives": [
+      "Levotiroxina Sodica"
+    ],
+    "form": "comprimidos",
+    "strength": "75 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Ethon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829000",
+    "name": "Fluticort 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 15060,
+    "brand": "Fluticort 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "D&M Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828964",
+    "name": "Bratesse 800 mg x 180 comprimidos recubiertos",
+    "price": 72410,
+    "brand": "Bratesse 800",
+    "actives": [
+      "Sevelamer"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "800 mg",
+    "pack_size": 180,
+    "aliases": [],
+    "lab": "Synthon",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829083",
+    "name": "Trazodona 100 mg x 28 cápsulas",
+    "price": 10810,
+    "brand": "Trazodona 100",
+    "actives": [
+      "Trazodona"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Pinnacle",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828974",
+    "name": "Crolim 0,5 mg x 50 cápsulas",
+    "price": 18820,
+    "brand": "Crolim 0,5",
+    "actives": [
+      "Tacrolimus"
+    ],
+    "form": "cápsulas",
+    "strength": "0,5 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828985",
+    "name": "Escitalopram 10 mg x 30 comprimidos recubiertos",
+    "price": 2540,
+    "brand": "Escitalopram 10",
+    "actives": [
+      "Escitalopram"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829046",
+    "name": "Pradaxa 110 mg x 60 cápsulas",
+    "price": 68240,
+    "brand": "Pradaxa 110",
+    "actives": [
+      "Dabigatran Etexilato"
+    ],
+    "form": "cápsulas",
+    "strength": "110 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828993",
+    "name": "Fenoterol/Ipratropio 50/20 mcg x 200 dss. aerosol para inhalación",
+    "price": 15860,
+    "brand": "Fenoterol/Ipratropio 50/20",
+    "actives": [
+      "Fenoterol",
+      "Ipratropio"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "50/20 mcg",
+    "pack_size": 200,
+    "aliases": [],
+    "lab": "Inpac Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828944",
+    "name": "Abecidin 2500/400/75 UI/mg x 30 ml. solución oral para gotas",
+    "price": 3710,
+    "brand": "Abecidin 2500/400/75",
+    "actives": [
+      "Vitamina A",
+      "Vitamina D3",
+      "Vitamina C"
+    ],
+    "form": "solución oral para gotas",
+    "strength": "2500/400/75 UI/mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Pasteur",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829055",
+    "name": "Rivaxored 20 mg x 28 comprimidos recubiertos",
+    "price": 6600,
+    "brand": "Rivaxored 20",
+    "actives": [
+      "Rivaroxaban"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Dr. Reddys",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828998",
+    "name": "Flusacort 25/250 mcg x 120 dss. aerosol para inhalación",
+    "price": 7910,
+    "brand": "Flusacort 25/250",
+    "actives": [
+      "Salmeterol",
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "25/250 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828977",
+    "name": "Diclofenaco 50 mg x 10 comprimidos recubiertos",
+    "price": 500,
+    "brand": "Diclofenaco 50",
+    "actives": [
+      "Diclofenaco Sodico"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Baden",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829028",
+    "name": "Mirtavitae 15 mg x 30 comprimidos recubiertos",
+    "price": 21550,
+    "brand": "Mirtavitae 15",
+    "actives": [
+      "Mirtazapina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "15 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829035",
+    "name": "Nortium Xr 200 mg x 30 comprimidos de liberación prolongada",
+    "price": 17720,
+    "brand": "Nortium Xr 200",
+    "actives": [
+      "Quetiapina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829082",
+    "name": "Trazidex 0,3% x 3,5 g. ingüento oftálmico",
+    "price": 12460,
+    "brand": "Trazidex 0,3%",
+    "actives": [
+      "Tobramicina",
+      "Dexametasona"
+    ],
+    "form": "ingüento oftálmico",
+    "strength": "0,3%",
+    "pack_size": 35,
+    "aliases": [],
+    "lab": "Sophia",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828980",
+    "name": "Dislep 25 mg x 20 comprimidos",
+    "price": 15800,
+    "brand": "Dislep 25",
+    "actives": [
+      "Levosulpirida"
+    ],
+    "form": "comprimidos",
+    "strength": "25 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Ferrer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829007",
+    "name": "Glausolets Plus 20/5 mg/ml x 5 ml. solución oftálmica",
+    "price": 6080,
+    "brand": "Glausolets Plus 20/5",
+    "actives": [
+      "Dorzolamida",
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "20/5 mg/ml",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "Smb Farma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829059",
+    "name": "Solivo 20 mg x 60 comprimidos",
+    "price": 12960,
+    "brand": "Solivo 20",
+    "actives": [
+      "Leflunomida"
+    ],
+    "form": "comprimidos",
+    "strength": "20 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Emcure",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829053",
+    "name": "Radigen 1 mg/ml x 30 ml. solución oral para gotas",
+    "price": 7990,
+    "brand": "Radigen 1",
+    "actives": [
+      "Risperidona"
+    ],
+    "form": "solución oral para gotas",
+    "strength": "1 mg/ml",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829092",
+    "name": "Vildagliptina 50 mg x 30 comprimidos",
+    "price": 7980,
+    "brand": "Vildagliptina 50",
+    "actives": [
+      "Vildagliptina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 30,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Emcure",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828973",
+    "name": "Colekal 50000 UI x 2 ud. polvo para solución oral",
+    "price": 6920,
+    "brand": "Colekal 50000",
+    "actives": [
+      "Vitamina D3"
+    ],
+    "form": "polvo para solución oral",
+    "strength": "50000 UI",
+    "pack_size": 2,
+    "aliases": [],
+    "lab": "Tervis Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829096",
+    "name": "Xigduo 5/1000 mg x 56 comprimidos de liberación prolongada",
+    "price": 41480,
+    "brand": "Xigduo 5/1000",
+    "actives": [
+      "Dapagliflozina",
+      "Metformina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "5/1000 mg",
+    "pack_size": 56,
+    "aliases": [],
+    "lab": "Astrazeneca",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829030",
+    "name": "Montelukast 4 mg x 30 ud. comprimido masticable",
+    "price": 7710,
+    "brand": "Montelukast 4",
+    "actives": [
+      "Montelukast"
+    ],
+    "form": "comprimido masticable",
+    "strength": "4 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829033",
+    "name": "Nefex Duo 0,5/0,4 mg x 30 cápsulas de liberación prolongada",
+    "price": 7610,
+    "brand": "Nefex Duo 0,5/0,4",
+    "actives": [
+      "Dutasteride",
+      "Metformina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "0,5/0,4 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829056",
+    "name": "Rosuvastatina 20 mg x 30 comprimidos recubiertos",
+    "price": 4870,
+    "brand": "Rosuvastatina 20",
+    "actives": [
+      "Rosuvastatina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829057",
+    "name": "Saxenda 6 mg/ml x 3 ud. solución inyectable",
+    "price": 205940,
+    "brand": "Saxenda 6",
+    "actives": [
+      "Liraglutida"
+    ],
+    "form": "solución inyectable",
+    "strength": "6 mg/ml",
+    "pack_size": 3,
+    "aliases": [],
+    "lab": "Novo Nordisk",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829084",
+    "name": "Trelegy Ellipta 92/55/22 mcg x 30 dss. polvo para inhalación oral",
+    "price": 81250,
+    "brand": "Trelegy Ellipta 92/55/22",
+    "actives": [
+      "Fluticasona",
+      "Umeclidinio",
+      "Vilanterol"
+    ],
+    "form": "polvo para inhalación oral",
+    "strength": "92/55/22 mcg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Gsk",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829026",
+    "name": "Memanvitae 20 mg x 56 comprimidos recubiertos",
+    "price": 14270,
+    "brand": "Memanvitae 20",
+    "actives": [
+      "Memantina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 56,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829097",
+    "name": "Zepiken 0,2% x 5 ml. solución oftálmica",
+    "price": 15800,
+    "brand": "Zepiken 0,2%",
+    "actives": [
+      "Olopatadina"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,2%",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "D&M Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829093",
+    "name": "Vilzermet 50/500 mg x 60 comprimidos recubiertos",
+    "price": 30240,
+    "brand": "Vilzermet 50/500",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/500 mg",
+    "pack_size": 60,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Tecnofarma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829044",
+    "name": "Otoc 8 mg x 10 comprimidos bucodispersables",
+    "price": 5930,
+    "brand": "Otoc 8",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos bucodispersables",
+    "strength": "8 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829002",
+    "name": "Gabapentina 300 mg x 30 cápsulas",
+    "price": 3730,
+    "brand": "Gabapentina 300",
+    "actives": [
+      "Gabapentina"
+    ],
+    "form": "cápsulas",
+    "strength": "300 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829034",
+    "name": "Normix 200 mg x 24 comprimidos recubiertos",
+    "price": 26140,
+    "brand": "Normix 200",
+    "actives": [
+      "Rifaximina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "200 mg",
+    "pack_size": 24,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828946",
+    "name": "Acuode 50000 UI x 2 ud. polvo para solución oral",
+    "price": 6980,
+    "brand": "Acuode 50000",
+    "actives": [
+      "Vitamina D3"
+    ],
+    "form": "polvo para solución oral",
+    "strength": "50000 UI",
+    "pack_size": 2,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828951",
+    "name": "Alertex 200 mg x 30 comprimidos",
+    "price": 18890,
+    "brand": "Alertex 200",
+    "actives": [
+      "Modafinilo"
+    ],
+    "form": "comprimidos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828986",
+    "name": "Escitalopram 10 mg x 30 comprimidos recubiertos",
+    "price": 2170,
+    "brand": "Escitalopram 10",
+    "actives": [
+      "Escitalopram"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828948",
+    "name": "Aldrox 70 mg x 10 comprimidos recubiertos",
+    "price": 10570,
+    "brand": "Aldrox 70",
+    "actives": [
+      "Acido Alendronico"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "70 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Pasteur",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829080",
+    "name": "Tratoben 2,5 mg x 50 comprimidos",
+    "price": 9140,
+    "brand": "Tratoben 2,5",
+    "actives": [
+      "Metotrexato"
+    ],
+    "form": "comprimidos",
+    "strength": "2,5 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Pisa",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829079",
+    "name": "Transcept 500 mg x 50 comprimidos recubiertos",
+    "price": 11210,
+    "brand": "Transcept 500",
+    "actives": [
+      "Micofenolato Mofetilo"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "500 mg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Emcure",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829052",
+    "name": "Qurax Xr 150 mg x 30 comprimidos de liberación prolongada",
+    "price": 20320,
+    "brand": "Qurax Xr 150",
+    "actives": [
+      "Quetiapina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "150 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Megalabs",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828979",
+    "name": "Disflax 30 mg x 10 comprimidos",
+    "price": 16780,
+    "brand": "Disflax 30",
+    "actives": [
+      "Deflazacort"
+    ],
+    "form": "comprimidos",
+    "strength": "30 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Faes Farma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829078",
+    "name": "Tinox 2,5 mg x 30 comprimidos",
+    "price": 9500,
+    "brand": "Tinox 2,5",
+    "actives": [
+      "Tibolona"
+    ],
+    "form": "comprimidos",
+    "strength": "2,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829008",
+    "name": "Gluamet 50/850 mg x 60 comprimidos recubiertos",
+    "price": 30570,
+    "brand": "Gluamet 50/850",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/850 mg",
+    "pack_size": 60,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Merck",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829037",
+    "name": "Ondansetron 4 mg x 8 comprimidos bucodispersables",
+    "price": 6730,
+    "brand": "Ondansetron 4",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos bucodispersables",
+    "strength": "4 mg",
+    "pack_size": 8,
+    "aliases": [],
+    "lab": "Vitafarma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829040",
+    "name": "Oralne 10 mg x 30 cápsulas",
+    "price": 18880,
+    "brand": "Oralne 10",
+    "actives": [
+      "Isotretinoina"
+    ],
+    "form": "cápsulas",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Deutsche Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828971",
+    "name": "Ciprofibrato 100 mg x 30 cápsulas",
+    "price": 9330,
+    "brand": "Ciprofibrato 100",
+    "actives": [
+      "Ciprofibrato"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Alpes Chemie",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829045",
+    "name": "Paracetamol 500 mg x 16 comprimidos",
+    "price": 500,
+    "brand": "Paracetamol 500",
+    "actives": [
+      "Paracetamol"
+    ],
+    "form": "comprimidos",
+    "strength": "500 mg",
+    "pack_size": 16,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828954",
+    "name": "Anoro Ellipta 55/22 mcg x 30 ud. polvo para inhalación oral",
+    "price": 39810,
+    "brand": "Anoro Ellipta 55/22",
+    "actives": [
+      "Umeclidinio",
+      "Vilanterol"
+    ],
+    "form": "polvo para inhalación oral",
+    "strength": "55/22 mcg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Gsk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829018",
+    "name": "Lamotrigina 100 mg x 60 comprimidos",
+    "price": 7880,
+    "brand": "Lamotrigina 100",
+    "actives": [
+      "Lamotrigina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Emcure",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829016",
+    "name": "Kalitium 450 mg x 30 comprimidos de liberación prolongada",
+    "price": 11790,
+    "brand": "Kalitium 450",
+    "actives": [
+      "Carbonato De Litio"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "450 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828949",
+    "name": "Alenys 27,5 mcg x 120 dss. suspensión nasal",
+    "price": 11040,
+    "brand": "Alenys 27,5",
+    "actives": [
+      "Fluticasona Furoato"
+    ],
+    "form": "suspensión nasal",
+    "strength": "27,5 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Etex",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828988",
+    "name": "Euroderm 0,1% x 15 g. crema tópica",
+    "price": 3650,
+    "brand": "Euroderm 0,1%",
+    "actives": [
+      "Mometasona"
+    ],
+    "form": "crema tópica",
+    "strength": "0,1%",
+    "pack_size": 15,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829070",
+    "name": "Tensuren Am 80/5 mg x 30 comprimidos",
+    "price": 29100,
+    "brand": "Tensuren Am 80/5",
+    "actives": [
+      "Telmisartan",
+      "Amlodipino"
+    ],
+    "form": "comprimidos",
+    "strength": "80/5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829064",
+    "name": "Sulix 0,4 mg x 60 cápsulas de liberación prolongada",
+    "price": 6990,
+    "brand": "Sulix 0,4",
+    "actives": [
+      "Tamsulosina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "0,4 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Synthon",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829077",
+    "name": "Timolol 0,5% x 10 ml. solución oftálmica",
+    "price": 1570,
+    "brand": "Timolol 0,5%",
+    "actives": [
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,5%",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828952",
+    "name": "Amlodipino 5 mg x 30 comprimidos",
+    "price": 1300,
+    "brand": "Amlodipino 5",
+    "actives": [
+      "Amlodipino"
+    ],
+    "form": "comprimidos",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829039",
+    "name": "Ondanvitae 8 mg x 10 comprimidos recubiertos",
+    "price": 6540,
+    "brand": "Ondanvitae 8",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "8 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "828996",
+    "name": "Flixotide Lf 250 mcg x 120 dss. aerosol para inhalación",
+    "price": 33490,
+    "brand": "Flixotide Lf 250",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "250 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Gsk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "828960",
+    "name": "Betahistina 16 mg x 28 comprimidos",
+    "price": 9250,
+    "brand": "Betahistina 16",
+    "actives": [
+      "Betahistina"
+    ],
+    "form": "comprimidos",
+    "strength": "16 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Pinnacle",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829085",
+    "name": "Trex Forte 400 mg/5ml x 30 ml. polvo para suspensión oral",
+    "price": 11800,
+    "brand": "Trex Forte 400",
+    "actives": [
+      "Azitromicina"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "400 mg/5ml",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "855813",
+    "name": "Grifodilzem 60 mg x 60 comprimidos",
+    "price": 12490,
+    "brand": "Grifodilzem 60",
+    "actives": [
+      "Diltiazem"
+    ],
+    "form": "comprimidos",
+    "strength": "60 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "858466",
+    "name": "Dienogest/Etinilestradiol 2/0,03 mg x 28 comprimidos recubiertos",
+    "price": 7190,
+    "brand": "Dienogest/Etinilestradiol 2/0,03",
+    "actives": [
+      "Dienogest",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "2/0,03 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "858596",
+    "name": "Dorzolamida/Timolol 2% x 5 ml. solución oftálmica",
+    "price": 4900,
+    "brand": "Dorzolamida/Timolol 2%",
+    "actives": [
+      "Dorzolamida",
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "2%",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "858629",
+    "name": "Levotiroxina 88 mcg x 50 comprimidos",
+    "price": 7000,
+    "brand": "Levotiroxina 88",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "88 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Alembic",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "858648",
+    "name": "Duotrav 0,004% x 2,5 ml. solución oftálmica",
+    "price": 15410,
+    "brand": "Duotrav 0,004%",
+    "actives": [
+      "Travoprost",
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,004%",
+    "pack_size": 25,
+    "aliases": [],
+    "lab": "Novartis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "858719",
+    "name": "Medrol 16 mg x 14 comprimidos",
+    "price": 41950,
+    "brand": "Medrol 16",
+    "actives": [
+      "Metilprednisolona"
+    ],
+    "form": "comprimidos",
+    "strength": "16 mg",
+    "pack_size": 14,
+    "aliases": [],
+    "lab": "Pfizer",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "860242",
+    "name": "Telmisartan 80 mg x 30 comprimidos",
+    "price": 4370,
+    "brand": "Telmisartan 80",
+    "actives": [
+      "Telmisartan"
+    ],
+    "form": "comprimidos",
+    "strength": "80 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Alembic",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "947633",
+    "name": "Levotiroxina 100 mcg x 100 comprimidos",
+    "price": 3130,
+    "brand": "Levotiroxina 100",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mcg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Alembic",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "953119",
+    "name": "Rosuvastatina 10 mg x 60 comprimidos recubiertos",
+    "price": 7140,
+    "brand": "Rosuvastatina 10",
+    "actives": [
+      "Rosuvastatina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Pinnacle",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "968607",
+    "name": "Telmisartan 40 mg x 30 comprimidos",
+    "price": 5610,
+    "brand": "Telmisartan 40",
+    "actives": [
+      "Telmisartan"
+    ],
+    "form": "comprimidos",
+    "strength": "40 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Alembic",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "972974",
+    "name": "Mirtavitae 30 mg x 30 comprimidos recubiertos",
+    "price": 11020,
+    "brand": "Mirtavitae 30",
+    "actives": [
+      "Mirtazapina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "30 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "996965",
+    "name": "Pirfenidona 267 mg x 100 cápsulas",
+    "price": 65830,
+    "brand": "Pirfenidona 267",
+    "actives": [
+      "Pirfenidona"
+    ],
+    "form": "cápsulas",
+    "strength": "267 mg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Siron Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "996972",
+    "name": "Eztim 10 mg x 28 comprimidos",
+    "price": 10880,
+    "brand": "Eztim 10",
+    "actives": [
+      "Ezetimiba"
+    ],
+    "form": "comprimidos",
+    "strength": "10 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1002709",
+    "name": "Acido Valproico 200 mg x 30 comprimidos recubiertos",
+    "price": 3940,
+    "brand": "Acido Valproico 200",
+    "actives": [
+      "Acido Valproico"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1002769",
+    "name": "Rivaroxaban 20 mg x 56 comprimidos recubiertos",
+    "price": 6750,
+    "brand": "Rivaroxaban 20",
+    "actives": [
+      "Rivaroxaban"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 56,
+    "aliases": [],
+    "lab": "Pinnacle",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1027536",
+    "name": "Alfexa 180 mg x 30 comprimidos recubiertos",
+    "price": 10820,
+    "brand": "Alfexa 180",
+    "actives": [
+      "Fexofenadina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "180 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1090005",
+    "name": "Vildavitae Plus 50/1000 mg x 60 comprimidos recubiertos",
+    "price": 21630,
+    "brand": "Vildavitae Plus 50/1000",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/1000 mg",
+    "pack_size": 60,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Galenicum",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1090009",
+    "name": "Clotrimazol 500 mg x 1 óvulo",
+    "price": 1270,
+    "brand": "Clotrimazol 500",
+    "actives": [
+      "Clotrimazol"
+    ],
+    "form": "óvulo",
+    "strength": "500 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Pasteur",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1121860",
+    "name": "Nortium Xr 150 mg x 30 comprimidos de liberación prolongada",
+    "price": 24330,
+    "brand": "Nortium Xr 150",
+    "actives": [
+      "Quetiapina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "150 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1363515",
+    "name": "Cabertrix 0,5 mg x 4 comprimidos",
+    "price": 16340,
+    "brand": "Cabertrix 0,5",
+    "actives": [
+      "Cabergolina"
+    ],
+    "form": "comprimidos",
+    "strength": "0,5 mg",
+    "pack_size": 4,
+    "aliases": [],
+    "lab": "Tecnofarma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1382305",
+    "name": "Flusona 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 10760,
+    "brand": "Flusona 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1382307",
+    "name": "Spiolto Respimat 2,5/2,5 mcg x 30 dss. solución para inhalación",
+    "price": 49490,
+    "brand": "Spiolto Respimat 2,5/2,5",
+    "actives": [
+      "Tiotropio",
+      "Olodaterol"
+    ],
+    "form": "solución para inhalación",
+    "strength": "2,5/2,5 mcg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1382308",
+    "name": "Dabifib 150 mg x 60 cápsulas",
+    "price": 41390,
+    "brand": "Dabifib 150",
+    "actives": [
+      "Dabigatran"
+    ],
+    "form": "cápsulas",
+    "strength": "150 mg",
+    "pack_size": 60,
+    "aliases": [
+      "Pradaxa 150"
+    ],
+    "lab": "Msn",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1382309",
+    "name": "Fibrolow Lidose 200 mg x 30 cápsulas",
+    "price": 15750,
+    "brand": "Fibrolow Lidose 200",
+    "actives": [
+      "Fenofibrato"
+    ],
+    "form": "cápsulas",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "1382356",
+    "name": "Actrapid 100 UI x 1 ud. solución inyectable",
+    "price": 12160,
+    "brand": "Actrapid 100",
+    "actives": [
+      "Insulina Cristalina"
+    ],
+    "form": "solución inyectable",
+    "strength": "100 UI",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Novo Nordisk",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1552690",
+    "name": "Duloxetina 60 mg x 30 cápsulas",
+    "price": 4890,
+    "brand": "Duloxetina 60",
+    "actives": [
+      "Duloxetina"
+    ],
+    "form": "cápsulas",
+    "strength": "60 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Alembic",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1553344",
+    "name": "Aurituss 25/250 mcg x 120 dss. aerosol para inhalación",
+    "price": 6800,
+    "brand": "Aurituss 25/250",
+    "actives": [
+      "Salmeterol",
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "25/250 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1553788",
+    "name": "Hemoval 100 mg x 40 ud. comprimido masticable",
+    "price": 10240,
+    "brand": "Hemoval 100",
+    "actives": [
+      "Complejo De Hierro Iii"
+    ],
+    "form": "comprimido masticable",
+    "strength": "100 mg",
+    "pack_size": 40,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "1621570",
+    "name": "Vildagliptina/Metformina 50/850 mg x 60 comprimidos recubiertos",
+    "price": 19030,
+    "brand": "Vildagliptina/Metformina 50/850",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/850 mg",
+    "pack_size": 60,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  },
+  {
+    "id": "829005",
+    "name": "Galvus Met 50/500 mg x 56 comprimidos recubiertos",
+    "price": 38550,
+    "brand": "Galvus Met 50/500",
+    "actives": [
+      "Vildagliptina",
+      "Metformina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50/500 mg",
+    "pack_size": 56,
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
+    "lab": "Novartis",
+    "stock": "0",
+    "in_stock": false
+  },
+  {
+    "id": "829021",
+    "name": "Levetiracetam 1000 mg x 30 comprimidos recubiertos",
+    "price": 6000,
+    "brand": "Levetiracetam 1000",
+    "actives": [
+      "Levetiracetam"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "1000 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true
+  }
+]

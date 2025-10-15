@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Productos CENABAST en La Provi</title>
+  <style>
+    :root { --gap: 12px; --radius: 12px; --shadow: 0 4px 18px rgba(0,0,0,.08); }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; padding: 24px; background: #f6f7f9; color: #1f2937; }
+    .container { max-width: 980px; margin: 0 auto; }
+    header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    h1 { font-size: 20px; margin: 0; letter-spacing: .2px; }
+    .card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .search { padding: 16px; position: sticky; top: 0; z-index: 2; }
+    .row { display: grid; grid-template-columns: 1fr auto; gap: var(--gap); }
+    .field { position: relative; }
+    input[type="search"] { width: 100%; padding: 14px 14px 14px 40px; border: 1px solid #e5e7eb; border-radius: 10px; font-size: 16px; outline: none; background: #fff; }
+    input[type="search"]:focus { border-color: #94a3b8; box-shadow: 0 0 0 3px rgba(148,163,184,.2); }
+    .icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: .6; }
+    button { border: 1px solid #e5e7eb; background: #111827; color: #fff; padding: 12px 16px; border-radius: 10px; font-size: 14px; cursor: pointer; }
+    button.secondary { background: #fff; color: #111827; }
+    button:disabled { opacity: .6; cursor: not-allowed; }
+    .help { margin-top: 8px; font-size: 13px; color: #6b7280; }
+
+    /* Autocompletado */
+    .suggest { position: absolute; left: 0; right: 0; top: calc(100% + 6px); background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; box-shadow: var(--shadow); overflow: hidden; display: none; }
+    .suggest.visible { display: block; }
+    .suggest ul { list-style: none; padding: 6px; margin: 0; max-height: 260px; overflow: auto; }
+    .suggest li { padding: 10px 12px; border-radius: 8px; cursor: pointer; }
+    .suggest li[aria-selected="true"] { background: #f3f4f6; }
+    .suggest .muted { color: #6b7280; font-size: 12px; }
+
+    /* Tabla */
+    .results { padding: 0 16px 16px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; overflow: hidden; border-radius: 12px; box-shadow: var(--shadow); }
+    thead th { text-align: left; font-size: 13px; color: #6b7280; font-weight: 600; padding: 12px 14px; border-bottom: 1px solid #e5e7eb; background: #fafafa; position: sticky; top: 0; z-index: 1; }
+    tbody td { padding: 14px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+    tbody tr:hover { background: #fafafa; }
+    .price { font-variant-numeric: tabular-nums; font-weight: 700; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #eef2ff; color: #3730a3; font-size: 11px; margin-right: 6px; }
+    .dim { color: #6b7280; font-size: 12px; }
+    .empty { padding: 32px; text-align: center; color: #6b7280; background: #fff; border-radius: 12px; box-shadow: var(--shadow); }
+
+    /* Branding y subtítulos */
+    .logo { height: 52px; width: auto; display:block; }
+    .header-wrap { display:flex; align-items:center; gap:14px; }
+    .titles { display:flex; flex-direction:column; gap:4px; }
+    .subhead { font-size: 13px; color:#6b7280; }
+    .advice { font-size: 12px; color:#6b7280; }
+    .advice a { color:#0ea5e9; text-decoration:none; }
+    .advice a:hover { text-decoration:underline; }
+
+    /* Laboratorio + Stock */
+    .lab { color: #6b7280; font-size: 12px; }
+    .stock.in strong { color: #059669; font-weight: 700; }
+    .stock.out strong { color: #dc2626; font-weight: 700; }
+
+    footer { margin-top: 20px; font-size: 12px; color: #6b7280; }
+    code.small { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
+
+    /* --- ESTILOS RESPONSIVOS PARA MÓVILES --- */
+    @media (max-width: 680px) {
+      body { padding: 16px; }
+
+      /* 1. Ajuste del encabezado */
+      .header-wrap { /* <- Aquí está el cambio principal */
+        flex-direction: column; /* Apila el logo y los títulos */
+        align-items: flex-start; /* Los alinea a la izquierda */
+        gap: 12px;
+      }
+
+      header {
+        /* Dejamos el header más simple, solo para espaciado */
+        margin-bottom: 16px; 
+      }
+      
+      .logo { height: 48px; }
+      h1 { font-size: 18px; }
+
+      /* 2. Ajuste de la barra de búsqueda */
+      .row {
+        grid-template-columns: 1fr; /* Una sola columna */
+        gap: 10px;
+      }
+      .row > div:last-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Botones ocupan 50% cada uno */
+      }
+      .search { padding: 12px; }
+      
+      /* 3. Transformación de la tabla a tarjetas */
+      .results { padding: 0 0 16px; }
+      table thead {
+        /* Ocultamos los encabezados originales de la tabla */
+        display: none;
+      }
+      table, tbody, tr, td {
+        display: block; /* Hacemos que cada elemento ocupe su propia línea */
+        width: 100%;
+      }
+      tbody tr {
+        margin-bottom: 16px;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        border: 1px solid #e5e7eb;
+        overflow: hidden;
+      }
+      tbody td {
+        border: none;
+        padding-left: 50%; /* Dejamos espacio a la izquierda para el título */
+        position: relative;
+        text-align: right; /* Alineamos el contenido a la derecha */
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      tbody td:first-child {
+        /* La celda principal (nombre del producto) se formatea diferente */
+        text-align: left;
+        padding: 12px 14px;
+        background: #f9fafb;
+      }
+      tbody td::before {
+        /* Usamos un pseudo-elemento para mostrar el título de la columna */
+        content: attr(data-label); /* El texto viene del atributo 'data-label' */
+        position: absolute;
+        left: 14px;
+        width: calc(50% - 24px);
+        font-weight: 600;
+        color: #6b7280;
+        text-align: left;
+        font-size: 13px;
+      }
+      /* Ocultamos el título para la primera celda que no lo necesita */
+      tbody td:first-child::before {
+        display: none;
+      }
+      td.price {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="header-wrap">
+        <!-- Coloca el archivo del logo (PNG/SVG) junto a index.html con este nombre -->
+        <img class="logo" src="img/logo_transparente_1.png" alt="Farmacia La Providencia" loading="lazy" />
+        <div class="titles">
+          <h1>Listado de productos CENABAST en La Provi</h1>
+          <div class="subhead">Actualizado el <strong>lunes 13 de octubre a las 9:00</strong></div>
+          <div class="advice">Se sugiere llamarnos o hablar por WhatsApp al número <a href="tel:+56988619039">+56 9 8861 9039</a> · <a href="https://wa.me/56988619039" target="_blank" rel="noopener">escríbenos por WhatsApp</a></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card search" role="search" aria-label="Buscador de productos">
+      <div class="row">
+        <div class="field" style="max-width: 780px;">
+          <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input id="q" type="search" placeholder="Buscar por nombre de producto, marca o principio activo…" autocomplete="off" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" />
+          <div id="suggest" class="suggest" role="listbox" aria-label="Sugerencias"></div>
+        </div>
+        <div style="display:flex; gap: var(--gap);">
+          <button id="searchBtn" title="Buscar (Enter)">Buscar</button>
+          <button id="clearBtn" class="secondary" title="Limpiar">Limpiar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div id="tableWrap"></div>
+    </section>
+
+    <footer>
+    </footer>
+  </div>
+
+  <script>
+    // Utilidades de texto: minúsculas, sin acentos, sin puntuación básica
+    const fold = (s) => s
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // acentos
+      .replace(/[^a-z0-9% ]+/g, ' ')     // deja letras, números y %
+      .replace(/\s+/g, ' ')             // espacios simples
+      .trim();
+
+    const currencyCLP = new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 });
+
+    // Carga de datos: intenta fetch products.json y si falla usa datos de ejemplo
+    let PRODUCTS = [];
+    async function loadData() {
+      try {
+        const res = await fetch('products.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('No se pudo cargar products.json');
+        PRODUCTS = await res.json();
+      } catch (e) {
+        console.warn('Usando datos de ejemplo porque no se encontró products.json', e);
+        PRODUCTS = sampleData();
+      }
+      // Prepara campos derivados
+      PRODUCTS = PRODUCTS.map(p => ({
+        ...p,
+        _search: buildSearchField(p),
+        _tokens: buildTokens(p),
+      }));
+
+      // Ordena el arreglo PRODUCTS por el campo 'name' alfabéticamente
+      PRODUCTS.sort((a, b) => a.name.localeCompare(b.name));
+
+      renderTable(PRODUCTS);
+    }
+
+    function buildSearchField(p) {
+      const parts = [p.name, p.brand, ...(p.actives||[]), ...(p.aliases||[]), p.form, p.strength, p.pack_unit, p.lab]
+        .filter(Boolean)
+        .join(' ');
+      return fold(parts);
+    }
+
+    function buildTokens(p) {
+      return buildSearchField(p).split(' ');
+    }
+
+    // Búsqueda: prioriza coincidencias por token completo, luego por prefijo, luego por substring
+    function searchProducts(query) {
+      const q = fold(query);
+      if (!q) return PRODUCTS.slice(0, 100);
+      const qTokens = q.split(' ');
+
+      const scored = PRODUCTS.map(p => {
+        let score = 0;
+        for (const t of qTokens) {
+          if (!t) continue;
+          // Coincidencia exacta por token
+          if (p._tokens.includes(t)) score += 3;
+          // Prefijo de algún token
+          else if (p._tokens.some(tok => tok.startsWith(t))) score += 2;
+          // Substring en todo el campo
+          else if (p._search.includes(t)) score += 1;
+          // Tolerancia simple a 1 error (Levenshtein básico por prefijo)
+          else if (p._tokens.some(tok => editDistancePrefix(t, tok) === 1)) score += 0.5;
+        }
+        // Bonus por aparición de TODOS los tokens
+        const allTokensPresent = qTokens.every(t => t && (p._search.includes(t) || p._tokens.some(tok => tok.startsWith(t))));
+        if (allTokensPresent) score += 2;
+        return { p, score };
+      }).filter(x => x.score > 0)
+        .sort((a,b) => b.score - a.score)
+        .map(x => x.p);
+
+      return scored.slice(0, 200);
+    }
+
+    // Distancia de edición limitada (prefijo): costo cuando difiere en 1
+    function editDistancePrefix(a, b) {
+      // corta b al largo de a para comparar prefijo
+      b = b.slice(0, a.length);
+      let dif = 0;
+      for (let i=0; i<Math.max(a.length, b.length); i++) {
+        if (a[i] !== b[i]) dif++;
+        if (dif > 1) return 2; // temprano
+      }
+      return dif; // 0 o 1
+    }
+
+    // Autocompletado
+    const qInput = document.getElementById('q');
+    const suggestBox = document.getElementById('suggest');
+    let suggestIndex = -1; // foco actual
+
+    function updateSuggest() {
+      const q = qInput.value;
+      const results = searchProducts(q).slice(0, 8);
+      if (!q || results.length === 0) { suggestBox.classList.remove('visible'); qInput.setAttribute('aria-expanded','false'); return; }
+      suggestBox.innerHTML = `<ul>${results.map((p,i) => `
+        <li role="option" data-index="${i}">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <strong>${escapeHtml(p.name)}</strong>
+            ${p.brand ? `<span class="muted">· ${escapeHtml(p.brand)}</span>` : ''}
+          </div>
+          ${Array.isArray(p.actives) && p.actives.length ? `<div class="muted">${p.actives.slice(0,3).map(a=>escapeHtml(a)).join(', ')}</div>`:''}
+        </li>`).join('')}</ul>`;
+      suggestBox.classList.add('visible');
+      qInput.setAttribute('aria-expanded','true');
+      suggestIndex = -1;
+      // Eventos de click en items
+      suggestBox.querySelectorAll('li').forEach(li => {
+        li.addEventListener('mousedown', (e) => { // mousedown para evitar blur del input
+          const idx = Number(li.getAttribute('data-index'));
+          const p = results[idx];
+          qInput.value = p.name; // autocompleta con el nombre
+          runSearch();
+          hideSuggest();
+        });
+      });
+    }
+
+    function hideSuggest(){ suggestBox.classList.remove('visible'); qInput.setAttribute('aria-expanded','false'); }
+
+    function escapeHtml(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c])); }
+
+    function splitStrengths(s){
+      if(!s) return [];
+      return s.split('/').map(x=>x.trim()).filter(Boolean);
+    }
+
+    function hasUnit(s){
+      return /[a-zA-Zµ%]/.test(String(s || '')); // tiene letras o %
+    }
+
+    function unitTail(s){
+      // toma la “cola” con unidades, p.ej. "1000 mg SR" -> "mg SR", "0,2%" -> "%"
+      const m = String(s || '').match(/([a-zA-Zµ%][a-zA-Zµ% ]*)$/);
+      return m ? m[1].trim() : '';
+    }
+
+    function normalizeStrengthParts(parts){
+      const last = parts[parts.length - 1] || '';
+      const tail = unitTail(last);
+      return parts.map(p => (hasUnit(p) || !tail) ? p : `${p} ${tail}`);
+    }
+
+    function badgesActiveStrength(p){
+      const act = Array.isArray(p.actives) ? p.actives : [];
+      const strengths = splitStrengths(p.strength);
+
+      // 1 activo + strength → un chip "Activo — Strength"
+      if (act.length === 1 && p.strength) {
+        return `<span class="badge">${escapeHtml(act[0])} — ${escapeHtml(p.strength)}</span>`;
+      }
+
+      // N activos + N strengths (separados por "/") → N chips pareados (propaga unidad si falta)
+      if (act.length > 1 && strengths.length === act.length) {
+        const norm = normalizeStrengthParts(strengths);
+        return act.map((a,i)=>
+          `<span class="badge">${escapeHtml(a)} — ${escapeHtml(norm[i])}</span>`
+        ).join('');
+      }
+
+      // Fallback: solo activos; y si la strength no pareó, va aparte
+      return act.map(a=> `<span class="badge">${escapeHtml(a)}</span>`).join('') +
+             (p.strength && strengths.length !== act.length ? ` <span class="badge">${escapeHtml(p.strength)}</span>` : '');
+    }
+
+    // Stock helpers
+    function isInStock(p){
+      if (p.in_stock === true) return true;
+      if (p.in_stock === false) return false;
+      const s = String(p.stock ?? '').toLowerCase();
+      if (/con/.test(s) || /disponible/.test(s) || s === 'si' || s === 'sí' || s === 'true' || s === '1' || s === 'hay') return true;
+      if (/sin/.test(s) || /agotado/.test(s) || s === 'no' || s === 'false' || s === '0') return false;
+      return false;
+    }
+    function stockHtml(p){
+      const ok = isInStock(p);
+      const text = ok ? 'con stock' : 'sin stock';
+      const cls = ok ? 'in' : 'out';
+      return `<span class="stock ${cls}"><strong>${text}</strong></span>`;
+    }
+
+    function debounce(fn, ms){ let t; return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn(...args), ms); } }
+
+    qInput.addEventListener('input', debounce(()=>{ runSearch(); }, 160));
+    // qInput.addEventListener('focus', updateSuggest);
+    qInput.addEventListener('blur', ()=> setTimeout(hideSuggest, 120));
+
+    qInput.addEventListener('keydown', (e)=>{
+      const items = suggestBox.querySelectorAll('li');
+      if (!suggestBox.classList.contains('visible') || items.length===0) {
+        if (e.key === 'Enter') { e.preventDefault(); runSearch(); }
+        return;
+      }
+      if (e.key === 'ArrowDown') { e.preventDefault(); suggestIndex = (suggestIndex+1) % items.length; refreshActive(items); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); suggestIndex = (suggestIndex-1+items.length) % items.length; refreshActive(items); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (suggestIndex>=0) { items[suggestIndex].dispatchEvent(new Event('mousedown')); } else { runSearch(); hideSuggest(); } }
+      else if (e.key === 'Escape') { hideSuggest(); }
+    });
+
+    function refreshActive(items){ items.forEach((li,i)=> li.setAttribute('aria-selected', String(i===suggestIndex))); }
+
+    document.getElementById('searchBtn').addEventListener('click', runSearch);
+    document.getElementById('clearBtn').addEventListener('click', ()=>{ qInput.value=''; runSearch(); hideSuggest(); qInput.focus(); });
+
+    function runSearch(){ const data = searchProducts(qInput.value); renderTable(data); }
+
+    function renderTable(rows){
+      const wrap = document.getElementById('tableWrap');
+      if (!rows || rows.length===0) { wrap.innerHTML = `<div class="empty">No se encontraron productos para tu búsqueda.</div>`; return; }
+      const html = `
+        <table role="table" aria-label="Resultados">
+          <thead><tr><th>Producto</th><th>Precio</th><th>Stock</th></tr></thead>
+          <tbody>
+            ${rows.map(p => `
+              <tr>
+                <td>
+                  <div style="display:flex; flex-direction:column; gap:6px;">
+                    <div style="font-weight:600;">${escapeHtml(p.name)}</div>
+                    ${p.lab ? `<div class="lab"><em>${escapeHtml(p.lab)}</em></div>` : ''}
+                    <div class="dim">${badgesActiveStrength(p)}</div>
+                  </div>
+                </td>
+                <td data-label="Precio" class="price">${currencyCLP.format(Number(p.price)||0)}</td>
+                <td data-label="Stock" class="stock-cell">${stockHtml(p)}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>`;
+      wrap.innerHTML = html;
+    }
+
+    function sampleData(){
+      return [
+        { id:"KIT500C20", name:"Kitadol 500 mg comprimidos x 20", price:1990, brand:"Kitadol", actives:["paracetamol","acetaminofén","acetaminofen"], form:"comprimidos", strength:"500 mg", pack_size:20, aliases:["paracetamol 500","paracetamol 500mg","kitadol 500"], lab:"Bayer", stock:"con stock", in_stock:true },
+        { id:"DOLOIBU400C20", name:"Dolo-Ibufrén 400 mg comprimidos x 20", price:3590, brand:"Dolo-Ibufrén", actives:["ibuprofeno"], form:"comprimidos", strength:"400 mg", pack_size:20, aliases:["ibu 400","ibuprofeno 400"], lab:"Grünenthal", stock:"sin stock", in_stock:false },
+        { id:"TAPSINNOCHE", name:"Tapsin Noche sobres x 12", price:4990, brand:"Tapsin", actives:["paracetamol","clorfenamina","fenilefrina"], form:"sobres", strength:"varios", pack_size:12, aliases:["gripal noche","resfrío noche"], lab:"Laboratorio Chile", stock:"con stock" },
+        { id:"AMOX500C12", name:"Amoxicilina 500 mg cápsulas x 12", price:2990, brand:"Genérico", actives:["amoxicilina"], form:"cápsulas", strength:"500 mg", pack_size:12, aliases:["amoxi 500","amoxicilina 500"], lab:"Saval", stock:"con stock" },
+        { id:"APRONAX550C10", name:"Apronax 550 mg comprimidos x 10", price:4490, brand:"Apronax", actives:["naproxeno sódico","naproxeno sodico","naproxeno"], form:"comprimidos", strength:"550 mg", pack_size:10, aliases:["naproxeno 550","naproxeno sodico 550"], lab:"Bayer", stock:"sin stock" },
+        { id:"LORAT10C10", name:"Loratadina 10 mg comprimidos x 10", price:1890, brand:"Genérico", actives:["loratadina"], form:"comprimidos", strength:"10 mg", pack_size:10, aliases:["antihistamínico","alergia"], lab:"Mintlab", stock:"con stock" }
+      ];
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
