@@ -13,7 +13,12 @@
     "aliases": [],
     "lab": "Smb Farma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "971726"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828955",
@@ -29,7 +34,12 @@
     "aliases": [],
     "lab": "Organon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833699"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828956",
@@ -45,7 +55,12 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829059"
+    ]
   },
   {
     "id": "828968",
@@ -61,7 +76,13 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829051",
+      "972974"
+    ]
   },
   {
     "id": "828976",
@@ -77,7 +98,10 @@
     "aliases": [],
     "lab": "Pfizer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828982",
@@ -93,7 +117,12 @@
     "aliases": [],
     "lab": "Pfizer",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1363515"
+    ]
   },
   {
     "id": "828995",
@@ -109,7 +138,10 @@
     "aliases": [],
     "lab": "Gsk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829003",
@@ -129,7 +161,12 @@
     ],
     "lab": "Novartis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829092"
+    ]
   },
   {
     "id": "829006",
@@ -150,7 +187,13 @@
     ],
     "lab": "Novartis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829008",
+      "1621570"
+    ]
   },
   {
     "id": "1089767",
@@ -166,7 +209,10 @@
     "aliases": [],
     "lab": "Exeltis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829009",
@@ -182,7 +228,10 @@
     "aliases": [],
     "lab": "Tecnofarma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829010",
@@ -198,7 +247,10 @@
     "aliases": [],
     "lab": "Msd",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829011",
@@ -214,7 +266,12 @@
     "aliases": [],
     "lab": "Novo Nordisk",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829012"
+    ]
   },
   {
     "id": "829025",
@@ -230,7 +287,10 @@
     "aliases": [],
     "lab": "Pfizer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829048",
@@ -246,7 +306,10 @@
     "aliases": [],
     "lab": "Sanitas",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829050",
@@ -263,7 +326,10 @@
     "aliases": [],
     "lab": "Roche",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829051",
@@ -279,7 +345,13 @@
     "aliases": [],
     "lab": "Organon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828968",
+      "972974"
+    ]
   },
   {
     "id": "829091",
@@ -295,7 +367,10 @@
     "aliases": [],
     "lab": "Novo Nordisk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829047",
@@ -303,7 +378,7 @@
     "price": 65490,
     "brand": "Pradaxa 150",
     "actives": [
-      "Dabigatran Etexilato"
+      "Dabigatran"
     ],
     "form": "cápsulas",
     "strength": "150 mg",
@@ -311,7 +386,12 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1382308"
+    ]
   },
   {
     "id": "829015",
@@ -328,7 +408,12 @@
     "aliases": [],
     "lab": "Gedeon Richter",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "917605"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828959",
@@ -344,7 +429,12 @@
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829085"
+    ]
   },
   {
     "id": "828972",
@@ -360,7 +450,12 @@
     "aliases": [],
     "lab": "Neoethicals",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "1383597"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829017",
@@ -376,7 +471,12 @@
     "aliases": [],
     "lab": "Ethon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831512"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828958",
@@ -392,7 +492,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829071",
@@ -408,7 +511,13 @@
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833516",
+      "833515"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829068",
@@ -425,7 +534,10 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829081",
@@ -441,7 +553,10 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829075",
@@ -457,7 +572,10 @@
     "aliases": [],
     "lab": "Merck",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828963",
@@ -474,7 +592,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829696"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829065",
@@ -491,7 +614,12 @@
     "aliases": [],
     "lab": "Exeltis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829033"
+    ]
   },
   {
     "id": "829031",
@@ -507,7 +635,14 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "1057696",
+      "832045",
+      "832046"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829043",
@@ -523,7 +658,12 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832505"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828981",
@@ -539,7 +679,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1643692"
+    ]
   },
   {
     "id": "829038",
@@ -555,7 +700,12 @@
     "aliases": [],
     "lab": "Reutter",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829044"
+    ]
   },
   {
     "id": "829004",
@@ -576,7 +726,12 @@
     ],
     "lab": "Novartis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1090005"
+    ]
   },
   {
     "id": "829063",
@@ -592,7 +747,10 @@
     "aliases": [],
     "lab": "Pharmamerica",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829054",
@@ -608,7 +766,12 @@
     "aliases": [],
     "lab": "Deutsche Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833625"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829023",
@@ -624,7 +787,13 @@
     "aliases": [],
     "lab": "Sanitas",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831823",
+      "832264"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829024",
@@ -640,7 +809,12 @@
     "aliases": [],
     "lab": "Sanitas",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831824"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829032",
@@ -656,7 +830,10 @@
     "aliases": [],
     "lab": "Bayer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829094",
@@ -673,7 +850,12 @@
     "aliases": [],
     "lab": "Exeltis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "1030672"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828990",
@@ -681,7 +863,7 @@
     "price": 7140,
     "brand": "Eutirox 50",
     "actives": [
-      "Levotiroxina Sodica"
+      "Levotiroxina"
     ],
     "form": "comprimidos",
     "strength": "50 mcg",
@@ -689,7 +871,10 @@
     "aliases": [],
     "lab": "Merck",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829058",
@@ -705,7 +890,10 @@
     "aliases": [],
     "lab": "Pfizer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829013",
@@ -721,7 +909,12 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "830670"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829098",
@@ -737,7 +930,10 @@
     "aliases": [],
     "lab": "Itf Labomed",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829069",
@@ -753,7 +949,12 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833670"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829019",
@@ -769,7 +970,12 @@
     "aliases": [],
     "lab": "Interpharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831633"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828957",
@@ -785,7 +991,10 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829042",
@@ -801,7 +1010,10 @@
     "aliases": [],
     "lab": "Indopharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828987",
@@ -816,8 +1028,11 @@
     "pack_size": 20,
     "aliases": [],
     "lab": "Grunenthal",
-    "stock": "1",
-    "in_stock": true
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828991",
@@ -825,7 +1040,7 @@
     "price": 8460,
     "brand": "Eutirox 88",
     "actives": [
-      "Levotiroxina Sodica"
+      "Levotiroxina"
     ],
     "form": "comprimidos",
     "strength": "88 mcg",
@@ -833,7 +1048,14 @@
     "aliases": [],
     "lab": "Merck",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830818"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "858629"
+    ]
   },
   {
     "id": "828978",
@@ -849,7 +1071,10 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829001",
@@ -865,7 +1090,10 @@
     "aliases": [],
     "lab": "Astrazeneca",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829014",
@@ -881,7 +1109,12 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "1003197"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829062",
@@ -897,7 +1130,12 @@
     "aliases": [],
     "lab": "Grunenthal",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829053"
+    ]
   },
   {
     "id": "829076",
@@ -913,7 +1151,12 @@
     "aliases": [],
     "lab": "Chemopharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "855813"
+    ]
   },
   {
     "id": "828953",
@@ -921,7 +1164,7 @@
     "price": 1970,
     "brand": "Amoxicilina 500",
     "actives": [
-      "Amoxicilina Trihidrato"
+      "Amoxicilina"
     ],
     "form": "polvo para suspensión oral",
     "strength": "500 mg/5ml",
@@ -929,7 +1172,12 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "829296"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829086",
@@ -945,7 +1193,10 @@
     "aliases": [],
     "lab": "Interpharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828984",
@@ -961,7 +1212,10 @@
     "aliases": [],
     "lab": "Pfizer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828947",
@@ -977,7 +1231,12 @@
     "aliases": [],
     "lab": "Global Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830932"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829088",
@@ -994,7 +1253,10 @@
     "aliases": [],
     "lab": "Astrazeneca",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828965",
@@ -1010,7 +1272,16 @@
     "aliases": [],
     "lab": "Etex",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829704",
+      "830979",
+      "895385"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1382305"
+    ]
   },
   {
     "id": "828983",
@@ -1026,7 +1297,12 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830583"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829036",
@@ -1042,7 +1318,10 @@
     "aliases": [],
     "lab": "Novartis",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829041",
@@ -1058,7 +1337,13 @@
     "aliases": [],
     "lab": "Deutsche Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831476",
+      "832494"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828994",
@@ -1074,7 +1359,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829049",
@@ -1090,7 +1378,13 @@
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832817",
+      "832816"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829087",
@@ -1107,7 +1401,12 @@
     "aliases": [],
     "lab": "Astrazeneca",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "832188"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829020",
@@ -1115,7 +1414,7 @@
     "price": 15690,
     "brand": "Lamucon 500",
     "actives": [
-      "Micofenolato Mofetilo"
+      "Micofenolato"
     ],
     "form": "comprimidos recubiertos",
     "strength": "500 mg",
@@ -1123,7 +1422,12 @@
     "aliases": [],
     "lab": "Sandoz",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829079"
+    ]
   },
   {
     "id": "828945",
@@ -1138,8 +1442,11 @@
     "pack_size": 60,
     "aliases": [],
     "lab": "Difem",
-    "stock": "1",
-    "in_stock": true
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829022",
@@ -1155,7 +1462,13 @@
     "aliases": [],
     "lab": "Sanitas",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831823",
+      "832264"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829073",
@@ -1163,7 +1476,7 @@
     "price": 3450,
     "brand": "Thyrofix 25",
     "actives": [
-      "Levotiroxina Sodica"
+      "Levotiroxina"
     ],
     "form": "comprimidos",
     "strength": "25 mcg",
@@ -1171,7 +1484,12 @@
     "aliases": [],
     "lab": "Ethon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830815"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828970",
@@ -1188,7 +1506,12 @@
     "aliases": [],
     "lab": "Organon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830270"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829027",
@@ -1204,7 +1527,10 @@
     "aliases": [],
     "lab": "Pinnacle",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828962",
@@ -1220,7 +1546,10 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829029",
@@ -1236,23 +1565,34 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832023"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828975",
-    "name": "Dacam Rapi-Lento 3,0/3,0 mg/ml x 3 ml. suspensión inyectable",
+    "name": "Dacam Rapi-Lento 3,0/3,0 mg x 3 ml. suspensión inyectable",
     "price": 14300,
     "brand": "Dacam Rapi-Lento 3,0/3,0",
     "actives": [
-      "Betametasona"
+      "Betametasona Acetato",
+      "Betametasona Fosfato Sodico"
     ],
     "form": "suspensión inyectable",
-    "strength": "3,0/3,0 mg/ml",
+    "strength": "3,0/3,0 mg",
     "pack_size": 3,
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830270"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829066",
@@ -1268,7 +1608,12 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "968607"
+    ]
   },
   {
     "id": "829067",
@@ -1284,7 +1629,12 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "860242"
+    ]
   },
   {
     "id": "828961",
@@ -1299,8 +1649,11 @@
     "pack_size": 30,
     "aliases": [],
     "lab": "Abbott",
-    "stock": "1",
-    "in_stock": true
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828967",
@@ -1316,7 +1669,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828997",
@@ -1333,7 +1689,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829012",
@@ -1349,7 +1708,10 @@
     "aliases": [],
     "lab": "Novo Nordisk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829060",
@@ -1365,7 +1727,10 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828989",
@@ -1373,7 +1738,7 @@
     "price": 4780,
     "brand": "Eutirox 100",
     "actives": [
-      "Levotiroxina Sodica"
+      "Levotiroxina"
     ],
     "form": "comprimidos",
     "strength": "100 mcg",
@@ -1381,7 +1746,16 @@
     "aliases": [],
     "lab": "Merck",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830808",
+      "830809",
+      "831730"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "947633"
+    ]
   },
   {
     "id": "829090",
@@ -1397,7 +1771,10 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828999",
@@ -1413,7 +1790,10 @@
     "aliases": [],
     "lab": "Blau",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828969",
@@ -1429,7 +1809,10 @@
     "aliases": [],
     "lab": "Sandoz",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829095",
@@ -1446,7 +1829,10 @@
     "aliases": [],
     "lab": "Astrazeneca",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829061",
@@ -1462,7 +1848,12 @@
     "aliases": [],
     "lab": "Andromaco",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833021"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828992",
@@ -1479,7 +1870,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829089",
@@ -1496,7 +1890,13 @@
     "aliases": [],
     "lab": "Andromaco",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833849",
+      "833850"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828966",
@@ -1512,7 +1912,10 @@
     "aliases": [],
     "lab": "Reutter",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829074",
@@ -1520,7 +1923,7 @@
     "price": 4230,
     "brand": "Thyrofix 75",
     "actives": [
-      "Levotiroxina Sodica"
+      "Levotiroxina"
     ],
     "form": "comprimidos",
     "strength": "75 mcg",
@@ -1528,7 +1931,13 @@
     "aliases": [],
     "lab": "Ethon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831732",
+      "830817"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829000",
@@ -1544,7 +1953,16 @@
     "aliases": [],
     "lab": "D&M Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829704",
+      "830979",
+      "895385"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1382305"
+    ]
   },
   {
     "id": "828964",
@@ -1560,7 +1978,10 @@
     "aliases": [],
     "lab": "Synthon",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829083",
@@ -1576,7 +1997,13 @@
     "aliases": [],
     "lab": "Pinnacle",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833742",
+      "833736"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828974",
@@ -1592,7 +2019,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828985",
@@ -1608,7 +2038,12 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828986"
+    ]
   },
   {
     "id": "829046",
@@ -1616,7 +2051,7 @@
     "price": 68240,
     "brand": "Pradaxa 110",
     "actives": [
-      "Dabigatran Etexilato"
+      "Dabigatran"
     ],
     "form": "cápsulas",
     "strength": "110 mg",
@@ -1624,7 +2059,10 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828993",
@@ -1641,7 +2079,10 @@
     "aliases": [],
     "lab": "Inpac Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828944",
@@ -1659,7 +2100,12 @@
     "aliases": [],
     "lab": "Pasteur",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "833956"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829055",
@@ -1675,7 +2121,12 @@
     "aliases": [],
     "lab": "Dr. Reddys",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1002769"
+    ]
   },
   {
     "id": "828998",
@@ -1692,7 +2143,12 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "1553344"
+    ]
   },
   {
     "id": "828977",
@@ -1700,7 +2156,7 @@
     "price": 500,
     "brand": "Diclofenaco 50",
     "actives": [
-      "Diclofenaco Sodico"
+      "Diclofenaco"
     ],
     "form": "comprimidos recubiertos",
     "strength": "50 mg",
@@ -1708,7 +2164,12 @@
     "aliases": [],
     "lab": "Baden",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830442"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829028",
@@ -1724,7 +2185,10 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829035",
@@ -1740,7 +2204,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829082",
@@ -1757,7 +2224,12 @@
     "aliases": [],
     "lab": "Sophia",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "834100"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828980",
@@ -1773,7 +2245,12 @@
     "aliases": [],
     "lab": "Ferrer",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831722"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829007",
@@ -1790,7 +2267,12 @@
     "aliases": [],
     "lab": "Smb Farma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "858596"
+    ]
   },
   {
     "id": "829059",
@@ -1806,7 +2288,12 @@
     "aliases": [],
     "lab": "Emcure",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828956"
+    ]
   },
   {
     "id": "829053",
@@ -1822,7 +2309,10 @@
     "aliases": [],
     "lab": "Eurofarma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829092",
@@ -1842,7 +2332,14 @@
     ],
     "lab": "Emcure",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833871",
+      "1238784",
+      "1317363"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828973",
@@ -1858,7 +2355,12 @@
     "aliases": [],
     "lab": "Tervis Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833869"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829096",
@@ -1875,7 +2377,10 @@
     "aliases": [],
     "lab": "Astrazeneca",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829030",
@@ -1891,7 +2396,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829033",
@@ -1900,7 +2408,7 @@
     "brand": "Nefex Duo 0,5/0,4",
     "actives": [
       "Dutasteride",
-      "Metformina"
+      "Tamsulosina"
     ],
     "form": "cápsulas de liberación prolongada",
     "strength": "0,5/0,4 mg",
@@ -1908,7 +2416,14 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832168"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829065"
+    ]
   },
   {
     "id": "829056",
@@ -1924,7 +2439,12 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833171"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829057",
@@ -1940,7 +2460,10 @@
     "aliases": [],
     "lab": "Novo Nordisk",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829084",
@@ -1958,7 +2481,10 @@
     "aliases": [],
     "lab": "Gsk",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829026",
@@ -1974,7 +2500,12 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831950"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829097",
@@ -1990,7 +2521,12 @@
     "aliases": [],
     "lab": "D&M Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "971726"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829093",
@@ -2011,7 +2547,12 @@
     ],
     "lab": "Tecnofarma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829005"
+    ]
   },
   {
     "id": "829044",
@@ -2027,7 +2568,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829002",
@@ -2043,7 +2587,12 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831034"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829034",
@@ -2059,7 +2608,12 @@
     "aliases": [],
     "lab": "Andromaco",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "833002"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828946",
@@ -2075,7 +2629,12 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833869"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828951",
@@ -2091,7 +2650,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832023"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828986",
@@ -2107,7 +2671,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828948",
@@ -2123,7 +2690,10 @@
     "aliases": [],
     "lab": "Pasteur",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829080",
@@ -2139,7 +2709,12 @@
     "aliases": [],
     "lab": "Pisa",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831983"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829079",
@@ -2147,7 +2722,7 @@
     "price": 11210,
     "brand": "Transcept 500",
     "actives": [
-      "Micofenolato Mofetilo"
+      "Micofenolato"
     ],
     "form": "comprimidos recubiertos",
     "strength": "500 mg",
@@ -2155,7 +2730,10 @@
     "aliases": [],
     "lab": "Emcure",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829052",
@@ -2171,7 +2749,10 @@
     "aliases": [],
     "lab": "Megalabs",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828979",
@@ -2187,7 +2768,12 @@
     "aliases": [],
     "lab": "Faes Farma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830473"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829078",
@@ -2203,7 +2789,12 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833625"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829008",
@@ -2224,7 +2815,13 @@
     ],
     "lab": "Merck",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829006",
+      "1621570"
+    ]
   },
   {
     "id": "829037",
@@ -2240,23 +2837,33 @@
     "aliases": [],
     "lab": "Vitafarma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832505"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829040",
-    "name": "Oralne 10 mg x 30 cápsulas",
+    "name": "Oralne 10 mg x 30 ud. cápsula blanda",
     "price": 18880,
     "brand": "Oralne 10",
     "actives": [
       "Isotretinoina"
     ],
-    "form": "cápsulas",
+    "form": "cápsula blanda",
     "strength": "10 mg",
     "pack_size": 30,
     "aliases": [],
     "lab": "Deutsche Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "1470839"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828971",
@@ -2272,7 +2879,12 @@
     "aliases": [],
     "lab": "Alpes Chemie",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829937"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829045",
@@ -2288,7 +2900,12 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "832553"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828954",
@@ -2305,7 +2922,10 @@
     "aliases": [],
     "lab": "Gsk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829018",
@@ -2321,7 +2941,12 @@
     "aliases": [],
     "lab": "Emcure",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "831633"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829016",
@@ -2337,7 +2962,12 @@
     "aliases": [],
     "lab": "Eurofarma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831503"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828949",
@@ -2345,7 +2975,7 @@
     "price": 11040,
     "brand": "Alenys 27,5",
     "actives": [
-      "Fluticasona Furoato"
+      "Fluticasona"
     ],
     "form": "suspensión nasal",
     "strength": "27,5 mcg",
@@ -2353,7 +2983,12 @@
     "aliases": [],
     "lab": "Etex",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "830998"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828988",
@@ -2369,7 +3004,12 @@
     "aliases": [],
     "lab": "Eurofarma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "832027"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829070",
@@ -2386,7 +3026,12 @@
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "928951"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829064",
@@ -2402,7 +3047,13 @@
     "aliases": [],
     "lab": "Synthon",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "833478",
+      "833407"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829077",
@@ -2418,7 +3069,12 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833611"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828952",
@@ -2434,7 +3090,13 @@
     "aliases": [],
     "lab": "Opko",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829277",
+      "829278"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829039",
@@ -2450,7 +3112,12 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829044"
+    ]
   },
   {
     "id": "828996",
@@ -2466,7 +3133,10 @@
     "aliases": [],
     "lab": "Gsk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "828960",
@@ -2482,7 +3152,12 @@
     "aliases": [],
     "lab": "Pinnacle",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "829587"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "829085",
@@ -2498,7 +3173,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828959"
+    ]
   },
   {
     "id": "855813",
@@ -2514,7 +3194,10 @@
     "aliases": [],
     "lab": "Lab Chile",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "858466",
@@ -2531,7 +3214,12 @@
     "aliases": [],
     "lab": "Exeltis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830284"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "858596",
@@ -2548,7 +3236,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "858629",
@@ -2564,7 +3255,12 @@
     "aliases": [],
     "lab": "Alembic",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "830818"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "858648",
@@ -2581,7 +3277,12 @@
     "aliases": [],
     "lab": "Novartis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "855872"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "858719",
@@ -2596,8 +3297,11 @@
     "pack_size": 14,
     "aliases": [],
     "lab": "Pfizer",
-    "stock": "1",
-    "in_stock": true
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "860242",
@@ -2613,7 +3317,10 @@
     "aliases": [],
     "lab": "Alembic",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "947633",
@@ -2629,7 +3336,14 @@
     "aliases": [],
     "lab": "Alembic",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "830808",
+      "830809",
+      "831730"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "953119",
@@ -2645,7 +3359,12 @@
     "aliases": [],
     "lab": "Pinnacle",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "833165"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "968607",
@@ -2661,7 +3380,10 @@
     "aliases": [],
     "lab": "Alembic",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "972974",
@@ -2677,7 +3399,13 @@
     "aliases": [],
     "lab": "Galenicum",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828968",
+      "829051"
+    ]
   },
   {
     "id": "996965",
@@ -2693,7 +3421,10 @@
     "aliases": [],
     "lab": "Siron Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "996972",
@@ -2709,7 +3440,10 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1002709",
@@ -2725,7 +3459,12 @@
     "aliases": [],
     "lab": "Andromaco",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "829142"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1002769",
@@ -2741,7 +3480,10 @@
     "aliases": [],
     "lab": "Pinnacle",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1027536",
@@ -2757,7 +3499,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1090005",
@@ -2778,7 +3523,12 @@
     ],
     "lab": "Galenicum",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829004"
+    ]
   },
   {
     "id": "1090009",
@@ -2794,7 +3544,12 @@
     "aliases": [],
     "lab": "Pasteur",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "830032"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1121860",
@@ -2810,7 +3565,10 @@
     "aliases": [],
     "lab": "Ascend",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1363515",
@@ -2826,7 +3584,12 @@
     "aliases": [],
     "lab": "Tecnofarma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "828982"
+    ]
   },
   {
     "id": "1382305",
@@ -2842,7 +3605,14 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "829704",
+      "830979",
+      "895385"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1382307",
@@ -2859,7 +3629,10 @@
     "aliases": [],
     "lab": "Boehringer Ingelheim",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1382308",
@@ -2877,7 +3650,12 @@
     ],
     "lab": "Msn",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829047"
+    ]
   },
   {
     "id": "1382309",
@@ -2893,7 +3671,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [
+      "830884"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1382356",
@@ -2909,7 +3692,10 @@
     "aliases": [],
     "lab": "Novo Nordisk",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1552690",
@@ -2924,8 +3710,14 @@
     "pack_size": 30,
     "aliases": [],
     "lab": "Alembic",
-    "stock": "1",
-    "in_stock": true
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [
+      "830567",
+      "830565"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1553344",
@@ -2942,7 +3734,10 @@
     "aliases": [],
     "lab": "Abbott",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1553788",
@@ -2958,7 +3753,12 @@
     "aliases": [],
     "lab": "Saval",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831846"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
   },
   {
     "id": "1621570",
@@ -2979,7 +3779,13 @@
     ],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829006",
+      "829008"
+    ]
   },
   {
     "id": "829005",
@@ -3000,7 +3806,12 @@
     ],
     "lab": "Novartis",
     "stock": "0",
-    "in_stock": false
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": [
+      "829093"
+    ]
   },
   {
     "id": "829021",
@@ -3016,6 +3827,1661 @@
     "aliases": [],
     "lab": "Seven Pharma",
     "stock": "1",
-    "in_stock": true
+    "in_stock": true,
+    "alternatives": [
+      "831712"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1643692",
+    "name": "Duspatalin 200 mg x 30 cápsulas de liberación prolongada",
+    "price": 21530,
+    "brand": "Duspatalin 200",
+    "actives": [
+      "Mebeverina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [
+      "832049"
+    ],
+    "is_alternative": false,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "971726",
+    "name": "Alergiol Forte 0,002 x 5 ml. solución oftálmica",
+    "price": 0,
+    "brand": "Alergiol Forte 0,002",
+    "actives": [
+      "Olopatadina"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,002",
+    "pack_size": 5,
+    "aliases": [],
+    "lab": "Smb Farma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833699",
+    "name": "Trexxia 60 mg x 14 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Trexxia 60",
+    "actives": [
+      "Etoricoxib"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "60 mg",
+    "pack_size": 14,
+    "aliases": [],
+    "lab": "Synthon",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833871",
+    "name": "Vildavitae 50 mg x 56 comprimidos",
+    "price": 0,
+    "brand": "Vildavitae 50",
+    "actives": [
+      "Vildagliptina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 56,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1238784",
+    "name": "Vildagliptina 50 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Vildagliptina 50",
+    "actives": [
+      "Vildagliptina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Obentis",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1317363",
+    "name": "Vildagliptina 50 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Vildagliptina 50",
+    "actives": [
+      "Vildagliptina"
+    ],
+    "form": "comprimidos",
+    "strength": "50 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "917605",
+    "name": "Jolian 3,0/0,02 mg x 28 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Jolian 3,0/0,02",
+    "actives": [
+      "Drospirenona",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "3,0/0,02 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Gedeon Richter",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1383597",
+    "name": "Claritromicina 250 mg/5ml x 60 ml. polvo para suspensión oral",
+    "price": 0,
+    "brand": "Claritromicina 250",
+    "actives": [
+      "Claritromicina"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "250 mg/5ml",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Neoethicals",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831512",
+    "name": "Kaph 0,5% x 10 ml. solución oftálmica",
+    "price": 0,
+    "brand": "Kaph 0,5%",
+    "actives": [
+      "Cloranfenicol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,5%",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Ethon",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833516",
+    "name": "Terbinafina 250 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Terbinafina 250",
+    "actives": [
+      "Terbinafina"
+    ],
+    "form": "comprimidos",
+    "strength": "250 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Mdc",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833515",
+    "name": "Terbinafina 250 mg x 28 comprimidos",
+    "price": 0,
+    "brand": "Terbinafina 250",
+    "actives": [
+      "Terbinafina"
+    ],
+    "form": "comprimidos",
+    "strength": "250 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829696",
+    "name": "Blox-D 16/12,5 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Blox-D 16/12,5",
+    "actives": [
+      "Candesartan",
+      "Hidroclorotiazida"
+    ],
+    "form": "comprimidos",
+    "strength": "16/12,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830583",
+    "name": "Dutasvitae 0,5 mg x 30 ud. cápsula blanda",
+    "price": 0,
+    "brand": "Dutasvitae 0,5",
+    "actives": [
+      "Dutasteride"
+    ],
+    "form": "cápsula blanda",
+    "strength": "0,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832168",
+    "name": "Nefex Duo 0,5/0,4 mg x 30 cápsulas de liberación prolongada",
+    "price": 0,
+    "brand": "Nefex Duo 0,5/0,4",
+    "actives": [
+      "Dutasteride",
+      "Tamsulosina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "0,5/0,4 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1057696",
+    "name": "Montelukast 10 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Montelukast 10",
+    "actives": [
+      "Montelukast"
+    ],
+    "form": "comprimidos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832045",
+    "name": "Montelukast 10 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Montelukast 10",
+    "actives": [
+      "Montelukast"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Momenta",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832046",
+    "name": "Montelukast 10 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Montelukast 10",
+    "actives": [
+      "Montelukast"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832505",
+    "name": "Otoc 4 mg x 8 comprimidos bucodispersables",
+    "price": 0,
+    "brand": "Otoc 4",
+    "actives": [
+      "Ondansetron"
+    ],
+    "form": "comprimidos bucodispersables",
+    "strength": "4 mg",
+    "pack_size": 8,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832049",
+    "name": "Movidol 200 mg x 30 cápsulas de liberación prolongada",
+    "price": 0,
+    "brand": "Movidol 200",
+    "actives": [
+      "Mebeverina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Pasteur",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833625",
+    "name": "Tobe 2,5 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Tobe 2,5",
+    "actives": [
+      "Tibolona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "2,5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831823",
+    "name": "Macrosan 100 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Macrosan 100",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832264",
+    "name": "Nitrofurantoina Macro 100 mg x 10 cápsulas",
+    "price": 0,
+    "brand": "Nitrofurantoina Macro 100",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Mintlab",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831824",
+    "name": "Macrosan 50 mg x 20 cápsulas",
+    "price": 0,
+    "brand": "Macrosan 50",
+    "actives": [
+      "Nitrofurantoina"
+    ],
+    "form": "cápsulas",
+    "strength": "50 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1030672",
+    "name": "Vonille Cd 0,15/0,03 mg x 28 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Vonille Cd 0,15/0,03",
+    "actives": [
+      "Levonorgestrel",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "0,15/0,03 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830818",
+    "name": "Eutirox 88 mcg x 50 comprimidos",
+    "price": 0,
+    "brand": "Eutirox 88",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "88 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830815",
+    "name": "Eutirox 25 mcg x 50 comprimidos",
+    "price": 0,
+    "brand": "Eutirox 25",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "25 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830808",
+    "name": "Eutirox 100 mcg x 100 comprimidos",
+    "price": 0,
+    "brand": "Eutirox 100",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mcg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830809",
+    "name": "Eutirox 100 mcg x 50 comprimidos",
+    "price": 0,
+    "brand": "Eutirox 100",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831730",
+    "name": "Levotiroxina 100 mcg x 84 comprimidos",
+    "price": 0,
+    "brand": "Levotiroxina 100",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mcg",
+    "pack_size": 84,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831732",
+    "name": "Levotiroxina 75 mcg x 56 comprimidos",
+    "price": 0,
+    "brand": "Levotiroxina 75",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "75 mcg",
+    "pack_size": 56,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830817",
+    "name": "Eutirox 75 mcg x 50 comprimidos",
+    "price": 0,
+    "brand": "Eutirox 75",
+    "actives": [
+      "Levotiroxina"
+    ],
+    "form": "comprimidos",
+    "strength": "75 mcg",
+    "pack_size": 50,
+    "aliases": [],
+    "lab": "Merck",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1003197",
+    "name": "Jardiance 25 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Jardiance 25",
+    "actives": [
+      "Empagliflozina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "25 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Boehringer Ingelheim",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830670",
+    "name": "Enclyna 10 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Enclyna 10",
+    "actives": [
+      "Empagliflozina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Bago",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833670",
+    "name": "Travof Sp 0,00004 x 2,5 ml. solución oftálmica",
+    "price": 0,
+    "brand": "Travof Sp 0,00004",
+    "actives": [
+      "Travoprost"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,00004",
+    "pack_size": 25,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831633",
+    "name": "Lamotrigina 100 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Lamotrigina 100",
+    "actives": [
+      "Lamotrigina"
+    ],
+    "form": "comprimidos",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833021",
+    "name": "Rispyl 3 mg x 20 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Rispyl 3",
+    "actives": [
+      "Risperidona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "3 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Axon",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829296",
+    "name": "Amoxicilina 500 mg/5ml x 60 ml. polvo para suspensión oral",
+    "price": 0,
+    "brand": "Amoxicilina 500",
+    "actives": [
+      "Amoxicilina"
+    ],
+    "form": "polvo para suspensión oral",
+    "strength": "500 mg/5ml",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830932",
+    "name": "Flamir 0,1% x 30 g. gel dérmico",
+    "price": 0,
+    "brand": "Flamir 0,1%",
+    "actives": [
+      "Adapaleno"
+    ],
+    "form": "gel dérmico",
+    "strength": "0,1%",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Bago",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829704",
+    "name": "Brexovent Lf 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 0,
+    "brand": "Brexovent Lf 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Etex",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830979",
+    "name": "Fluticort 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 0,
+    "brand": "Fluticort 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "D&M Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "895385",
+    "name": "Flusona 125 mcg x 120 dss. aerosol para inhalación",
+    "price": 0,
+    "brand": "Flusona 125",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "125 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830998",
+    "name": "Fremaval 27,5 mcg x 120 dss. suspensión nasal",
+    "price": 0,
+    "brand": "Fremaval 27,5",
+    "actives": [
+      "Fluticasona"
+    ],
+    "form": "suspensión nasal",
+    "strength": "27,5 mcg",
+    "pack_size": 120,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831476",
+    "name": "Isotretinoina 20 mg x 30 ud. cápsula blanda",
+    "price": 0,
+    "brand": "Isotretinoina 20",
+    "actives": [
+      "Isotretinoina"
+    ],
+    "form": "cápsula blanda",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832494",
+    "name": "Oralne 20 mg x 30 ud. cápsula blanda",
+    "price": 0,
+    "brand": "Oralne 20",
+    "actives": [
+      "Isotretinoina"
+    ],
+    "form": "cápsula blanda",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Deutsche Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1470839",
+    "name": "Isotretinoina 10 mg x 30 ud. cápsula blanda",
+    "price": 0,
+    "brand": "Isotretinoina 10",
+    "actives": [
+      "Isotretinoina"
+    ],
+    "form": "cápsula blanda",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832817",
+    "name": "Prednisona 20 mg x 20 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Prednisona 20",
+    "actives": [
+      "Prednisona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832816",
+    "name": "Prednisona 20 mg x 20 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Prednisona 20",
+    "actives": [
+      "Prednisona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Hospifarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832188",
+    "name": "Neumocort Plus 160/4,5 mcg x 150 dss. aerosol para inhalación",
+    "price": 0,
+    "brand": "Neumocort Plus 160/4,5",
+    "actives": [
+      "Budesonida",
+      "Formoterol"
+    ],
+    "form": "aerosol para inhalación",
+    "strength": "160/4,5 mcg",
+    "pack_size": 150,
+    "aliases": [],
+    "lab": "D&M Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830270",
+    "name": "Dacam Rapi-Lento 3,0/3,0 mg x 3 ml. suspensión inyectable",
+    "price": 0,
+    "brand": "Dacam Rapi-Lento 3,0/3,0",
+    "actives": [
+      "Betametasona Acetato",
+      "Betametasona Fosfato Sodico"
+    ],
+    "form": "suspensión inyectable",
+    "strength": "3,0/3,0 mg",
+    "pack_size": 3,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832023",
+    "name": "Modavitae 200 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Modavitae 200",
+    "actives": [
+      "Modafinilo"
+    ],
+    "form": "comprimidos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833849",
+    "name": "Vesnidan 450/50 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Vesnidan 450/50",
+    "actives": [
+      "Diosmina",
+      "Hesperidina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "450/50 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833850",
+    "name": "Vesnidan 450/50 mg x 60 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Vesnidan 450/50",
+    "actives": [
+      "Diosmina",
+      "Hesperidina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "450/50 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833742",
+    "name": "Tronsalan 100 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Tronsalan 100",
+    "actives": [
+      "Trazodona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833736",
+    "name": "Trittico 100 mg x 20 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Trittico 100",
+    "actives": [
+      "Trazodona"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "100 mg",
+    "pack_size": 20,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833956",
+    "name": "Vitaminas Acd 2500/400/75 UI/mg x 30 ml. solución oral para gotas",
+    "price": 0,
+    "brand": "Vitaminas Acd 2500/400/75",
+    "actives": [
+      "Vitamina A",
+      "Vitamina D3",
+      "Vitamina C"
+    ],
+    "form": "solución oral para gotas",
+    "strength": "2500/400/75 UI/mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Hospifarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830442",
+    "name": "Diclofenaco 50 mg x 10 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Diclofenaco 50",
+    "actives": [
+      "Diclofenaco"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "50 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "834100",
+    "name": "Xolof-D 0,3% x 3,5 g. ingüento oftálmico",
+    "price": 0,
+    "brand": "Xolof-D 0,3%",
+    "actives": [
+      "Tobramicina",
+      "Dexametasona"
+    ],
+    "form": "ingüento oftálmico",
+    "strength": "0,3%",
+    "pack_size": 35,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831722",
+    "name": "Levogastrol 25 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Levogastrol 25",
+    "actives": [
+      "Levosulpirida"
+    ],
+    "form": "comprimidos",
+    "strength": "25 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Faes Farma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833869",
+    "name": "Vidyn 50000 UI x 4 ud. cápsula blanda",
+    "price": 0,
+    "brand": "Vidyn 50000",
+    "actives": [
+      "Vitamina D3"
+    ],
+    "form": "cápsula blanda",
+    "strength": "50000 UI",
+    "pack_size": 4,
+    "aliases": [],
+    "lab": "Sanitas",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833171",
+    "name": "Rosuvastatina 20 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Rosuvastatina 20",
+    "actives": [
+      "Rosuvastatina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833165",
+    "name": "Rosuvastatina 10 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Rosuvastatina 10",
+    "actives": [
+      "Rosuvastatina"
+    ],
+    "form": "comprimidos",
+    "strength": "10 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831950",
+    "name": "Memantina 20 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Memantina 20",
+    "actives": [
+      "Memantina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "20 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Pharmatech",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831034",
+    "name": "Gabapentina 300 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Gabapentina 300",
+    "actives": [
+      "Gabapentina"
+    ],
+    "form": "cápsulas",
+    "strength": "300 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833002",
+    "name": "Ribolac 200 mg x 10 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Ribolac 200",
+    "actives": [
+      "Rifaximina"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "200 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Abbott",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831983",
+    "name": "Metotrexato 2,5 mg x 100 comprimidos",
+    "price": 0,
+    "brand": "Metotrexato 2,5",
+    "actives": [
+      "Metotrexato"
+    ],
+    "form": "comprimidos",
+    "strength": "2,5 mg",
+    "pack_size": 100,
+    "aliases": [],
+    "lab": "Mintlab",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830473",
+    "name": "Disflax 30 mg x 10 comprimidos",
+    "price": 0,
+    "brand": "Disflax 30",
+    "actives": [
+      "Deflazacort"
+    ],
+    "form": "comprimidos",
+    "strength": "30 mg",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Faes Farma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829937",
+    "name": "Ciprofibrato 100 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Ciprofibrato 100",
+    "actives": [
+      "Ciprofibrato"
+    ],
+    "form": "cápsulas",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Alpes Chemie",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832553",
+    "name": "Paracetamol 500 mg x 16 comprimidos",
+    "price": 0,
+    "brand": "Paracetamol 500",
+    "actives": [
+      "Paracetamol"
+    ],
+    "form": "comprimidos",
+    "strength": "500 mg",
+    "pack_size": 16,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831503",
+    "name": "Kalitium 450 mg x 30 comprimidos de liberación prolongada",
+    "price": 0,
+    "brand": "Kalitium 450",
+    "actives": [
+      "Carbonato De Litio"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "450 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "832027",
+    "name": "Mometasona 0,1% x 15 g. crema",
+    "price": 0,
+    "brand": "Mometasona 0,1%",
+    "actives": [
+      "Mometasona"
+    ],
+    "form": "crema",
+    "strength": "0,1%",
+    "pack_size": 15,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "928951",
+    "name": "Tensuren Am 80/5 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Tensuren Am 80/5",
+    "actives": [
+      "Telmisartan",
+      "Amlodipino"
+    ],
+    "form": "comprimidos",
+    "strength": "80/5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833478",
+    "name": "Tamsulosina 0,4 mg x 30 comprimidos de liberación prolongada",
+    "price": 0,
+    "brand": "Tamsulosina 0,4",
+    "actives": [
+      "Tamsulosina"
+    ],
+    "form": "comprimidos de liberación prolongada",
+    "strength": "0,4 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833407",
+    "name": "Sulix 0,4 mg x 60 cápsulas de liberación prolongada",
+    "price": 0,
+    "brand": "Sulix 0,4",
+    "actives": [
+      "Tamsulosina"
+    ],
+    "form": "cápsulas de liberación prolongada",
+    "strength": "0,4 mg",
+    "pack_size": 60,
+    "aliases": [],
+    "lab": "Synthon",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "833611",
+    "name": "Timolol 0,5% x 10 ml. solución oftálmica",
+    "price": 0,
+    "brand": "Timolol 0,5%",
+    "actives": [
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,5%",
+    "pack_size": 10,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829277",
+    "name": "Amlodipino 5 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Amlodipino 5",
+    "actives": [
+      "Amlodipino"
+    ],
+    "form": "comprimidos",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Mintlab",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829278",
+    "name": "Amlodipino 5 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Amlodipino 5",
+    "actives": [
+      "Amlodipino"
+    ],
+    "form": "comprimidos",
+    "strength": "5 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Opko",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829587",
+    "name": "Betina 16 mg x 30 comprimidos",
+    "price": 0,
+    "brand": "Betina 16",
+    "actives": [
+      "Betahistina"
+    ],
+    "form": "comprimidos",
+    "strength": "16 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Eurofarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830284",
+    "name": "Daniele 2/0,03 mg x 28 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Daniele 2/0,03",
+    "actives": [
+      "Dienogest",
+      "Etinilistradiol"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "2/0,03 mg",
+    "pack_size": 28,
+    "aliases": [],
+    "lab": "Exeltis",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "855872",
+    "name": "Travof-T Sp 0,004% x 2,5 ml. solución oftálmica",
+    "price": 0,
+    "brand": "Travof-T Sp 0,004%",
+    "actives": [
+      "Travoprost",
+      "Timolol"
+    ],
+    "form": "solución oftálmica",
+    "strength": "0,004%",
+    "pack_size": 25,
+    "aliases": [],
+    "lab": "Saval",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "829142",
+    "name": "Acido Valproico 200 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Acido Valproico 200",
+    "actives": [
+      "Acido Valproico"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830032",
+    "name": "Clotrimazol 500 mg x 1 óvulo",
+    "price": 0,
+    "brand": "Clotrimazol 500",
+    "actives": [
+      "Clotrimazol"
+    ],
+    "form": "óvulo",
+    "strength": "500 mg",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Hospifarma",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830884",
+    "name": "Ferbex 200 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Ferbex 200",
+    "actives": [
+      "Fenofibrato"
+    ],
+    "form": "cápsulas",
+    "strength": "200 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Lab Chile",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830567",
+    "name": "Duloxetina 60 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Duloxetina 60",
+    "actives": [
+      "Duloxetina"
+    ],
+    "form": "cápsulas",
+    "strength": "60 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Ascend",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "830565",
+    "name": "Duloxetina 60 mg x 30 cápsulas",
+    "price": 0,
+    "brand": "Duloxetina 60",
+    "actives": [
+      "Duloxetina"
+    ],
+    "form": "cápsulas",
+    "strength": "60 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Seven Pharma",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831846",
+    "name": "Maltofer 100 mg x 30 ud. comprimido masticable",
+    "price": 0,
+    "brand": "Maltofer 100",
+    "actives": [
+      "Complejo De Hierro Iii"
+    ],
+    "form": "comprimido masticable",
+    "strength": "100 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Andromaco",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "831712",
+    "name": "Levevitae 1000 mg x 30 comprimidos recubiertos",
+    "price": 0,
+    "brand": "Levevitae 1000",
+    "actives": [
+      "Levetiracetam"
+    ],
+    "form": "comprimidos recubiertos",
+    "strength": "1000 mg",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "Galenicum",
+    "stock": "1",
+    "in_stock": true,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
   }
 ]
