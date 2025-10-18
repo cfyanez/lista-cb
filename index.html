@@ -146,6 +146,14 @@
     .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Un tono azulado */
     .stock.alternative strong { color: #eab308; font-weight: 700; } /* Un tono amarillo/dorado */
     }
+
+    /* Estilo para el hash de versión junto al título */
+    h1 #version-indicator {
+      color: #94a3b8; /* El gris claro que querías */
+      font-weight: 500; /* Un poco menos grueso que el título */
+      font-size: 16px;  /* Un poco más pequeño */
+      margin-left: 8px; /* Un pequeño espacio para separarlo */
+    }
   </style>
 </head>
 <body>
@@ -156,7 +164,7 @@
         <!-- Coloca el archivo del logo (PNG/SVG) junto a index.html con este nombre -->
         <img class="logo" src="img/logo_transparente_1.png" alt="Farmacia La Providencia" loading="lazy" />
         <div class="titles">
-          <h1>Listado de productos CENABAST en La Provi, nuevo</h1>
+          <h1>Listado de productos CENABAST en La Provi<span id="version-indicator"></span></h1>
           <div class="subhead">Actualizado el <strong>lunes 13 de octubre a las 9:00</strong></div>
           <div class="advice">Se sugiere llamarnos o hablar por WhatsApp al número <a href="tel:+56988619039">+56 9 8861 9039</a> · <a href="https://wa.me/56988619039" target="_blank" rel="noopener">escríbenos por WhatsApp</a></div>
         </div>
@@ -310,7 +318,26 @@
     function escapeHtml(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c])); }
     
     // Funciones para parsear los principios activos y dosis.
-    function badgesActiveStrength(p){ /* ... (esta función no cambia) ... */ }
+    function badgesActiveStrength(p){
+      const act = Array.isArray(p.actives) ? p.actives : [];
+      const strengths = splitStrengths(p.strength);
+
+      // Caso 1: 1 principio activo + 1 dosis -> Un solo tag "Activo — Dosis"
+      if (act.length === 1 && p.strength) {
+        return `<span class="badge">${escapeHtml(act[0])} — ${escapeHtml(p.strength)}</span>`;
+      }
+
+      // Caso 2: Múltiples activos y dosis pareadas (ej: 50/850 mg)
+      if (act.length > 1 && strengths.length === act.length) {
+        const norm = normalizeStrengthParts(strengths);
+        return act.map((a, i) =>
+          `<span class="badge">${escapeHtml(a)} — ${escapeHtml(norm[i])}</span>`
+        ).join('');
+      }
+
+      // Caso por defecto: Muestra solo los principios activos si no se cumplen los casos anteriores
+      return act.map(a => `<span class="badge">${escapeHtml(a)}</span>`).join('');
+    }
     function splitStrengths(s){ if(!s) return []; return s.split('/').map(x=>x.trim()).filter(Boolean); }
     function hasUnit(s){ return /[a-zA-Zµ%]/.test(String(s || '')); }
     function unitTail(s){ const m = String(s || '').match(/([a-zA-Zµ%][a-zA-Zµ% ]*)$/); return m ? m[1].trim() : ''; }

@@ -5,3 +5,6 @@ deployment:
     - /bin/cp -a ./. $DEPLOYPATH
     - /bin/find $DEPLOYPATH -type d -exec chmod 755 {} \;
     - /bin/find $DEPLOYPATH -type f -exec chmod 644 {} \;
+    # --- NUEVAS LÍNEAS PARA EL INDICADOR DE VERSIÓN ---
+    - export GIT_HASH=$(git rev-parse --short HEAD)
+    - /bin/sed -i "s|<div id=\"version-indicator\" class=\"advice\"></div>|<div id=\"version-indicator\" class=\"advice\">Versión: ${GIT_HASH}</div>|g" $DEPLOYPATH/index.html
