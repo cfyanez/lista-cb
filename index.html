@@ -274,23 +274,23 @@
 
     // --- NUEVA LÓGICA DE STOCK ---
     // Esta función revisa si alguna de las alternativas/equivalentes de un producto tiene stock.
-    function findAvailableAlternative(productIds = []) {
-        for (const id of productIds) {
-            const altProduct = PRODUCTS_BY_ID.get(id); // Usa el mapa rápido.
-            if (altProduct && altProduct.in_stock) {
-                return true; // Encontramos uno con stock, terminamos.
-            }
-        }
-        return false; // Ninguno tenía stock.
+    function findAvailableAlternatives(productIds = []) {
+      return productIds
+        .map(id => PRODUCTS_BY_ID.get(id))
+        .filter(Boolean)
+        .filter(p => p.in_stock);
     }
 
-    // --- FUNCIÓN DE STOCK COMPLETAMENTE NUEVA ---
+    function whatsappLinkFor(productName) {
+      const message = `Hola, quisiera consultar por ${productName}`;
+      return `https://wa.me/56988619039?text=${encodeURIComponent(message)}`;
+    }
+    
     // Genera el HTML para la celda de stock con la nueva lógica jerárquica.
     function stockHtml(p) {
-        // 1. Si el producto principal tiene stock, todo es simple.
-        if (p.in_stock) {
-            return `<span class="stock in"><strong>con stock</strong></span>`;
-        }
+      if (p.in_stock) {
+        return `<div class="stock-wrap"><span class="stock in"><strong>con stock</strong></span></div>`;
+      }
 
         // 2. Si no, revisa si hay un equivalente CENABAST con stock.
         if (findAvailableAlternative(p.cenabast_equivalents)) {
@@ -366,6 +366,20 @@
           </tbody>
         </table>`;
       wrap.innerHTML = html;
+
+      wrap.querySelectorAll('.toggle-alternatives').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = wrap.querySelector(`#${btn.dataset.target}`);
+          if (!target) return;
+          const isHidden = target.hasAttribute('hidden');
+          if (isHidden) {
+            target.removeAttribute('hidden');
+          } else {
+            target.setAttribute('hidden', '');
+          }
+          btn.setAttribute('aria-expanded', String(isHidden));
+        });
+      });
     }
 
     loadData();
