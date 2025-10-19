@@ -154,6 +154,109 @@
     .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Azul */
     .stock.alternative strong { color: #eab308; font-weight: 700; } /* Amarillo */
 
+    .stock-cell {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .stock-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .toggle-alternatives {
+      background: #0f172a;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15);
+      cursor: pointer;
+    }
+
+    .toggle-alternatives svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .alternatives-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      background: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .alternatives-section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .alternatives-section h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1f2937;
+      margin: 0;
+    }
+
+    .alternative-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 10px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+    }
+
+    .alternative-item .alt-name {
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .alternative-item .alt-meta {
+      font-size: 12px;
+      color: #6b7280;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .alternative-item .alt-price {
+      font-size: 13px;
+      font-weight: 600;
+      color: #047857;
+    }
+
+    .whatsapp-btn {
+      align-self: flex-start;
+      background: #22c55e;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 2px 4px rgba(34, 197, 94, 0.25);
+    }
+
+    .whatsapp-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
   </style>
 </head>
 <body>
@@ -274,38 +377,77 @@
 
     // --- NUEVA LÓGICA DE STOCK ---
     // Esta función revisa si alguna de las alternativas/equivalentes de un producto tiene stock.
-    function findAvailableAlternative(productIds = []) {
-        for (const id of productIds) {
-            const altProduct = PRODUCTS_BY_ID.get(id); // Usa el mapa rápido.
-            if (altProduct && altProduct.in_stock) {
-                return true; // Encontramos uno con stock, terminamos.
-            }
-        }
-        return false; // Ninguno tenía stock.
+    function findAvailableAlternatives(productIds = []) {
+      return productIds
+        .map(id => PRODUCTS_BY_ID.get(id))
+        .filter(Boolean)
+        .filter(p => p.in_stock);
     }
 
-// --- FUNCIÓN DE STOCK CORREGIDA Y MEJORADA ---
+    function whatsappLinkFor(productName) {
+      const message = `Hola, quisiera consultar por ${productName}`;
+      return `https://wa.me/56988619039?text=${encodeURIComponent(message)}`;
+    }
+
+    function alternativesSectionsHtml({ title, products }) {
+      if (!products.length) return '';
+      return `
+        <div class="alternatives-section">
+          <h4>${escapeHtml(title)}</h4>
+          ${products.map(ap => `
+            <div class="alternative-item">
+              <div class="alt-name">${escapeHtml(ap.name)}</div>
+              <div class="alt-meta">${badgesActiveStrength(ap)}</div>
+              ${ap.price ? `<div class="alt-price">${currencyCLP.format(Number(ap.price) || 0)}</div>` : ''}
+              <a class="whatsapp-btn" href="${whatsappLinkFor(ap.name)}" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.004 2c-5.52 0-10 4.477-10 9.994 0 1.762.467 3.467 1.356 4.983L2 22l5.18-1.353a10.04 10.04 0 0 0 4.825 1.218h.002c5.52 0 10-4.478 10-9.995 0-2.669-1.043-5.178-2.938-7.06A9.96 9.96 0 0 0 12.004 2Zm0 1.8a8.18 8.18 0 0 1 5.83 2.415 8.146 8.146 0 0 1 2.41 5.78c0 4.485-3.664 8.194-8.18 8.194a8.23 8.23 0 0 1-4.097-1.087l-.293-.17-3.07.802.823-2.99-.19-.306A8.153 8.153 0 0 1 3.82 11.99c0-4.485 3.664-8.19 8.184-8.19Zm4.067 4.66c-.215-.54-.44-.552-.646-.56-.167-.007-.357-.007-.547-.007-.19 0-.5.071-.762.356-.262.285-.999.977-.999 2.38 0 1.402 1.023 2.755 1.166 2.946.143.19 1.97 3.155 4.858 4.295 2.406.95 2.896.76 3.418.713.522-.048 1.687-.69 1.925-1.357.238-.666.238-1.236.167-1.357-.071-.119-.262-.19-.547-.333-.286-.143-1.687-.832-1.95-.927-.262-.095-.452-.143-.642.143-.19.286-.738.927-.905 1.118-.167.19-.333.214-.619.071-.285-.143-1.21-.446-2.306-1.418-.852-.76-1.427-1.697-1.594-1.983-.167-.285-.018-.44.125-.582.129-.128.286-.333.43-.5.143-.167.19-.285.286-.476.095-.19.048-.356-.024-.499-.071-.143-.62-1.492-.881-2.04Z"></path></svg>
+                Consultar por WhatsApp
+              </a>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // --- FUNCIÓN DE STOCK CORREGIDA Y MEJORADA ---
     // Genera el HTML para la celda de stock con la nueva lógica jerárquica.
     function stockHtml(p) {
-        // 1. Si el producto principal tiene stock, todo es simple.
-        if (p.in_stock) {
-            return `<span class="stock in"><strong>con stock</strong></span>`;
-        }
+      if (p.in_stock) {
+        return `<div class="stock-wrap"><span class="stock in"><strong>con stock</strong></span></div>`;
+      }
 
-        // 2. Si no, revisa si hay un equivalente CENABAST con stock.
-        // Usamos la función findAvailableAlternative con la lista de IDs de cenabast_equivalents.
-        if (findAvailableAlternative(p.cenabast_equivalents)) {
-            return `<span class="stock equivalent"><strong>Sin stock, equivalente Cenabast disponible</strong></span>`;
-        }
+      const cenabastAlternatives = findAvailableAlternatives(p.cenabast_equivalents || []);
+      const externalAlternatives = findAvailableAlternatives(p.alternatives || []);
+      const totalAlternatives = cenabastAlternatives.length + externalAlternatives.length;
 
-        // 3. Si no hay equivalentes, revisa si hay una alternativa fuera de convenio con stock.
-        // Hacemos lo mismo pero con la lista de IDs de alternatives.
-        if (findAvailableAlternative(p.alternatives)) {
-            return `<span class="stock alternative"><strong>Sin stock Cenabast, alternativa disponible</strong></span>`;
-        }
-        
-        // 4. Si nada de lo anterior se cumple, está sin stock.
-        return `<span class="stock out"><strong>sin stock</strong></span>`;
+      if (!totalAlternatives) {
+        return `<div class="stock-wrap"><span class="stock out"><strong>sin stock</strong></span></div>`;
+      }
+
+      const altId = `alt-${String(p.id).replace(/[^a-zA-Z0-9_-]/g, '')}`;
+      const hasCenabast = cenabastAlternatives.length > 0;
+      const statusClass = hasCenabast ? 'equivalent' : 'alternative';
+      const statusText = hasCenabast
+        ? 'Sin stock, equivalente Cenabast disponible'
+        : 'Sin stock Cenabast, alternativa disponible';
+
+      const sectionsHtml = `
+        ${alternativesSectionsHtml({ title: 'Equivalentes CENABAST', products: cenabastAlternatives })}
+        ${alternativesSectionsHtml({ title: 'Alternativas fuera de convenio', products: externalAlternatives })}
+      `;
+
+      return `
+        <div class="stock-wrap">
+          <span class="stock ${statusClass}"><strong>${statusText}</strong></span>
+          <button class="toggle-alternatives" type="button" data-target="${altId}" aria-expanded="false">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 3a1 1 0 0 1 .894.553l6 12a1 1 0 0 1-1.788.894L13.382 13H6.618l-1.724 3.447a1 1 0 1 1-1.788-.894l6-12A1 1 0 0 1 10 3Zm0 3.236L7.618 11h4.764L10 6.236Z" clip-rule="evenodd"/></svg>
+            Ver alternativas disponibles (${totalAlternatives})
+          </button>
+          <div class="alternatives-card" id="${altId}" hidden>
+            ${sectionsHtml}
+          </div>
+        </div>
+      `;
     }
 
     // Funciones de la interfaz (búsqueda, botones, etc.)
@@ -368,6 +510,20 @@
           </tbody>
         </table>`;
       wrap.innerHTML = html;
+
+      wrap.querySelectorAll('.toggle-alternatives').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = wrap.querySelector(`#${btn.dataset.target}`);
+          if (!target) return;
+          const isHidden = target.hasAttribute('hidden');
+          if (isHidden) {
+            target.removeAttribute('hidden');
+          } else {
+            target.setAttribute('hidden', '');
+          }
+          btn.setAttribute('aria-expanded', String(isHidden));
+        });
+      });
     }
 
     loadData();
