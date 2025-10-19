@@ -138,6 +138,13 @@
       td.price {
         font-size: 1.1em;
       }
+      /* ... (tus otros estilos de .stock) ... */
+    .stock.in strong { color: #059669; font-weight: 700; }
+    .stock.out strong { color: #dc2626; font-weight: 700; }
+
+    /* --- NUEVOS ESTILOS PARA ALTERNATIVAS --- */
+    .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Un tono azulado */
+    .stock.alternative strong { color: #eab308; font-weight: 700; } /* Un tono amarillo/dorado */
     }
 
     /* Estilo para el hash de versión junto al título */
@@ -147,13 +154,6 @@
       font-size: 16px;  /* Un poco más pequeño */
       margin-left: 8px; /* Un pequeño espacio para separarlo */
     }
-
-    /* Estilos para los mensajes de stock */
-    .stock.in strong { color: #059669; font-weight: 700; } /* Verde */
-    .stock.out strong { color: #dc2626; font-weight: 700; } /* Rojo */
-    .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Azul */
-    .stock.alternative strong { color: #eab308; font-weight: 700; } /* Amarillo */
-
   </style>
 </head>
 <body>
@@ -284,7 +284,7 @@
         return false; // Ninguno tenía stock.
     }
 
-// --- FUNCIÓN DE STOCK CORREGIDA Y MEJORADA ---
+    // --- FUNCIÓN DE STOCK COMPLETAMENTE NUEVA ---
     // Genera el HTML para la celda de stock con la nueva lógica jerárquica.
     function stockHtml(p) {
         // 1. Si el producto principal tiene stock, todo es simple.
@@ -293,13 +293,11 @@
         }
 
         // 2. Si no, revisa si hay un equivalente CENABAST con stock.
-        // Usamos la función findAvailableAlternative con la lista de IDs de cenabast_equivalents.
         if (findAvailableAlternative(p.cenabast_equivalents)) {
             return `<span class="stock equivalent"><strong>Sin stock, equivalente Cenabast disponible</strong></span>`;
         }
 
-        // 3. Si no hay equivalentes, revisa si hay una alternativa fuera de convenio con stock.
-        // Hacemos lo mismo pero con la lista de IDs de alternatives.
+        // 3. Si no, revisa si hay una alternativa fuera de convenio con stock.
         if (findAvailableAlternative(p.alternatives)) {
             return `<span class="stock alternative"><strong>Sin stock Cenabast, alternativa disponible</strong></span>`;
         }
