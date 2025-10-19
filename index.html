@@ -154,6 +154,92 @@
     .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Azul */
     .stock.alternative strong { color: #eab308; font-weight: 700; } /* Amarillo */
 
+    /* Estilos para productos equivalentes */
+    .equivalents-section {
+        margin-top: 12px;
+        padding: 12px;
+        background: #f8fafc;
+        border-radius: 8px;
+        border-left: 3px solid #e2e8f0;
+    }
+    
+    .equivalents-header {
+        font-size: 13px;
+        color: #475569;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    
+    .equivalents-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .equivalent-item {
+        padding: 10px;
+        background: #fff;
+        border-radius: 6px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    
+    .equivalent-item.cenabast {
+        border-left: 3px solid #0284c7;
+    }
+    
+    .equivalent-item.alternative {
+        border-left: 3px solid #eab308;
+    }
+    
+    .equiv-name {
+        font-weight: 600;
+        font-size: 14px;
+        color: #1e293b;
+        margin-bottom: 4px;
+    }
+    
+    .equiv-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+        font-size: 13px;
+    }
+    
+    .equiv-price {
+        font-weight: 700;
+        color: #059669;
+        font-variant-numeric: tabular-nums;
+    }
+    
+    .equiv-lab {
+        color: #64748b;
+        font-style: italic;
+    }
+    
+    .equiv-badges {
+        font-size: 12px;
+    }
+    
+    /* Responsive para equivalentes en móviles */
+    @media (max-width: 680px) {
+        .equivalents-section {
+            margin-top: 8px;
+            padding: 10px;
+        }
+        
+        .equiv-details {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+        
+        .equiv-name {
+            font-size: 13px;
+        }
+    }
+
   </style>
 </head>
 <body>
@@ -308,6 +394,91 @@
         return `<span class="stock out"><strong>sin stock</strong></span>`;
     }
 
+    // --- NUEVAS FUNCIONES PARA PRODUCTOS EQUIVALENTES ---
+    
+    // Obtiene productos equivalentes Cenabast que tienen stock
+    function getCenabastEquivalents(product) {
+        if (!product.cenabast_equivalents || product.cenabast_equivalents.length === 0) {
+            return [];
+        }
+        
+        return product.cenabast_equivalents
+            .map(id => PRODUCTS_BY_ID.get(id))
+            .filter(p => p && p.in_stock)
+            .slice(0, 3); // Máximo 3 equivalentes para no saturar la interfaz
+    }
+    
+    // Obtiene productos alternativos (fuera de convenio) que tienen stock
+    function getAlternativeProducts(product) {
+        if (!product.alternatives || product.alternatives.length === 0) {
+            return [];
+        }
+        
+        return product.alternatives
+            .map(id => PRODUCTS_BY_ID.get(id))
+            .filter(p => p && p.in_stock)
+            .slice(0, 3); // Máximo 3 alternativas para no saturar la interfaz
+    }
+    
+    // Genera HTML para mostrar productos equivalentes
+    function renderEquivalentsHtml(product) {
+        const cenabastEquivalents = getCenabastEquivalents(product);
+        const alternatives = getAlternativeProducts(product);
+        
+        let html = '';
+        
+        // Solo mostrar equivalentes si el producto principal no tiene stock
+        if (!product.in_stock) {
+            // Equivalentes Cenabast
+            if (cenabastEquivalents.length > 0) {
+                html += `
+                    <div class="equivalents-section">
+                        <div class="equivalents-header">
+                            <strong>Equivalentes Cenabast disponibles:</strong>
+                        </div>
+                        <div class="equivalents-list">
+                            ${cenabastEquivalents.map(equiv => `
+                                <div class="equivalent-item cenabast">
+                                    <div class="equiv-name">${escapeHtml(equiv.name)}</div>
+                                    <div class="equiv-details">
+                                        <span class="equiv-price">${currencyCLP.format(Number(equiv.price)||0)}</span>
+                                        <span class="equiv-lab">${escapeHtml(equiv.lab || '')}</span>
+                                    </div>
+                                    <div class="equiv-badges">${badgesActiveStrength(equiv)}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Alternativas fuera de convenio
+            if (alternatives.length > 0) {
+                html += `
+                    <div class="equivalents-section">
+                        <div class="equivalents-header">
+                            <strong>Alternativas disponibles (fuera de convenio):</strong>
+                        </div>
+                        <div class="equivalents-list">
+                            ${alternatives.map(alt => `
+                                <div class="equivalent-item alternative">
+                                    <div class="equiv-name">${escapeHtml(alt.name)}</div>
+                                    <div class="equiv-details">
+                                        <span class="equiv-price">${currencyCLP.format(Number(alt.price)||0)}</span>
+                                        <span class="equiv-lab">${escapeHtml(alt.lab || '')}</span>
+                                    </div>
+                                    <div class="equiv-badges">${badgesActiveStrength(alt)}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+        }
+        
+        return html;
+    }
+
     // Funciones de la interfaz (búsqueda, botones, etc.)
     const qInput = document.getElementById('q');
     document.getElementById('searchBtn').addEventListener('click', runSearch);
@@ -345,7 +516,7 @@
     function unitTail(s){ const m = String(s || '').match(/([a-zA-Zµ%][a-zA-Zµ% ]*)$/); return m ? m[1].trim() : ''; }
     function normalizeStrengthParts(parts){ const last = parts[parts.length - 1] || ''; const tail = unitTail(last); return parts.map(p => (hasUnit(p) || !tail) ? p : `${p} ${tail}`); }
 
-    // Renderizado de la tabla: ahora usa la nueva función stockHtml.
+    // Renderizado de la tabla: ahora usa la nueva función stockHtml y muestra equivalentes.
     function renderTable(rows){
       const wrap = document.getElementById('tableWrap');
       if (!rows || rows.length===0) { wrap.innerHTML = `<div class="empty">No se encontraron productos para tu búsqueda.</div>`; return; }
@@ -360,6 +531,7 @@
                     <div style="font-weight:600;">${escapeHtml(p.name)}</div>
                     ${p.lab ? `<div class="lab"><em>${escapeHtml(p.lab)}</em></div>` : ''}
                     <div class="dim">${badgesActiveStrength(p)}</div>
+                    ${renderEquivalentsHtml(p)}
                   </div>
                 </td>
                 <td data-label="Precio" class="price">${currencyCLP.format(Number(p.price)||0)}</td>
