@@ -195,10 +195,6 @@
       gap: 12px;
     }
 
-    .alternatives-card[hidden] {
-      display: none !important;
-    }
-
     .alternatives-section {
       display: flex;
       flex-direction: column;
@@ -519,9 +515,13 @@
         btn.addEventListener('click', () => {
           const target = wrap.querySelector(`#${btn.dataset.target}`);
           if (!target) return;
-          const shouldShow = target.hasAttribute('hidden');
-          target.hidden = !shouldShow;
-          btn.setAttribute('aria-expanded', String(shouldShow));
+          const isHidden = target.hasAttribute('hidden');
+          if (isHidden) {
+            target.removeAttribute('hidden');
+          } else {
+            target.setAttribute('hidden', '');
+          }
+          btn.setAttribute('aria-expanded', String(isHidden));
         });
       });
     }
