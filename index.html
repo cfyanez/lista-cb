@@ -151,8 +151,8 @@
     /* Estilos para los mensajes de stock */
     .stock.in strong { color: #059669; font-weight: 700; } /* Verde */
     .stock.out strong { color: #dc2626; font-weight: 700; } /* Rojo */
-    .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Azul */
-    .stock.alternative strong { color: #eab308; font-weight: 700; } /* Amarillo */
+    .stock.equivalent strong { color: #b45309; font-weight: 700; } /* Naranja oscuro para mejor contraste */
+    .stock.alternative strong { color: #b45309; font-weight: 700; } /* Naranja oscuro para mejor contraste */
 
     /* Contenedor de stock y equivalentes */
     .stock-container {
@@ -410,13 +410,13 @@
         // 2. Si no, revisa si hay un equivalente CENABAST con stock.
         // Usamos la función findAvailableAlternative con la lista de IDs de cenabast_equivalents.
         if (findAvailableAlternative(p.cenabast_equivalents)) {
-            return `<span class="stock equivalent"><strong>sin stock; pero con stock disponible las siguientes alternativas</strong></span>`;
+            return `<span class="stock alternative"><strong>sin stock - ver alternativas abajo</strong></span>`;
         }
 
         // 3. Si no hay equivalentes, revisa si hay una alternativa fuera de convenio con stock.
         // Hacemos lo mismo pero con la lista de IDs de alternatives.
         if (findAvailableAlternative(p.alternatives)) {
-            return `<span class="stock alternative"><strong>sin stock; pero con stock disponible las siguientes alternativas</strong></span>`;
+            return `<span class="stock alternative"><strong>sin stock - ver alternativas abajo</strong></span>`;
         }
         
         // 4. Si nada de lo anterior se cumple, está sin stock.
