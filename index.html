@@ -154,9 +154,15 @@
     .stock.equivalent strong { color: #0284c7; font-weight: 700; } /* Azul */
     .stock.alternative strong { color: #eab308; font-weight: 700; } /* Amarillo */
 
+    /* Contenedor de stock y equivalentes */
+    .stock-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
     /* Estilos para productos equivalentes */
     .equivalents-section {
-        margin-top: 12px;
         padding: 12px;
         background: #f8fafc;
         border-radius: 8px;
@@ -216,16 +222,34 @@
     .equiv-lab {
         color: #64748b;
         font-style: italic;
+        margin-bottom: 6px;
     }
     
     .equiv-badges {
         font-size: 12px;
     }
     
+    .equiv-whatsapp {
+        color: #059669;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 4px 8px;
+        background: #f0fdf4;
+        border-radius: 4px;
+        border: 1px solid #bbf7d0;
+        transition: all 0.2s ease;
+    }
+    
+    .equiv-whatsapp:hover {
+        background: #dcfce7;
+        border-color: #86efac;
+        text-decoration: none;
+    }
+    
     /* Responsive para equivalentes en móviles */
     @media (max-width: 680px) {
         .equivalents-section {
-            margin-top: 8px;
             padding: 10px;
         }
         
@@ -237,6 +261,11 @@
         
         .equiv-name {
             font-size: 13px;
+        }
+        
+        .equiv-whatsapp {
+            font-size: 11px;
+            padding: 3px 6px;
         }
     }
 
@@ -381,13 +410,13 @@
         // 2. Si no, revisa si hay un equivalente CENABAST con stock.
         // Usamos la función findAvailableAlternative con la lista de IDs de cenabast_equivalents.
         if (findAvailableAlternative(p.cenabast_equivalents)) {
-            return `<span class="stock equivalent"><strong>Sin stock, equivalente Cenabast disponible</strong></span>`;
+            return `<span class="stock equivalent"><strong>sin stock; pero con stock disponible las siguientes alternativas</strong></span>`;
         }
 
         // 3. Si no hay equivalentes, revisa si hay una alternativa fuera de convenio con stock.
         // Hacemos lo mismo pero con la lista de IDs de alternatives.
         if (findAvailableAlternative(p.alternatives)) {
-            return `<span class="stock alternative"><strong>Sin stock Cenabast, alternativa disponible</strong></span>`;
+            return `<span class="stock alternative"><strong>sin stock; pero con stock disponible las siguientes alternativas</strong></span>`;
         }
         
         // 4. Si nada de lo anterior se cumple, está sin stock.
@@ -442,8 +471,9 @@
                                     <div class="equiv-name">${escapeHtml(equiv.name)}</div>
                                     <div class="equiv-details">
                                         <span class="equiv-price">${currencyCLP.format(Number(equiv.price)||0)}</span>
-                                        <span class="equiv-lab">${escapeHtml(equiv.lab || '')}</span>
+                                        <a href="https://wa.me/56988619039?text=Hola, quiero confirmar stock del producto: ${encodeURIComponent(equiv.name)}" target="_blank" rel="noopener" class="equiv-whatsapp">confirmar stock al whatsapp</a>
                                     </div>
+                                    <div class="equiv-lab">${escapeHtml(equiv.lab || '')}</div>
                                     <div class="equiv-badges">${badgesActiveStrength(equiv)}</div>
                                 </div>
                             `).join('')}
@@ -464,9 +494,9 @@
                                 <div class="equivalent-item alternative">
                                     <div class="equiv-name">${escapeHtml(alt.name)}</div>
                                     <div class="equiv-details">
-                                        <span class="equiv-price">${currencyCLP.format(Number(alt.price)||0)}</span>
-                                        <span class="equiv-lab">${escapeHtml(alt.lab || '')}</span>
+                                        <a href="https://wa.me/56988619039?text=Hola, quiero consultar precio del producto: ${encodeURIComponent(alt.name)}" target="_blank" rel="noopener" class="equiv-whatsapp">consultar precio al whatsapp</a>
                                     </div>
+                                    <div class="equiv-lab">${escapeHtml(alt.lab || '')}</div>
                                     <div class="equiv-badges">${badgesActiveStrength(alt)}</div>
                                 </div>
                             `).join('')}
@@ -531,11 +561,15 @@
                     <div style="font-weight:600;">${escapeHtml(p.name)}</div>
                     ${p.lab ? `<div class="lab"><em>${escapeHtml(p.lab)}</em></div>` : ''}
                     <div class="dim">${badgesActiveStrength(p)}</div>
-                    ${renderEquivalentsHtml(p)}
                   </div>
                 </td>
                 <td data-label="Precio" class="price">${currencyCLP.format(Number(p.price)||0)}</td>
-                <td data-label="Stock" class="stock-cell">${stockHtml(p)}</td>
+                <td data-label="Stock" class="stock-cell">
+                  <div class="stock-container">
+                    ${stockHtml(p)}
+                    ${renderEquivalentsHtml(p)}
+                  </div>
+                </td>
               </tr>`).join('')}
           </tbody>
         </table>`;
