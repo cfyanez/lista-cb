@@ -168,6 +168,7 @@
         background: #f8fafc;
         border-radius: 8px;
         border: 1px solid #e2e8f0;
+        text-align: left;
     }
     
     .equivalents-header {
@@ -246,7 +247,11 @@
     /* Responsive para equivalentes en móviles */
     @media (max-width: 680px) {
         .equivalents-section {
-            padding: 10px;
+          padding: 10px;
+          position: relative;
+          left: -50%;
+          width: 150%;  /* Cambiar de 200% a 150% */
+          margin-left: 0;
         }
         
         .equiv-details {
@@ -263,6 +268,12 @@
         
         .equiv-stock {
             font-size: 13px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .equiv-stock .separator {
+            display: none;
         }
         
         .equiv-lab {
