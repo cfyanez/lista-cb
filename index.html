@@ -142,7 +142,7 @@
 
     /* Estilo para el hash de versión junto al título */
     h1 #version-indicator {
-      color: #94a3b8; /* El gris claro que querías */
+      color: #CACBCF; /* El gris claro que querías */
       font-weight: 500; /* Un poco menos grueso que el título */
       font-size: 16px;  /* Un poco más pequeño */
       margin-left: 8px; /* Un pequeño espacio para separarlo */
@@ -151,8 +151,9 @@
     /* Estilos para los mensajes de stock */
     .stock.in strong { color: #059669; font-weight: 700; } /* Verde */
     .stock.out strong { color: #dc2626; font-weight: 700; } /* Rojo */
-    .stock.equivalent strong { color: #b45309; font-weight: 700; } /* Naranja oscuro para mejor contraste */
-    .stock.alternative strong { color: #b45309; font-weight: 700; } /* Naranja oscuro para mejor contraste */
+    .stock.equivalent strong { color: #ffbf00; font-weight: 700; } /* Azul oscuro para mejor contraste */
+    .stock.alternative strong { color: #ffbf00; font-weight: 700; } /* Azul oscuro para mejor contraste */
+    .stock.alternative .separator { color: #1e293b; }
 
     /* Contenedor de stock y equivalentes */
     .stock-container {
@@ -166,7 +167,7 @@
         padding: 12px;
         background: #f8fafc;
         border-radius: 8px;
-        border-left: 3px solid #e2e8f0;
+        border: 1px solid #e2e8f0;
     }
     
     .equivalents-header {
@@ -187,64 +188,59 @@
         background: #fff;
         border-radius: 6px;
         border: 1px solid #e2e8f0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    
-    .equivalent-item.cenabast {
-        border-left: 3px solid #0284c7;
-    }
-    
-    .equivalent-item.alternative {
-        border-left: 3px solid #eab308;
     }
     
     .equiv-name {
         font-weight: 600;
         font-size: 14px;
         color: #1e293b;
-        margin-bottom: 4px;
-    }
-    
-    .equiv-details {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 6px;
-        font-size: 13px;
-    }
-    
-    .equiv-price {
-        font-weight: 700;
-        color: #059669;
-        font-variant-numeric: tabular-nums;
     }
     
     .equiv-lab {
         color: #64748b;
         font-style: italic;
+        font-size: 11px;
         margin-bottom: 6px;
+    }
+    
+    .equiv-details {
+        display: block;
+        margin-bottom: 6px;
+    }
+    
+    .equiv-price {
+        font-weight: 700;
+        font-size: 14px;
+        color: #1e293b;
+        font-variant-numeric: tabular-nums;
+    }
+    
+    .equiv-stock {
+        font-size: 14px;
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    
+    .equiv-stock .separator {
+        color: #1e293b;
     }
     
     .equiv-badges {
         font-size: 12px;
+        margin-bottom: 6px;
     }
     
     .equiv-whatsapp {
-        color: #059669;
+        color: #0ea5e9;
         text-decoration: none;
-        font-size: 12px;
-        font-weight: 600;
-        padding: 4px 8px;
-        background: #f0fdf4;
-        border-radius: 4px;
-        border: 1px solid #bbf7d0;
-        transition: all 0.2s ease;
+        font-size: 14px;
     }
     
     .equiv-whatsapp:hover {
-        background: #dcfce7;
-        border-color: #86efac;
-        text-decoration: none;
+        text-decoration: underline;
     }
     
     /* Responsive para equivalentes en móviles */
@@ -254,18 +250,27 @@
         }
         
         .equiv-details {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 4px;
+            display: block;
         }
         
         .equiv-name {
             font-size: 13px;
         }
         
-        .equiv-whatsapp {
+        .equiv-price {
+            font-size: 13px;
+        }
+        
+        .equiv-stock {
+            font-size: 13px;
+        }
+        
+        .equiv-lab {
             font-size: 11px;
-            padding: 3px 6px;
+        }
+        
+        .equiv-whatsapp {
+            font-size: 13px;
         }
     }
 
@@ -410,13 +415,13 @@
         // 2. Si no, revisa si hay un equivalente CENABAST con stock.
         // Usamos la función findAvailableAlternative con la lista de IDs de cenabast_equivalents.
         if (findAvailableAlternative(p.cenabast_equivalents)) {
-            return `<span class="stock alternative"><strong>sin stock - ver alternativas abajo</strong></span>`;
+            return `<span class="stock alternative"><strong>sin stock<span class="separator"> / </span>ver alternativas abajo</strong></span>`;
         }
 
         // 3. Si no hay equivalentes, revisa si hay una alternativa fuera de convenio con stock.
         // Hacemos lo mismo pero con la lista de IDs de alternatives.
         if (findAvailableAlternative(p.alternatives)) {
-            return `<span class="stock alternative"><strong>sin stock - ver alternativas abajo</strong></span>`;
+            return `<span class="stock alternative"><strong>sin stock<span class="separator"> / </span>ver alternativas abajo</strong></span>`;
         }
         
         // 4. Si nada de lo anterior se cumple, está sin stock.
@@ -456,25 +461,25 @@
         
         let html = '';
         
-        // Solo mostrar equivalentes si el producto principal no tiene stock
+        // Solo mostrar alternativas si el producto principal no tiene stock
         if (!product.in_stock) {
-            // Equivalentes Cenabast
+            // Alternativas por Cenabast
             if (cenabastEquivalents.length > 0) {
                 html += `
                     <div class="equivalents-section">
                         <div class="equivalents-header">
-                            <strong>Equivalentes Cenabast disponibles:</strong>
+                            <strong>Alternativas por CENABAST:</strong>
                         </div>
                         <div class="equivalents-list">
                             ${cenabastEquivalents.map(equiv => `
                                 <div class="equivalent-item cenabast">
                                     <div class="equiv-name">${escapeHtml(equiv.name)}</div>
-                                    <div class="equiv-details">
-                                        <span class="equiv-price">${currencyCLP.format(Number(equiv.price)||0)}</span>
-                                        <a href="https://wa.me/56988619039?text=Hola, quiero confirmar stock del producto: ${encodeURIComponent(equiv.name)}" target="_blank" rel="noopener" class="equiv-whatsapp">confirmar stock al whatsapp</a>
-                                    </div>
                                     <div class="equiv-lab">${escapeHtml(equiv.lab || '')}</div>
                                     <div class="equiv-badges">${badgesActiveStrength(equiv)}</div>
+                                    ${equiv.price ? `<div class="equiv-details"><span class="equiv-price">${currencyCLP.format(Number(equiv.price)||0)}</span></div>` : ''}
+                                    <div class="equiv-stock">
+                                        ${equiv.in_stock ? '<span class="stock in"><strong>con stock</strong></span>' : '<span class="stock out"><strong>sin stock</strong></span>'}
+                                    </div>
                                 </div>
                             `).join('')}
                         </div>
@@ -487,17 +492,20 @@
                 html += `
                     <div class="equivalents-section">
                         <div class="equivalents-header">
-                            <strong>Alternativas disponibles (fuera de convenio):</strong>
+                            <strong>Alternativas por fuera de CENABAST:</strong>
                         </div>
                         <div class="equivalents-list">
                             ${alternatives.map(alt => `
                                 <div class="equivalent-item alternative">
                                     <div class="equiv-name">${escapeHtml(alt.name)}</div>
-                                    <div class="equiv-details">
-                                        <a href="https://wa.me/56988619039?text=Hola, quiero consultar precio del producto: ${encodeURIComponent(alt.name)}" target="_blank" rel="noopener" class="equiv-whatsapp">consultar precio al whatsapp</a>
-                                    </div>
                                     <div class="equiv-lab">${escapeHtml(alt.lab || '')}</div>
                                     <div class="equiv-badges">${badgesActiveStrength(alt)}</div>
+                                    ${alt.price ? `<div class="equiv-details"><span class="equiv-price">${currencyCLP.format(Number(alt.price)||0)}</span></div>` : ''}
+                                    <div class="equiv-stock">
+                                        ${alt.in_stock ? '<span class="stock in"><strong>con stock</strong></span>' : '<span class="stock out"><strong>sin stock</strong></span>'}
+                                        <span class="separator"><strong> / </strong></span>
+                                        <a href="https://wa.me/56988619039?text=Hola, quiero consultar precio del producto: ${encodeURIComponent(alt.name)}" target="_blank" rel="noopener" class="equiv-whatsapp"><strong>consulta el precio por whatsapp</strong></a>
+                                    </div>
                                 </div>
                             `).join('')}
                         </div>
