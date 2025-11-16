@@ -59,87 +59,6 @@
     footer { margin-top: 20px; font-size: 12px; color: #6b7280; }
     code.small { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
 
-    /* --- ESTILOS RESPONSIVOS PARA MÓVILES --- */
-    @media (max-width: 680px) {
-      body { padding: 16px; }
-
-      /* 1. Ajuste del encabezado */
-      .header-wrap { /* <- Aquí está el cambio principal */
-        flex-direction: column; /* Apila el logo y los títulos */
-        align-items: flex-start; /* Los alinea a la izquierda */
-        gap: 12px;
-      }
-
-      header {
-        /* Dejamos el header más simple, solo para espaciado */
-        margin-bottom: 16px; 
-      }
-      
-      .logo { height: 48px; }
-      h1 { font-size: 18px; }
-
-      /* 2. Ajuste de la barra de búsqueda */
-      .row {
-        grid-template-columns: 1fr; /* Una sola columna */
-        gap: 10px;
-      }
-      .row > div:last-child {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Botones ocupan 50% cada uno */
-      }
-      .search { padding: 12px; }
-      
-      /* 3. Transformación de la tabla a tarjetas */
-      .results { padding: 0 0 16px; }
-      table thead {
-        /* Ocultamos los encabezados originales de la tabla */
-        display: none;
-      }
-      table, tbody, tr, td {
-        display: block; /* Hacemos que cada elemento ocupe su propia línea */
-        width: 100%;
-      }
-      tbody tr {
-        margin-bottom: 16px;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        border: 1px solid #e5e7eb;
-        overflow: hidden;
-      }
-      tbody td {
-        border: none;
-        padding-left: 50%; /* Dejamos espacio a la izquierda para el título */
-        position: relative;
-        text-align: right; /* Alineamos el contenido a la derecha */
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-      tbody td:first-child {
-        /* La celda principal (nombre del producto) se formatea diferente */
-        text-align: left;
-        padding: 12px 14px;
-        background: #f9fafb;
-      }
-      tbody td::before {
-        /* Usamos un pseudo-elemento para mostrar el título de la columna */
-        content: attr(data-label); /* El texto viene del atributo 'data-label' */
-        position: absolute;
-        left: 14px;
-        width: calc(50% - 24px);
-        font-weight: 600;
-        color: #6b7280;
-        text-align: left;
-        font-size: 13px;
-      }
-      /* Ocultamos el título para la primera celda que no lo necesita */
-      tbody td:first-child::before {
-        display: none;
-      }
-      td.price {
-        font-size: 1.1em;
-      }
-    }
-
     /* Estilo para el hash de versión junto al título */
     h1 #version-indicator {
       color: #CACBCF; /* El gris claro que querías */
@@ -166,8 +85,8 @@
     .equivalents-section {
         padding: 12px;
         background: #f8fafc;
-        border-radius: 8px;
-        border: 1px solid #e2e8f0;
+        /* border-radius: 8px; eliminar */
+        /* border: 1px solid #e2e8f0; eliminar */
         text-align: left;
     }
     
@@ -243,48 +162,159 @@
     .equiv-whatsapp:hover {
         text-decoration: underline;
     }
-    
-    /* Responsive para equivalentes en móviles */
-    @media (max-width: 680px) {
-        .equivalents-section {
-          padding: 10px;
-          position: relative;
-          left: -50%;
-          width: 150%;  /* Cambiar de 200% a 150% */
-          margin-left: 0;
-        }
-        
-        .equiv-details {
-            display: block;
-        }
-        
-        .equiv-name {
-            font-size: 13px;
-        }
-        
-        .equiv-price {
-            font-size: 13px;
-        }
-        
-        .equiv-stock {
-            font-size: 13px;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        
-        .equiv-stock .separator {
-            display: none;
-        }
-        
-        .equiv-lab {
-            font-size: 11px;
-        }
-        
-        .equiv-whatsapp {
-            font-size: 13px;
-        }
+
+    /* Estilos para la celda que contiene los equivalentes */
+    .equivalents-cell {
+      padding: 0 !important; /* Sin padding, la sección interna ya lo tiene */
+      border: none !important; /* Sin bordes de tabla */
     }
 
+    /* La fila de equivalentes no debe tener 'hover' y debe tener fondo blanco */
+    tr.equivalents-row,
+    tr.equivalents-row:hover {
+      background: #fff; /* Fondo blanco, sin efecto hover */
+    }
+
+    /* --- ESTILOS RESPONSIVOS PARA MÓVILES --- */
+    @media (max-width: 680px) {
+      body { padding: 16px; }
+
+      /* 1. Ajuste del encabezado */
+      .header-wrap { /* <- Aquí está el cambio principal */
+        flex-direction: column; /* Apila el logo y los títulos */
+        align-items: flex-start; /* Los alinea a la izquierda */
+        gap: 12px;
+      }
+
+      header {
+        /* Dejamos el header más simple, solo para espaciado */
+        margin-bottom: 16px; 
+      }
+      
+      .logo { height: 48px; }
+      h1 { font-size: 18px; }
+
+      /* 2. Ajuste de la barra de búsqueda */
+      .row {
+        grid-template-columns: 1fr; /* Una sola columna */
+        gap: 10px;
+      }
+      .row > div:last-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Botones ocupan 50% cada uno */
+      }
+      .search { padding: 12px; }
+      
+      /* 3. Transformación de la tabla a tarjetas */
+      .results { padding: 0 0 16px; }
+      table thead {
+        /* Ocultamos los encabezados originales de la tabla */
+        display: none;
+      }
+      table, tbody, tr, td {
+        display: block; /* Hacemos que cada elemento ocupe su propia línea */
+        width: 100%;
+      }
+      /* tbody tr {
+        display: block;
+        width: 100%; comento esto porque está declarado arriba
+      } */
+
+      /* El NUEVO contenedor (tbody) es la tarjeta */
+      tbody.product-card-group {
+        display: block; /* Fundamental para que apile */
+        margin-bottom: 16px;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        border: 1px solid #e5e7eb;
+        overflow: hidden; /* Para contener los bordes redondeados */
+      }
+
+      tbody td {
+        border: none;
+        padding-left: 50%; /* Dejamos espacio a la izquierda para el título */
+        position: relative;
+        text-align: right; /* Alineamos el contenido a la derecha */
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      tbody td:first-child {
+        /* La celda principal (nombre del producto) se formatea diferente */
+        text-align: left;
+        padding: 12px 14px;
+        background: #f9fafb;
+      }
+      tbody td::before {
+        /* Usamos un pseudo-elemento para mostrar el título de la columna */
+        content: attr(data-label); /* El texto viene del atributo 'data-label' */
+        position: absolute;
+        left: 14px;
+        width: calc(50% - 24px);
+        font-weight: 600;
+        color: #6b7280;
+        text-align: left;
+        font-size: 13px;
+      }
+      /* Ocultamos el título para la primera celda que no lo necesita */
+      tbody td:first-child::before {
+        display: none;
+      }
+      td.price {
+        font-size: 1.1em;
+      }
+      
+      .equiv-details {
+          display: block;
+      }
+      
+      .equiv-name {
+          font-size: 13px;
+      }
+      
+      .equiv-price {
+          font-size: 13px;
+      }
+      
+      .equiv-stock {
+          font-size: 13px;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      
+      .equiv-stock .separator {
+          display: none;
+      }
+      
+      .equiv-lab {
+          font-size: 11px;
+      }
+      
+      .equiv-whatsapp {
+          font-size: 13px;
+      }
+      
+      tbody td.equivalents-cell {
+        padding: 0 !important; /* Aseguramos que no tenga padding */
+        text-align: left; /* Resetea la alineación de las otras 'td' */
+      }
+
+      /* Ocultamos la pseudo-etiqueta 'data-label' en esta celda */
+      tbody td.equivalents-cell::before {
+        display: none;
+      }
+
+      /* Le damos un fondo blanco a la fila de equivalentes en móvil */
+      tbody.product-card-group tr.equivalents-row {
+        background: #fff;
+      }
+
+      /* Opcional: nos aseguramos que la sección interna no tenga
+        márgenes extraños que rompan la tarjeta */
+      .equivalents-section {
+          margin: 0; 
+      }
+    }
+    
   </style>
 </head>
 <body>
@@ -296,7 +326,7 @@
         <img class="logo" src="img/logo_transparente_1.png" alt="Farmacia La Providencia" loading="lazy" />
         <div class="titles">
           <h1>Listado de productos CENABAST en La Provi<span id="version-indicator"></span></h1>
-          <div class="subhead">Actualizado el <strong>lunes 13 de octubre a las 9:00</strong></div>
+          <div class="subhead">Actualizado el <strong>lunes 17 de noviembre a las 9:00</strong></div>
           <div class="advice">Se sugiere llamarnos o hablar por WhatsApp al número <a href="tel:+56988619039">+56 9 8861 9039</a> · <a href="https://wa.me/56988619039" target="_blank" rel="noopener">escríbenos por WhatsApp</a></div>
         </div>
       </div>
@@ -565,32 +595,47 @@
     function unitTail(s){ const m = String(s || '').match(/([a-zA-Zµ%][a-zA-Zµ% ]*)$/); return m ? m[1].trim() : ''; }
     function normalizeStrengthParts(parts){ const last = parts[parts.length - 1] || ''; const tail = unitTail(last); return parts.map(p => (hasUnit(p) || !tail) ? p : `${p} ${tail}`); }
 
-    // Renderizado de la tabla: ahora usa la nueva función stockHtml y muestra equivalentes.
+    // Renderizado de la tabla: ahora usa la nueva función stockHtml y muestra equivalentes. AHORA CON GRUPOS DE TBODY
     function renderTable(rows){
       const wrap = document.getElementById('tableWrap');
       if (!rows || rows.length===0) { wrap.innerHTML = `<div class="empty">No se encontraron productos para tu búsqueda.</div>`; return; }
+      
       const html = `
         <table role="table" aria-label="Resultados">
           <thead><tr><th>Producto</th><th>Precio</th><th>Stock</th></tr></thead>
-          <tbody>
-            ${rows.map(p => `
-              <tr>
-                <td>
-                  <div style="display:flex; flex-direction:column; gap:6px;">
-                    <div style="font-weight:600;">${escapeHtml(p.name)}</div>
-                    ${p.lab ? `<div class="lab"><em>${escapeHtml(p.lab)}</em></div>` : ''}
-                    <div class="dim">${badgesActiveStrength(p)}</div>
-                  </div>
-                </td>
-                <td data-label="Precio" class="price">${currencyCLP.format(Number(p.price)||0)}</td>
-                <td data-label="Stock" class="stock-cell">
-                  <div class="stock-container">
-                    ${stockHtml(p)}
-                    ${renderEquivalentsHtml(p)}
-                  </div>
-                </td>
-              </tr>`).join('')}
-          </tbody>
+          ${rows.map(p => {
+            // Generamos los equivalentes primero
+            const equivalentsHtml = renderEquivalentsHtml(p);
+            
+            // Retornamos un <tbody> completo por cada producto
+            return `
+              <tbody class="product-card-group">
+                <tr class="product-row">
+                  <td>
+                    <div style="display:flex; flex-direction:column; gap:6px;">
+                      <div style="font-weight:600;">${escapeHtml(p.name)}</div>
+                      ${p.lab ? `<div class="lab"><em>${escapeHtml(p.lab)}</em></div>` : ''}
+                      <div class="dim">${badgesActiveStrength(p)}</div>
+                    </div>
+                  </td>
+                  <td data-label="Precio" class="price">${currencyCLP.format(Number(p.price)||0)}</td>
+                  <td data-label="Stock" class="stock-cell">
+                    <div class="stock-container">
+                      ${stockHtml(p)}
+                      </div>
+                  </td>
+                </tr>
+                
+                ${equivalentsHtml ? `
+                  <tr class="equivalents-row">
+                    <td colspan="3" class="equivalents-cell">
+                      ${equivalentsHtml}
+                    </td>
+                  </tr>
+                ` : ''}
+              </tbody>
+            `;
+          }).join('')}
         </table>`;
       wrap.innerHTML = html;
     }
