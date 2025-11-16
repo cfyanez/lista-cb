@@ -416,25 +416,6 @@
     "cenabast_equivalents": []
   },
   {
-    "id": "829072",
-    "name": "#VALOR!",
-    "price": 2910,
-    "brand": "#VALOR!",
-    "actives": [
-      "0"
-    ],
-    "form": "#N/D",
-    "strength": "0",
-    "pack_size": 1,
-    "aliases": [],
-    "lab": "Vivadiag",
-    "stock": "0",
-    "in_stock": false,
-    "alternatives": [],
-    "is_alternative": false,
-    "cenabast_equivalents": []
-  },
-  {
     "id": "828959",
     "name": "Azitrom Forte 400 mg/5ml x 30 ml. polvo para suspensión oral",
     "price": 11210,
