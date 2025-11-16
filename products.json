@@ -416,6 +416,25 @@
     "cenabast_equivalents": []
   },
   {
+    "id": "829072",
+    "name": "#VALOR!",
+    "price": 2910,
+    "brand": "#VALOR!",
+    "actives": [
+      "0"
+    ],
+    "form": "#N/D",
+    "strength": "0",
+    "pack_size": 1,
+    "aliases": [],
+    "lab": "Vivadiag",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": false,
+    "cenabast_equivalents": []
+  },
+  {
     "id": "828959",
     "name": "Azitrom Forte 400 mg/5ml x 30 ml. polvo para suspensión oral",
     "price": 11210,
@@ -727,7 +746,9 @@
     "lab": "Novartis",
     "stock": "0",
     "in_stock": false,
-    "alternatives": [],
+    "alternatives": [
+      "1713821"
+    ],
     "is_alternative": false,
     "cenabast_equivalents": [
       "1090005"
@@ -1233,7 +1254,8 @@
     "stock": "0",
     "in_stock": false,
     "alternatives": [
-      "830932"
+      "830932",
+      "1709585"
     ],
     "is_alternative": false,
     "cenabast_equivalents": []
@@ -3525,7 +3547,9 @@
     "lab": "Galenicum",
     "stock": "0",
     "in_stock": false,
-    "alternatives": [],
+    "alternatives": [
+      "1713821"
+    ],
     "is_alternative": false,
     "cenabast_equivalents": [
       "829004"
@@ -3873,7 +3897,7 @@
     "stock": "1",
     "in_stock": true,
     "alternatives": [
-      "832049"
+      "831267"
     ],
     "is_alternative": false,
     "cenabast_equivalents": []
@@ -3915,16 +3939,14 @@
     "lab": "Ascend",
     "stock": "0",
     "in_stock": false,
-    "alternatives": [
-      "832049"
-    ],
+    "alternatives": [],
     "is_alternative": false,
     "cenabast_equivalents": []
   },
   {
     "id": "971726",
     "name": "Alergiol Forte 0,002 x 5 ml. solución oftálmica",
-    "price": 18490,
+    "price": 0,
     "brand": "Alergiol Forte 0,002",
     "actives": [
       "Olopatadina"
@@ -3943,7 +3965,7 @@
   {
     "id": "833699",
     "name": "Trexxia 60 mg x 14 comprimidos recubiertos",
-    "price": 7990,
+    "price": 0,
     "brand": "Trexxia 60",
     "actives": [
       "Etoricoxib"
@@ -3962,7 +3984,7 @@
   {
     "id": "833871",
     "name": "Vildavitae 50 mg x 56 comprimidos",
-    "price": 21500,
+    "price": 0,
     "brand": "Vildavitae 50",
     "actives": [
       "Vildagliptina"
@@ -3981,7 +4003,7 @@
   {
     "id": "1238784",
     "name": "Vildagliptina 50 mg x 30 comprimidos",
-    "price": 8990,
+    "price": 0,
     "brand": "Vildagliptina 50",
     "actives": [
       "Vildagliptina"
@@ -4000,7 +4022,7 @@
   {
     "id": "1317363",
     "name": "Vildagliptina 50 mg x 30 comprimidos",
-    "price": 9500,
+    "price": 0,
     "brand": "Vildagliptina 50",
     "actives": [
       "Vildagliptina"
@@ -4019,7 +4041,7 @@
   {
     "id": "917605",
     "name": "Jolian 3,0/0,02 mg x 28 comprimidos recubiertos",
-    "price": 9500,
+    "price": 0,
     "brand": "Jolian 3,0/0,02",
     "actives": [
       "Drospirenona",
@@ -4039,7 +4061,7 @@
   {
     "id": "1383597",
     "name": "Claritromicina 250 mg/5ml x 60 ml. polvo para suspensión oral",
-    "price": 8490,
+    "price": 0,
     "brand": "Claritromicina 250",
     "actives": [
       "Claritromicina"
@@ -4058,7 +4080,7 @@
   {
     "id": "831512",
     "name": "Kaph 0,5% x 10 ml. solución oftálmica",
-    "price": 1990,
+    "price": 0,
     "brand": "Kaph 0,5%",
     "actives": [
       "Cloranfenicol"
@@ -4077,7 +4099,7 @@
   {
     "id": "833516",
     "name": "Terbinafina 250 mg x 30 comprimidos",
-    "price": 7990,
+    "price": 0,
     "brand": "Terbinafina 250",
     "actives": [
       "Terbinafina"
@@ -4096,7 +4118,7 @@
   {
     "id": "833515",
     "name": "Terbinafina 250 mg x 28 comprimidos",
-    "price": 7990,
+    "price": 0,
     "brand": "Terbinafina 250",
     "actives": [
       "Terbinafina"
@@ -4115,7 +4137,7 @@
   {
     "id": "829696",
     "name": "Blox-D 16/12,5 mg x 30 comprimidos",
-    "price": 34100,
+    "price": 0,
     "brand": "Blox-D 16/12,5",
     "actives": [
       "Candesartan",
@@ -4135,7 +4157,7 @@
   {
     "id": "830583",
     "name": "Dutasvitae 0,5 mg x 30 ud. cápsula blanda",
-    "price": 19990,
+    "price": 0,
     "brand": "Dutasvitae 0,5",
     "actives": [
       "Dutasteride"
@@ -4154,7 +4176,7 @@
   {
     "id": "832168",
     "name": "Nefex Duo 0,5/0,4 mg x 30 cápsulas de liberación prolongada",
-    "price": 11500,
+    "price": 0,
     "brand": "Nefex Duo 0,5/0,4",
     "actives": [
       "Dutasteride",
@@ -4174,7 +4196,7 @@
   {
     "id": "1057696",
     "name": "Montelukast 10 mg x 30 comprimidos",
-    "price": 7750,
+    "price": 0,
     "brand": "Montelukast 10",
     "actives": [
       "Montelukast"
@@ -4193,7 +4215,7 @@
   {
     "id": "832045",
     "name": "Montelukast 10 mg x 30 comprimidos recubiertos",
-    "price": 7750,
+    "price": 0,
     "brand": "Montelukast 10",
     "actives": [
       "Montelukast"
@@ -4212,7 +4234,7 @@
   {
     "id": "832046",
     "name": "Montelukast 10 mg x 30 comprimidos recubiertos",
-    "price": 7750,
+    "price": 0,
     "brand": "Montelukast 10",
     "actives": [
       "Montelukast"
@@ -4231,7 +4253,7 @@
   {
     "id": "832505",
     "name": "Otoc 4 mg x 8 comprimidos bucodispersables",
-    "price": 10900,
+    "price": 0,
     "brand": "Otoc 4",
     "actives": [
       "Ondansetron"
@@ -4250,7 +4272,7 @@
   {
     "id": "832049",
     "name": "Movidol 200 mg x 30 cápsulas de liberación prolongada",
-    "price": 20900,
+    "price": 0,
     "brand": "Movidol 200",
     "actives": [
       "Mebeverina"
@@ -4269,7 +4291,7 @@
   {
     "id": "833625",
     "name": "Tobe 2,5 mg x 30 comprimidos recubiertos",
-    "price": 19890,
+    "price": 0,
     "brand": "Tobe 2,5",
     "actives": [
       "Tibolona"
@@ -4288,7 +4310,7 @@
   {
     "id": "831823",
     "name": "Macrosan 100 mg x 30 cápsulas",
-    "price": 14590,
+    "price": 0,
     "brand": "Macrosan 100",
     "actives": [
       "Nitrofurantoina"
@@ -4307,7 +4329,7 @@
   {
     "id": "832264",
     "name": "Nitrofurantoina Macro 100 mg x 10 cápsulas",
-    "price": 2400,
+    "price": 0,
     "brand": "Nitrofurantoina Macro 100",
     "actives": [
       "Nitrofurantoina"
@@ -4326,7 +4348,7 @@
   {
     "id": "831824",
     "name": "Macrosan 50 mg x 20 cápsulas",
-    "price": 6200,
+    "price": 0,
     "brand": "Macrosan 50",
     "actives": [
       "Nitrofurantoina"
@@ -4345,7 +4367,7 @@
   {
     "id": "1030672",
     "name": "Vonille Cd 0,15/0,03 mg x 28 comprimidos recubiertos",
-    "price": 5990,
+    "price": 0,
     "brand": "Vonille Cd 0,15/0,03",
     "actives": [
       "Levonorgestrel",
@@ -4365,7 +4387,7 @@
   {
     "id": "830818",
     "name": "Eutirox 88 mcg x 50 comprimidos",
-    "price": 11490,
+    "price": 0,
     "brand": "Eutirox 88",
     "actives": [
       "Levotiroxina"
@@ -4384,7 +4406,7 @@
   {
     "id": "830815",
     "name": "Eutirox 25 mcg x 50 comprimidos",
-    "price": 9990,
+    "price": 0,
     "brand": "Eutirox 25",
     "actives": [
       "Levotiroxina"
@@ -4403,7 +4425,7 @@
   {
     "id": "830808",
     "name": "Eutirox 100 mcg x 100 comprimidos",
-    "price": 15990,
+    "price": 0,
     "brand": "Eutirox 100",
     "actives": [
       "Levotiroxina"
@@ -4422,7 +4444,7 @@
   {
     "id": "830809",
     "name": "Eutirox 100 mcg x 50 comprimidos",
-    "price": 9890,
+    "price": 0,
     "brand": "Eutirox 100",
     "actives": [
       "Levotiroxina"
@@ -4441,7 +4463,7 @@
   {
     "id": "831730",
     "name": "Levotiroxina 100 mcg x 84 comprimidos",
-    "price": 5990,
+    "price": 0,
     "brand": "Levotiroxina 100",
     "actives": [
       "Levotiroxina"
@@ -4460,7 +4482,7 @@
   {
     "id": "831732",
     "name": "Levotiroxina 75 mcg x 56 comprimidos",
-    "price": 5200,
+    "price": 0,
     "brand": "Levotiroxina 75",
     "actives": [
       "Levotiroxina"
@@ -4479,7 +4501,7 @@
   {
     "id": "830817",
     "name": "Eutirox 75 mcg x 50 comprimidos",
-    "price": 11490,
+    "price": 0,
     "brand": "Eutirox 75",
     "actives": [
       "Levotiroxina"
@@ -4498,7 +4520,7 @@
   {
     "id": "1003197",
     "name": "Jardiance 25 mg x 30 comprimidos recubiertos",
-    "price": 43500,
+    "price": 0,
     "brand": "Jardiance 25",
     "actives": [
       "Empagliflozina"
@@ -4517,7 +4539,7 @@
   {
     "id": "830670",
     "name": "Enclyna 10 mg x 30 comprimidos recubiertos",
-    "price": 26200,
+    "price": 0,
     "brand": "Enclyna 10",
     "actives": [
       "Empagliflozina"
@@ -4536,7 +4558,7 @@
   {
     "id": "833670",
     "name": "Travof Sp 0,00004 x 2,5 ml. solución oftálmica",
-    "price": 19990,
+    "price": 0,
     "brand": "Travof Sp 0,00004",
     "actives": [
       "Travoprost"
@@ -4555,7 +4577,7 @@
   {
     "id": "831633",
     "name": "Lamotrigina 100 mg x 30 comprimidos",
-    "price": 8990,
+    "price": 0,
     "brand": "Lamotrigina 100",
     "actives": [
       "Lamotrigina"
@@ -4574,7 +4596,7 @@
   {
     "id": "833021",
     "name": "Rispyl 3 mg x 20 comprimidos recubiertos",
-    "price": 13990,
+    "price": 0,
     "brand": "Rispyl 3",
     "actives": [
       "Risperidona"
@@ -4593,7 +4615,7 @@
   {
     "id": "829296",
     "name": "Amoxicilina 500 mg/5ml x 60 ml. polvo para suspensión oral",
-    "price": 2990,
+    "price": 0,
     "brand": "Amoxicilina 500",
     "actives": [
       "Amoxicilina"
@@ -4612,7 +4634,7 @@
   {
     "id": "830932",
     "name": "Flamir 0,1% x 30 g. gel dérmico",
-    "price": 23800,
+    "price": 0,
     "brand": "Flamir 0,1%",
     "actives": [
       "Adapaleno"
@@ -4631,7 +4653,7 @@
   {
     "id": "829704",
     "name": "Brexovent Lf 125 mcg x 120 dss. aerosol para inhalación",
-    "price": 29990,
+    "price": 0,
     "brand": "Brexovent Lf 125",
     "actives": [
       "Fluticasona"
@@ -4650,7 +4672,7 @@
   {
     "id": "830979",
     "name": "Fluticort 125 mcg x 120 dss. aerosol para inhalación",
-    "price": 25990,
+    "price": 0,
     "brand": "Fluticort 125",
     "actives": [
       "Fluticasona"
@@ -4669,7 +4691,7 @@
   {
     "id": "895385",
     "name": "Flusona 125 mcg x 120 dss. aerosol para inhalación",
-    "price": 25890,
+    "price": 0,
     "brand": "Flusona 125",
     "actives": [
       "Fluticasona"
@@ -4688,7 +4710,7 @@
   {
     "id": "830998",
     "name": "Fremaval 27,5 mcg x 120 dss. suspensión nasal",
-    "price": 15900,
+    "price": 0,
     "brand": "Fremaval 27,5",
     "actives": [
       "Fluticasona"
@@ -4707,7 +4729,7 @@
   {
     "id": "831476",
     "name": "Isotretinoina 20 mg x 30 ud. cápsula blanda",
-    "price": 17500,
+    "price": 0,
     "brand": "Isotretinoina 20",
     "actives": [
       "Isotretinoina"
@@ -4726,7 +4748,7 @@
   {
     "id": "832494",
     "name": "Oralne 20 mg x 30 ud. cápsula blanda",
-    "price": 32990,
+    "price": 0,
     "brand": "Oralne 20",
     "actives": [
       "Isotretinoina"
@@ -4745,7 +4767,7 @@
   {
     "id": "1470839",
     "name": "Isotretinoina 10 mg x 30 ud. cápsula blanda",
-    "price": 18490,
+    "price": 0,
     "brand": "Isotretinoina 10",
     "actives": [
       "Isotretinoina"
@@ -4764,7 +4786,7 @@
   {
     "id": "832817",
     "name": "Prednisona 20 mg x 20 comprimidos recubiertos",
-    "price": 3490,
+    "price": 0,
     "brand": "Prednisona 20",
     "actives": [
       "Prednisona"
@@ -4783,7 +4805,7 @@
   {
     "id": "832816",
     "name": "Prednisona 20 mg x 20 comprimidos recubiertos",
-    "price": 3490,
+    "price": 0,
     "brand": "Prednisona 20",
     "actives": [
       "Prednisona"
@@ -4802,7 +4824,7 @@
   {
     "id": "832188",
     "name": "Neumocort Plus 160/4,5 mcg x 150 dss. aerosol para inhalación",
-    "price": 29990,
+    "price": 0,
     "brand": "Neumocort Plus 160/4,5",
     "actives": [
       "Budesonida",
@@ -4822,7 +4844,7 @@
   {
     "id": "830270",
     "name": "Dacam Rapi-Lento 3,0/3,0 mg x 3 ml. suspensión inyectable",
-    "price": 25990,
+    "price": 0,
     "brand": "Dacam Rapi-Lento 3,0/3,0",
     "actives": [
       "Betametasona Acetato",
@@ -4842,7 +4864,7 @@
   {
     "id": "832023",
     "name": "Modavitae 200 mg x 30 comprimidos",
-    "price": 24990,
+    "price": 0,
     "brand": "Modavitae 200",
     "actives": [
       "Modafinilo"
@@ -4861,7 +4883,7 @@
   {
     "id": "833849",
     "name": "Vesnidan 450/50 mg x 30 comprimidos recubiertos",
-    "price": 14990,
+    "price": 0,
     "brand": "Vesnidan 450/50",
     "actives": [
       "Diosmina",
@@ -4881,7 +4903,7 @@
   {
     "id": "833850",
     "name": "Vesnidan 450/50 mg x 60 comprimidos recubiertos",
-    "price": 20990,
+    "price": 0,
     "brand": "Vesnidan 450/50",
     "actives": [
       "Diosmina",
@@ -4901,7 +4923,7 @@
   {
     "id": "833742",
     "name": "Tronsalan 100 mg x 30 comprimidos recubiertos",
-    "price": 17990,
+    "price": 0,
     "brand": "Tronsalan 100",
     "actives": [
       "Trazodona"
@@ -4920,7 +4942,7 @@
   {
     "id": "833736",
     "name": "Trittico 100 mg x 20 comprimidos recubiertos",
-    "price": 25990,
+    "price": 0,
     "brand": "Trittico 100",
     "actives": [
       "Trazodona"
@@ -4939,7 +4961,7 @@
   {
     "id": "833956",
     "name": "Vitaminas Acd 2500/400/75 UI/mg x 30 ml. solución oral para gotas",
-    "price": 4000,
+    "price": 0,
     "brand": "Vitaminas Acd 2500/400/75",
     "actives": [
       "Vitamina A",
@@ -4960,7 +4982,7 @@
   {
     "id": "830442",
     "name": "Diclofenaco 50 mg x 10 comprimidos recubiertos",
-    "price": 500,
+    "price": 0,
     "brand": "Diclofenaco 50",
     "actives": [
       "Diclofenaco"
@@ -4979,7 +5001,7 @@
   {
     "id": "834100",
     "name": "Xolof-D 0,3% x 3,5 g. ingüento oftálmico",
-    "price": 18990,
+    "price": 0,
     "brand": "Xolof-D 0,3%",
     "actives": [
       "Tobramicina",
@@ -4999,7 +5021,7 @@
   {
     "id": "831722",
     "name": "Levogastrol 25 mg x 30 comprimidos",
-    "price": 21550,
+    "price": 0,
     "brand": "Levogastrol 25",
     "actives": [
       "Levosulpirida"
@@ -5018,7 +5040,7 @@
   {
     "id": "833869",
     "name": "Vidyn 50000 UI x 4 ud. cápsula blanda",
-    "price": 11950,
+    "price": 0,
     "brand": "Vidyn 50000",
     "actives": [
       "Vitamina D3"
@@ -5037,7 +5059,7 @@
   {
     "id": "833171",
     "name": "Rosuvastatina 20 mg x 30 comprimidos recubiertos",
-    "price": 5850,
+    "price": 0,
     "brand": "Rosuvastatina 20",
     "actives": [
       "Rosuvastatina"
@@ -5056,7 +5078,7 @@
   {
     "id": "833165",
     "name": "Rosuvastatina 10 mg x 30 comprimidos",
-    "price": 4990,
+    "price": 0,
     "brand": "Rosuvastatina 10",
     "actives": [
       "Rosuvastatina"
@@ -5075,7 +5097,7 @@
   {
     "id": "831950",
     "name": "Memantina 20 mg x 30 comprimidos recubiertos",
-    "price": 10990,
+    "price": 0,
     "brand": "Memantina 20",
     "actives": [
       "Memantina"
@@ -5094,7 +5116,7 @@
   {
     "id": "831034",
     "name": "Gabapentina 300 mg x 30 cápsulas",
-    "price": 14700,
+    "price": 0,
     "brand": "Gabapentina 300",
     "actives": [
       "Gabapentina"
@@ -5113,7 +5135,7 @@
   {
     "id": "833002",
     "name": "Ribolac 200 mg x 10 comprimidos recubiertos",
-    "price": 13900,
+    "price": 0,
     "brand": "Ribolac 200",
     "actives": [
       "Rifaximina"
@@ -5132,7 +5154,7 @@
   {
     "id": "831983",
     "name": "Metotrexato 2,5 mg x 100 comprimidos",
-    "price": 20900,
+    "price": 0,
     "brand": "Metotrexato 2,5",
     "actives": [
       "Metotrexato"
@@ -5151,7 +5173,7 @@
   {
     "id": "830473",
     "name": "Disflax 30 mg x 10 comprimidos",
-    "price": 24990,
+    "price": 0,
     "brand": "Disflax 30",
     "actives": [
       "Deflazacort"
@@ -5170,7 +5192,7 @@
   {
     "id": "829937",
     "name": "Ciprofibrato 100 mg x 30 cápsulas",
-    "price": 9900,
+    "price": 0,
     "brand": "Ciprofibrato 100",
     "actives": [
       "Ciprofibrato"
@@ -5189,7 +5211,7 @@
   {
     "id": "832553",
     "name": "Paracetamol 500 mg x 16 comprimidos",
-    "price": 500,
+    "price": 0,
     "brand": "Paracetamol 500",
     "actives": [
       "Paracetamol"
@@ -5208,7 +5230,7 @@
   {
     "id": "831503",
     "name": "Kalitium 450 mg x 30 comprimidos de liberación prolongada",
-    "price": 12000,
+    "price": 0,
     "brand": "Kalitium 450",
     "actives": [
       "Carbonato De Litio"
@@ -5227,7 +5249,7 @@
   {
     "id": "832027",
     "name": "Mometasona 0,1% x 15 g. crema",
-    "price": 4990,
+    "price": 0,
     "brand": "Mometasona 0,1%",
     "actives": [
       "Mometasona"
@@ -5246,7 +5268,7 @@
   {
     "id": "928951",
     "name": "Tensuren Am 80/5 mg x 30 comprimidos",
-    "price": 29100,
+    "price": 0,
     "brand": "Tensuren Am 80/5",
     "actives": [
       "Telmisartan",
@@ -5266,7 +5288,7 @@
   {
     "id": "833478",
     "name": "Tamsulosina 0,4 mg x 30 comprimidos de liberación prolongada",
-    "price": 5150,
+    "price": 0,
     "brand": "Tamsulosina 0,4",
     "actives": [
       "Tamsulosina"
@@ -5285,7 +5307,7 @@
   {
     "id": "833407",
     "name": "Sulix 0,4 mg x 60 cápsulas de liberación prolongada",
-    "price": 6990,
+    "price": 0,
     "brand": "Sulix 0,4",
     "actives": [
       "Tamsulosina"
@@ -5304,7 +5326,7 @@
   {
     "id": "833611",
     "name": "Timolol 0,5% x 10 ml. solución oftálmica",
-    "price": 1750,
+    "price": 0,
     "brand": "Timolol 0,5%",
     "actives": [
       "Timolol"
@@ -5323,7 +5345,7 @@
   {
     "id": "829277",
     "name": "Amlodipino 5 mg x 30 comprimidos",
-    "price": 1300,
+    "price": 0,
     "brand": "Amlodipino 5",
     "actives": [
       "Amlodipino"
@@ -5342,7 +5364,7 @@
   {
     "id": "829278",
     "name": "Amlodipino 5 mg x 30 comprimidos",
-    "price": 1300,
+    "price": 0,
     "brand": "Amlodipino 5",
     "actives": [
       "Amlodipino"
@@ -5361,7 +5383,7 @@
   {
     "id": "829587",
     "name": "Betina 16 mg x 30 comprimidos",
-    "price": 21990,
+    "price": 0,
     "brand": "Betina 16",
     "actives": [
       "Betahistina"
@@ -5380,7 +5402,7 @@
   {
     "id": "830284",
     "name": "Daniele 2/0,03 mg x 28 comprimidos recubiertos",
-    "price": 14990,
+    "price": 0,
     "brand": "Daniele 2/0,03",
     "actives": [
       "Dienogest",
@@ -5400,7 +5422,7 @@
   {
     "id": "855872",
     "name": "Travof-T Sp 0,004% x 2,5 ml. solución oftálmica",
-    "price": 23900,
+    "price": 0,
     "brand": "Travof-T Sp 0,004%",
     "actives": [
       "Travoprost",
@@ -5420,7 +5442,7 @@
   {
     "id": "829142",
     "name": "Acido Valproico 200 mg x 30 comprimidos recubiertos",
-    "price": 5990,
+    "price": 0,
     "brand": "Acido Valproico 200",
     "actives": [
       "Acido Valproico"
@@ -5439,7 +5461,7 @@
   {
     "id": "830032",
     "name": "Clotrimazol 500 mg x 1 óvulo",
-    "price": 2500,
+    "price": 0,
     "brand": "Clotrimazol 500",
     "actives": [
       "Clotrimazol"
@@ -5458,7 +5480,7 @@
   {
     "id": "830884",
     "name": "Ferbex 200 mg x 30 cápsulas",
-    "price": 23900,
+    "price": 0,
     "brand": "Ferbex 200",
     "actives": [
       "Fenofibrato"
@@ -5477,7 +5499,7 @@
   {
     "id": "830567",
     "name": "Duloxetina 60 mg x 30 cápsulas",
-    "price": 9450,
+    "price": 0,
     "brand": "Duloxetina 60",
     "actives": [
       "Duloxetina"
@@ -5496,7 +5518,7 @@
   {
     "id": "830565",
     "name": "Duloxetina 60 mg x 30 cápsulas",
-    "price": 9450,
+    "price": 0,
     "brand": "Duloxetina 60",
     "actives": [
       "Duloxetina"
@@ -5515,7 +5537,7 @@
   {
     "id": "831846",
     "name": "Maltofer 100 mg x 30 ud. comprimido masticable",
-    "price": 22990,
+    "price": 0,
     "brand": "Maltofer 100",
     "actives": [
       "Complejo De Hierro Iii"
@@ -5534,7 +5556,7 @@
   {
     "id": "831712",
     "name": "Levevitae 1000 mg x 30 comprimidos recubiertos",
-    "price": 18900,
+    "price": 0,
     "brand": "Levevitae 1000",
     "actives": [
       "Levetiracetam"
@@ -5553,7 +5575,7 @@
   {
     "id": "831267",
     "name": "Hidroronol-T 25/50 mg x 60 comprimidos",
-    "price": 9500,
+    "price": 0,
     "brand": "Hidroronol-T 25/50",
     "actives": [
       "Hidroclorotiazida",
@@ -5573,7 +5595,7 @@
   {
     "id": "832384",
     "name": "Novafem 25/0,5 mg/0,5ml x 1 ud. jeringa",
-    "price": 12990,
+    "price": 0,
     "brand": "Novafem 25/0,5",
     "actives": [
       "Medroxiprogesterona",
@@ -5593,7 +5615,7 @@
   {
     "id": "1713821",
     "name": "Gluamet 50/1000 mg x 60 comprimidos recubiertos",
-    "price": 34990,
+    "price": 0,
     "brand": "Gluamet 50/1000",
     "actives": [
       "Vildagliptina",
@@ -5602,7 +5624,11 @@
     "form": "comprimidos recubiertos",
     "strength": "50/1000 mg",
     "pack_size": 60,
-    "aliases": [],
+    "aliases": [
+      "galvus",
+      "galvusmet",
+      "galvus met"
+    ],
     "lab": "Merck",
     "stock": "1",
     "in_stock": true,
@@ -5613,7 +5639,7 @@
   {
     "id": "833801",
     "name": "Vannair 160/4,5 mcg x 120 dss. suspensión para inhalación oral",
-    "price": 59990,
+    "price": 0,
     "brand": "Vannair 160/4,5",
     "actives": [
       "Budesonida",
@@ -5624,6 +5650,25 @@
     "pack_size": 120,
     "aliases": [],
     "lab": "Astrazeneca",
+    "stock": "0",
+    "in_stock": false,
+    "alternatives": [],
+    "is_alternative": true,
+    "cenabast_equivalents": []
+  },
+  {
+    "id": "1709585",
+    "name": "Adapac 0,1% x 30 g. gel tópico",
+    "price": 0,
+    "brand": "Adapac 0,1%",
+    "actives": [
+      "Adapaleno"
+    ],
+    "form": "gel tópico",
+    "strength": "0,1%",
+    "pack_size": 30,
+    "aliases": [],
+    "lab": "D&M Pharma",
     "stock": "1",
     "in_stock": true,
     "alternatives": [],
